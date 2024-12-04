@@ -44,6 +44,7 @@ All AI-assisted content was carefully reviewed and validated to ensure accuracy 
 - Key packages: tidyverse, rstanarm, here, lubridate, arrow
 - Bayesian linear regression implemented for predictive modeling
 - Visualization tools: ggplot2, gridExtra
+- **The model folder contains API for running the Bayesian model**.
 
 ## Data Source
 Data sourced from Project Hammer (Filipp 2024), providing comprehensive pricing information across Canadian grocery retailers.
