@@ -623,10 +623,38 @@ Column Selection: The dataset was streamlined by selecting only essential column
 Data Storage:
 Accessibility and Performance: The cleaned data was saved in both CSV for universal accessibility and Parquet format for optimized performance in large-scale data operations.
 
-
 \newpage
 
-# References
+\appendix
+
+# Appendix {#sec-appendix}
+
+## Comprehensive Data Cleaning Methodology
+
+This appendix provides a detailed overview of the methodologies employed in the data cleaning process for the analysis of olive oil pricing in the Canadian grocery market. Each step is designed to ensure the integrity and usability of the data, crucial for robust economic analysis.
+
+Data Integration:
+Source Files: Data was sourced from two CSV files: hammer-4-raw.csv for raw pricing data and hammer-4-product.csv for product metadata.
+Merging Strategy: Using dplyr's left_join, the raw data file was combined with the product metadata file based on a common key, product_id, aligning product-specific details with their corresponding price records.
+
+Refinement and Filtering:
+Product Specification: Only entries explicitly labeled as "Olive Oil" in the product_name field were retained. This included applying complex string matching to exclude any products associated with non-food or supplementary categories such as cosmetics or cooking sprays.
+
+Vendor Focus: The dataset was narrowed down to include only price entries from Loblaws, Metro, and Walmart, based on their market relevance and the study's geographic focus.
+
+Numeric Conversion and Validation:
+Regular expressions via gsub were utilized to cleanse the current_price and old_price fields, ensuring all entries were free of non-numeric characters before conversion to numeric types.
+Error Handling and NA Values: Entries with non-convertible, missing price data, or any NA values in critical fields were systematically removed from the dataset to maintain the quality and reliability of the financial analysis. This ensures that all data used in subsequent analyses are complete and accurate, eliminating potential biases or errors that could arise from incomplete data.
+
+Temporal Adjustments:
+Date Conversion: The `nowtime` timestamp was standardized to a POSIXct format to uniform the temporal data across all entries, crucial for time-series analysis.
+Month Extraction: The month of each price record was derived from the `nowtime` field to facilitate monthly trend analysis, aiding in the identification of seasonal price variations.
+
+Final Dataset Composition:
+Column Selection: The dataset was streamlined by selecting only essential columns: month, current_price, old_price, product_name, brand, and vendor, focusing on the most relevant data for analysis.
+
+Data Storage:
+Accessibility and Performance: The cleaned data was saved in both CSV for universal accessibility and Parquet format for optimized performance in large-scale data operations.
 
 ## Research Objective and Overview
 
@@ -647,6 +675,44 @@ In cases of nonlinear relationships and high-dimensional data, machine learning 
 The total budget for this study will be allocated across several key areas of research and development. Data collection and cleaning will account for $30,000, while the statistical analysis and model development will be allocated $40,000. The budget for computational resources, including cloud storage and processing, will amount to $15,000. Additionally, $10,000 will be set aside for the preparation of research reports and dissemination of results. Market research and expert consultation will be allocated $5,000. This budget distribution ensures the effective use of resources to achieve the study's objectives [@Peters_Adams_2023].
 Research Implementation and Timeline
 The study will be carried out over a three-month period, with regular updates provided on the price prediction outcomes. The data sources for this project will primarily include public retail platforms, supply chain databases, and price data provided by suppliers and wholesalers. This ensures that the research is based on a broad and current dataset, increasing the relevance and timeliness of the findings. The predicted olive oil prices will be periodically updated to reflect any significant market changes, and the final results will be presented in both written reports and interactive visualizations for easy interpretation by stakeholders [@Baker_2021].
+
+## API for Model
+
+The Price Prediction API provides a RESTful endpoint that estimates product prices based on historical data and various market factors. The API is implemented using the R Plumber framework and incorporates a Bayesian regression model built with the rstanarm package.
+API Specification:
+Endpoint: GET /predict_price
+Version: 0.0.1
+Input Parameters:
+
+old_price: Numeric value representing the previous price of the product (default: 1.75)
+brand: Categorical variable indicating the product brand (default: "Aurora")
+vendor: Categorical variable specifying the retail vendor (options: "Metro" or "Walmart")
+month: Integer value representing the month (range: 7-12)
+
+Model Architecture:
+The prediction model utilizes Bayesian regression with the following components:
+
+Intercept term (α)
+Price coefficient (β) for previous price
+Brand-specific effects (categorical coefficients)
+Vendor-specific effects (categorical coefficients)
+Monthly seasonal effects (categorical coefficients)
+
+The prediction is generated through the following process:
+
+Input validation and type conversion
+Extraction of posterior samples from the trained model
+Computation of predicted values using the linear combination:
+predicted_price = α + β_old_price * old_price + β_brand + β_vendor + β_month
+Calculation of the mean prediction from posterior samples
+
+Output:
+The API returns a JSON object containing:
+
+estimated_price: The predicted price value based on the input parameters
+
+The model is designed to capture market dynamics, brand positioning, vendor-specific pricing strategies, and seasonal variations in the olive oil market.
+
 
 ## Survey
 
@@ -734,3 +800,6 @@ Link here:
 https://forms.gle/L1e6gKH4FnwCAv8L8
 
 
+\newpage
+
+# References
