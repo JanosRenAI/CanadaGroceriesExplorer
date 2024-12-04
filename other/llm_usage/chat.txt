@@ -1,0 +1,399 @@
+User: this is my clean data
+#### Preamble ####
+# Purpose: Cleans the raw plane data recorded by two observers..... [...UPDATE THIS...]
+# Author: Xuanang Ren
+# Date: 2 December 2024
+# Contact: ang.ren@mail.utoronto.ca
+# License: MIT
+# Pre-requisites: [...UPDATE THIS...]
+# Any other information needed? [...UPDATE THIS...]
+
+#### Workspace setup ####
+library(dplyr)
+library(arrow)
+library(lubridate)
+library(readr)
+
+#### Load raw data ####
+raw_data <- read_csv("data/01-raw_data/hammer-4-raw.csv") # Main raw data file
+product_data <- read_csv("data/01-raw_data/hammer-4-product.csv") # Product metadata
+
+#### Combine and clean data ####
+clean_data <- raw_data %>%
+  # Merge raw data with product metadata
+  left_join(product_data, by = c("product_id" = "id")) %>%
+  
+  # Select relevant columns
+  select(nowtime, current_price, old_price, price_per_unit, product_name, brand, vendor) %>%
+  
+  # Filter for olive oil products (edible) and specific vendors
+  filter(
+    str_detect(product_name, "Olive Oil") & 
+      !str_detect(
+        product_name, 
+        "Infused|Flavored|Blend|Cooking Spray|Hair|Body|Skin|Soap|Cosmetic|Beauty|Extract|Essential|Scent|Aromatherapy|Candles|Gift|Gourmet|Balsamic|Vinegar|Condiment|Dressing|Sauce|Pack|Sample|Mini|Set|Butter|Tuna|Crackers|Cheese|Crackers|Wild|Margarine|Garlic|Bottle|Bread|Sardine|Mayonnaise|Tortas|Fillet|Boulangerie|Rosemary|Tortillas|Mackerel|Pepper"
+      ) & 
+      vendor %in% c("Loblaws", "Metro", "Walmart")
+  ) %>%
+  
+  # Convert prices to numeric and filter out invalid entries
+  mutate(
+    current_price = as.numeric(gsub("[^0-9.]", "", current_price)),
+    old_price = as.numeric(gsub("[^0-9.]", "", old_price))
+  ) %>%
+  filter(
+    !is.na(current_price) & !is.na(old_price) & !is.na(price_per_unit)
+  ) %>%
+  
+  # Add time and price-related calculations
+  mutate(
+    nowtime = as.POSIXct(nowtime, tz = "UTC"),
+    month = format(nowtime, "%m"),
+  ) %>%
+  
+  # Final selection of columns
+  select(month, current_price, old_price, product_name, brand, vendor)
+
+#### Save cleaned data ####
+# Save as CSV for further analysis
+write_csv(clean_data, "data/02-analysis_data/analysis_data.csv")
+
+# Save as Parquet for efficient storage and retrieval
+write_parquet(clean_data, "data/02-analysis_data/analysis_data.parquet")
+给我写个test 但是注意是read parquet
+#### Preamble ####
+# Purpose: Tests... [...UPDATE THIS...]
+# Author: Rohan Alexander [...UPDATE THIS...]
+# Date: 26 September 2024 [...UPDATE THIS...]
+# Contact: rohan.alexander@utoronto.ca [...UPDATE THIS...]
+# License: MIT
+# Pre-requisites: [...UPDATE THIS...]
+# Any other information needed? [...UPDATE THIS...]
+
+
+#### Workspace setup ####
+library(tidyverse)
+library(testthat)
+
+data <- read_csv("data/02-analysis_data/analysis_data.csv")
+
+
+#### Test data ####
+# Test that the dataset has 151 rows - there are 151 divisions in Australia
+test_that("dataset has 151 rows", {
+  expect_equal(nrow(analysis_data), 151)
+})
+
+# Test that the dataset has 3 columns
+test_that("dataset has 3 columns", {
+  expect_equal(ncol(analysis_data), 3)
+})
+
+# Test that the 'division' column is character type
+test_that("'division' is character", {
+  expect_type(analysis_data$division, "character")
+})
+
+# Test that the 'party' column is character type
+test_that("'party' is character", {
+  expect_type(analysis_data$party, "character")
+})
+
+# Test that the 'state' column is character type
+test_that("'state' is character", {
+  expect_type(analysis_data$state, "character")
+})
+
+# Test that there are no missing values in the dataset
+test_that("no missing values in dataset", {
+  expect_true(all(!is.na(analysis_data)))
+})
+
+# Test that 'division' contains unique values (no duplicates)
+test_that("'division' column contains unique values", {
+  expect_equal(length(unique(analysis_data$division)), 151)
+})
+
+# Test that 'state' contains only valid Australian state or territory names
+valid_states <- c("New South Wales", "Victoria", "Queensland", "South Australia", "Western Australia", 
+                  "Tasmania", "Northern Territory", "Australian Capital Territory")
+test_that("'state' contains valid Australian state names", {
+  expect_true(all(analysis_data$state %in% valid_states))
+})
+
+# Test that there are no empty strings in 'division', 'party', or 'state' columns
+test_that("no empty strings in 'division', 'party', or 'state' columns", {
+  expect_false(any(analysis_data$division == "" | analysis_data$party == "" | analysis_data$state == ""))
+})
+
+# Test that the 'party' column contains at least 2 unique values
+test_that("'party' column contains at least 2 unique values", {
+  expect_true(length(unique(analysis_data$party)) >= 2)
+})
+
+Chatgpt: Based on your request, I've crafted a set of tests for a dataset read from a Parquet file instead of a CSV file. I've updated the preamble and tests to reflect the current needs and information about your Parquet file:
+
+#### Preamble ####
+# Purpose: Test the integrity and structure of the cleaned olive oil data stored in Parquet format.
+# Author: Xuanang Ren
+# Date: 2 December 2024
+# Contact: ang.ren@mail.utoronto.ca
+# License: MIT
+# Pre-requisites: dplyr, arrow, testthat
+# Any other information needed? Ensure that 'arrow' library is installed for Parquet file handling.
+
+#### Workspace setup ####
+library(dplyr)
+library(arrow)
+library(testthat)
+
+#### Load cleaned data from Parquet ####
+clean_data <- read_parquet("data/02-analysis_data/analysis_data.parquet")
+
+#### Test data ####
+# Test that the dataset has expected number of rows
+test_that("dataset has expected number of rows", {
+  expect_equal(nrow(clean_data), 151)  # Adjust the expected number as needed
+})
+
+# Test that the dataset has 6 columns (as per the cleaning script)
+test_that("dataset has 6 columns", {
+  expect_equal(ncol(clean_data), 6)
+})
+
+# Test that the 'month' column is character type
+test_that("'month' is character", {
+  expect_type(clean_data$month, "character")
+})
+
+# Test that the 'current_price' and 'old_price' columns are numeric type
+test_that("price columns are numeric", {
+  expect_type(clean_data$current_price, "double")
+  expect_type(clean_data$old_price, "double")
+})
+
+# Test that there are no missing values in critical columns
+test_that("no missing values in price and product name columns", {
+  expect_true(all(!is.na(clean_data$current_price) & !is.na(clean_data$old_price) & !is.na(clean_data$product_name)))
+})
+
+# Test that 'product_name' contains "Olive Oil"
+test_that("'product_name' contains 'Olive Oil'", {
+  expect_true(all(grepl("Olive Oil", clean_data$product_name)))
+})
+
+# Test that 'vendor' only includes 'Loblaws', 'Metro', and 'Walmart'
+valid_vendors <- c("Loblaws", "Metro", "Walmart")
+test_that("'vendor' column contains valid vendors", {
+  expect_true(all(clean_data$vendor %in% valid_vendors))
+})
+
+# Test that there are no incorrect or outlier values in 'current_price' or 'old_price' columns
+test_that("no incorrect prices", {
+  expect_true(all(clean_data$current_price > 0 & clean_data$old_price > 0))
+})
+
+#### Save the test results to a report ####
+test_dir("tests", reporter = "summary")
+In this test script, I updated the row count expectation and column data types according to your dataset's cleaned structure. Be sure to adjust the number of expected rows (expect_equal(nrow(clean_data), 151)) based on the actual count after data cleaning.
+
+User: 你不用管下面的内容 按照这个格式写api for model
+
+#### Preamble ####
+# Purpose: Replicated graphs from... [...UPDATE THIS...]
+# Author: Rohan Alexander [...UPDATE THIS...]
+# Date: 11 February 2023 [...UPDATE THIS...]
+# Contact: rohan.alexander@utoronto.ca [...UPDATE THIS...]
+# License: MIT
+# Pre-requisites: [...UPDATE THIS...]
+# Any other information needed? [...UPDATE THIS...]
+
+
+#### Workspace setup ####
+library(tidyverse)
+# [...UPDATE THIS...]
+
+#### Load data ####
+# [...ADD CODE HERE...]
+
+chat: #### Preamble ####
+# Purpose: Create an API to predict current olive oil prices based on historical prices and other factors
+# Author: Xuanang Ren
+# Date: 3 December 2024
+# Contact: ang.ren@mail.utoronto.ca
+# License: MIT
+# Pre-requisites: `plumber`, `rstanarm` packages must be installed and loaded.
+# Any other information needed? Ensure `first_model.rds` is located in the `models/` directory.
+
+#### Workspace setup ####
+library(plumber)
+library(rstanarm)
+
+#### Load model ####
+# Load the pre-trained Bayesian linear regression model
+model <- readRDS("models/first_model.rds")
+
+#### Define API ####
+#* @apiTitle Olive Oil Price Prediction API
+#* @apiDescription An API to predict current olive oil prices based on old prices, brand, vendor, and month.
+
+#* @post /predict
+#* @param old_price:float Historical price of the olive oil
+#* @param brand:string Brand name of the olive oil
+#* @param vendor:string Vendor selling the olive oil
+#* @param month:int Month (1-12) of the transaction
+#* @response 200 Returns the predicted price and standard error
+function(old_price, brand, vendor, month) {
+  # Convert inputs to the required format for prediction
+  input_data <- data.frame(
+    old_price = as.numeric(old_price),
+    brand = factor(brand, levels = levels(model$data$brand)),
+    vendor = factor(vendor, levels = levels(model$data$vendor)),
+    month = factor(as.integer(month), levels = levels(model$data$month))
+  )
+  
+  # Predict the current price
+  prediction <- predict(model, newdata = input_data, se.fit = TRUE)
+  
+  # Return the prediction and standard error
+  list(
+    prediction = as.numeric(prediction$fit),
+    se = as.numeric(prediction$se.fit)
+  )
+}
+
+user： #### Preamble ####
+# Purpose: Model current olive oil prices based on historical prices and other factors
+# Author: Xuanang Ren
+# Date: 2 December 2024
+# Contact: ang.ren@mail.utoronto.ca
+# License: MIT
+# Pre-requisites: rstanarm, tidyverse packages must be installed and loaded.
+
+
+#### Workspace setup ####
+library(tidyverse)
+library(rstanarm)
+
+#### Read data ####
+clean_data <- read_parquet("data/02-analysis_data/analysis_data.parquet")
+
+### Model data ####
+
+# Assuming 'current_price' as dependent variable and 'old_price', 'brand', 'vendor', and 'month' as independent variables.
+# Convert categorical variables to factors if not already
+analysis_data <- clean_data %>%
+  mutate(
+    brand = as.factor(brand),
+    vendor = as.factor(vendor),
+    month = as.factor(month)
+  )
+
+### Model 1 ####
+# Build a Bayesian linear regression model
+first_model <- stan_glm(current_price ~ old_price + brand + vendor + month, data = analysis_data, 
+                        family = gaussian, prior = normal(0, 2, autoscale = TRUE))
+
+### Model 2 ####
+second_model <- lm(current_price ~ old_price + brand + vendor + month, data = analysis_data)
+
+#### Save model ####
+saveRDS(first_model, file = "models/first_model.rds")
+saveRDS(second_model, file = "models/second_model.rds")
+这是我的model
+
+我需要我的贝叶斯线性回归模型的API for the model
+
+Chat: 以下是基于你的贝叶斯线性回归模型（stan_glm）创建一个 API 的具体步骤：
+
+1. 准备工作
+确保以下文件和环境已经设置好：
+
+模型文件：models/first_model.rds
+API 技术栈：我们选择 R 和 plumber 包。
+安装依赖：
+install.packages("plumber")
+install.packages("rstanarm")
+install.packages("tidyverse")
+2. 编写 API 脚本
+创建一个名为 api.R 的文件，内容如下：
+
+# 加载必要的库
+library(plumber)
+library(rstanarm)
+
+# 加载模型
+model <- readRDS("models/first_model.rds")
+
+# 定义预测函数
+#* @post /predict
+#* @param old_price:float 之前的价格
+#* @param brand:string 品牌名
+#* @param vendor:string 供应商
+#* @param month:int 月份 (1-12)
+#* @response 200 返回预测的价格
+function(old_price, brand, vendor, month) {
+  # 转换输入为模型需要的格式
+  input_data <- data.frame(
+    old_price = as.numeric(old_price),
+    brand = as.factor(brand),
+    vendor = as.factor(vendor),
+    month = as.factor(month)
+  )
+  
+  # 预测
+  prediction <- predict(model, newdata = input_data, se.fit = TRUE)
+  
+  # 返回预测结果和标准误差
+  list(
+    prediction = as.numeric(prediction$fit),
+    se = as.numeric(prediction$se.fit)
+  )
+}
+3. 启动 API 服务
+运行以下代码启动 API 服务：
+
+library(plumber)
+# 加载 API 文件
+r <- plumb("api.R")
+# 在 8000 端口运行
+r$run(port = 8000)
+启动后，你可以通过以下方式访问 API。
+
+4. 测试 API
+使用 curl 或 Postman 测试 API：
+
+示例请求
+
+curl -X POST http://localhost:8000/predict \
+-H "Content-Type: application/json" \
+-d '{"old_price": 12.5, "brand": "BrandA", "vendor": "Loblaws", "month": 5}'
+示例响应
+
+{
+  "prediction": 14.2,
+  "se": 0.35
+}
+5. 部署到生产环境
+为了将 API 部署到生产环境，你可以选择以下方法：
+
+Docker：用 Docker 打包 API，确保可以跨平台运行。
+云平台：将 API 部署到 AWS、Google Cloud 或 Heroku。
+Nginx 代理：用 Nginx 或其他反向代理工具管理 API。
+Dockerfile 示例
+
+FROM r-base:latest
+
+# 安装 R 包
+RUN R -e "install.packages(c('plumber', 'rstanarm', 'tidyverse'))"
+
+# 复制文件
+COPY . /app
+WORKDIR /app
+
+# 暴露端口
+EXPOSE 8000
+
+# 启动 API 服务
+CMD ["Rscript", "-e", "plumber::plumb('api.R')$run(host='0.0.0.0', port=8000)"]
+如果你需要进一步的帮助，例如优化模型预测或扩展 API 功能，随时告诉我！
