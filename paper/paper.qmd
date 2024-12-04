@@ -627,18 +627,6 @@ Column Selection: The dataset was streamlined by selecting only essential column
 Data Storage:
 Accessibility and Performance: The cleaned data was saved in both CSV for universal accessibility and Parquet format for optimized performance in large-scale data operations.
 
-# Additional data details
-
-# Model details {#sec-model-details}
-
-## Posterior predictive check
-
-In @fig-ppcheckandposteriorvsprior-1 we implement a posterior predictive check. This shows...
-
-In @fig-ppcheckandposteriorvsprior-2 we compare the posterior with the prior. This shows... 
-
-
-
 
 \newpage
 
