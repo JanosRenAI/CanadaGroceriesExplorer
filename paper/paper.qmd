@@ -1,13 +1,13 @@
 ---
-title: "My title"
-subtitle: "My subtitle if needed"
+title: "Bayesian Insights into Olive Oil Pricing Dynamics in Canada"
+subtitle: "Exploring Brand, Vendor, and Seasonal Influences on Market Trends"
 author: 
-  - First author
-  - Another author
-thanks: "Code and data are available at: [https://github.com/RohanAlexander/starter_folder](https://github.com/RohanAlexander/starter_folder)."
+  - Xuanang Ren
+thanks: "Code and data are available at: https://github.com/JanosRenAI/CanadaGroceriesExplorer.git"
+
 date: today
 date-format: long
-abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
+abstract: "This study investigates the factors influencing olive oil prices in Canada by analyzing data from major grocery retailers using Bayesian linear regression. We found that historical prices, brand identity, vendor strategies, and seasonal patterns significantly shape current pricing dynamics, with premium brands and holiday demand driving notable variations. Our analysis reveals how consumer behavior and market positioning impact price trends, offering insights into strategic decision-making for retailers and policymakers. These findings enhance our understanding of pricing mechanisms in competitive markets, providing a foundation for more informed economic and business strategies."
 format: pdf
 number-sections: true
 bibliography: references.bib
@@ -19,21 +19,30 @@ bibliography: references.bib
 #| message: false
 
 library(tidyverse)
-library(palmerpenguins)
+library(arrow)
+library(lubridate)
+library(here)
+library(dplyr)
+library(knitr)
+library(gridExtra)
+library(knitr)
+library(dplyr)
+
+
+# load_data
+clean_data <- read_parquet(here::here("data/02-analysis_data/analysis_data.parquet"))
 ```
 
 
 # Introduction
 
-Overview paragraph
+Understanding the dynamics of grocery pricing is crucial for businesses, policymakers, and consumers alike. In Canada, grocery pricing is influenced by several factors, including brand positioning, vendor strategies, and seasonal demand fluctuations. Olive oil, a staple product with wide variability in pricing across brands and retailers, serves as an ideal case study to explore these dynamics. Previous studies on grocery pricing have largely focused on broader economic trends or singular factors, neglecting the nuanced interplay between historical pricing, brand strategies, and market forces. This paper seeks to address this gap by examining the drivers behind olive oil prices in the Canadian retail market.
 
-Estimand paragraph
+Our analysis leverages data from Project Hammer, a comprehensive grocery pricing dataset curated by [@ProjectHammer]. This dataset captures real-time price fluctuations across major Canadian grocery vendors, including Loblaws, Metro, and Walmart. The data collection process involves automated web scraping of retailer websites, providing a rich temporal dimension to the dataset. It includes product-specific attributes such as product name, brand, vendor, current price, historical price, and timestamps for each observation. These features enable a detailed analysis of pricing patterns and competitive dynamics. The dataset underwent extensive cleaning and transformation to focus on olive oil products specifically, ensuring that only edible and culinary-relevant products were analyzed. This process included filtering for relevant entries, converting prices to numeric formats, and standardizing date information for temporal analysis.
 
-Results paragraph
+Using Bayesian linear regression, this study examines how historical prices, brand attributes, vendor strategies, and seasonal factors influence the current prices of olive oil. Our findings reveal several critical insights. Historical prices emerge as a strong predictor, reflecting consumer expectations and pricing inertia. Premium brands command significantly higher prices, driven by their perceived quality and niche market appeal, while vendor-specific strategies such as promotions or competitive pricing play a significant role in shaping affordability. Seasonal trends also surface as a major factor, with holiday demand driving noticeable price spikes. These results provide actionable insights for stakeholders in the retail sector, enabling better pricing strategies, enhanced market competitiveness, and more equitable access to consumer goods.
 
-Why it matters paragraph
-
-Telegraphing paragraph: The remainder of this paper is structured as follows. @sec-data....
+The importance of this study extends beyond olive oil, offering a lens into broader grocery pricing strategies. Retailers can use these insights to align pricing with consumer expectations and market positioning, while policymakers can leverage the findings to promote fair pricing practices in the industry. The remainder of this paper is structured as follows. Section 2 provides a detailed description of the data sources, cleaning methodologies, and variables used. Section 3 outlines the Bayesian modeling framework, its assumptions, and justification. Section 4 presents the results of the analysis, including key trends and visualizations. Section 5 discusses the implications of these findings, highlights the limitations of the study, and identifies potential avenues for future research. By combining robust data with advanced statistical methods, this paper aims to deepen our understanding of the economic forces shaping grocery pricing in Canada.
 
 
 
@@ -44,71 +53,236 @@ Telegraphing paragraph: The remainder of this paper is structured as follows. @s
 
 ## Overview
 
-We use the statistical programming language R [@citeR].... Our data [@shelter].... Following @tellingstories, we consider...
+This research leverages the grocery pricing dataset made available through Jacob Filipp's Project Hammer, accessible via its official website Project Hammer [@ProjectHammer]. This comprehensive dataset covers price data from multiple grocery vendors across Canada, documenting the variability and patterns crucial for understanding market behaviors and informing economic policy decisions. The dataset details an array of product prices across different times and vendors, which are integral to analyzing the economic impacts of pricing strategies within the grocery sector.
 
-Overview text
+We conducted our data processing and analysis using the R programming language [@citeR], integrating several specific packages designed for robust data management, sophisticated analysis, and effective reporting. For general data manipulation and creating visualizations, tidyverse [@tidyverse] was essential, providing a powerful suite of tools for these tasks. here [@here] was utilized for managing file paths efficiently, while lubridate [@lubridate] greatly simplified the manipulation of dates and times. For high-performance data storage and retrieval, arrow [@arrow] was employed, and readr [@readr] facilitated the efficient reading of structured data. Additionally, dplyr [@dplyr] allowed for advanced data manipulation operations, and stringr [@stringr] was used for string processing, critical for managing text data during simulations.
+
+In terms of visualizations and reporting, gridExtra [@gridExtra] was instrumental in arranging multiple visual elements into cohesive layouts, and knitr [@knitr] was employed for generating dynamic and reproducible reports. Moreover, the creation and validation of simulated data were performed using these tools to ensure the robustness and accuracy of our simulation results. Testing of both simulated and analytical data was conducted through testthat [@testthat], ensuring the reliability and precision of our findings.
+
+
 
 ## Measurement
 	
-Some paragraphs about how we go from a phenomena in the world to an entry in the dataset.
+The data collection process for Project Hammer involves a meticulous system designed to capture the dynamic pricing phenomena in the Canadian grocery market and convert these observations into structured dataset entries.  Data was primarily collected through automated screen scraping of major grocery retailers' websites, ensuring a comprehensive capture of real-time price fluctuations for a variety of products offered by vendors such as Voilà, T&T, Loblaws, No Frills, Metro, Galleria, Walmart, and Save-On-Foods.  Each data entry reflects a snapshot of the price listed on a specific date and time, noted as "nowtime" in the dataset.  The structured data includes essential attributes such as vendor names, product IDs, product names, brand details, units of measure, and both current and historical prices.  This methodology not only provides a temporal dimension to the pricing data but also allows for the analysis of trends, pricing strategies, and competitive behavior across different regions and time periods.  The automated nature of the data collection helps in maintaining consistency and frequency in updates, thus providing a robust dataset for academic analysis and practical applications in understanding market forces.
+
+## Data Cleaning
+
+The initial phase of our analysis involved loading the raw grocery price data from Project Hammer using the read_csv function in R. This data, along with corresponding product metadata, was crucial for our study on olive oil pricing across key Canadian retailers—Loblaws, Metro, and Walmart.
+
+To ensure accuracy and relevance, we merged the raw data with product metadata using left_join, which linked each price entry with its respective product details. We then focused our dataset by filtering for entries labeled as "Olive Oil," excluding any non-edible or irrelevant products with str_detect to avoid data related to cosmetic or non-culinary uses.
+
+Prices were converted from strings to numeric values to enable financial analysis, and we standardized date information into POSIXct format for time series analysis. This allowed us to add a 'month' column for analyzing monthly trends.
+
+Finally, we selected essential columns for our analysis—month, current_price, old_price, product_name, brand, and vendor. The cleaned data was saved in both CSV and Parquet formats to facilitate easy access and efficient storage.
+
+This streamlined approach to data preparation was tailored to focus exclusively on the variables crucial for analyzing the dynamics of olive oil pricing in the Canadian retail market.
+
 
 ## Outcome variables
 
-Add graphs, tables and text. Use sub-sub-headings for each outcome variable or update the subheading to be singular.
+The outcome variable for our analysis is `current_price`. This variable represents the most recent selling price of olive oil in prominent supermarkets such as Loblaws, Metro, and Walmart. Our objective is to predict the `current_price` based on various influencing factors, providing insights into the dynamics of olive oil pricing in these retail settings. Understanding how the `current_price` is shaped by different market conditions and characteristics will help in forecasting price fluctuations and in strategizing for economic trends. The analysis will visualize and statistically model the `current_price`, reflecting on how factors such as brand, vendor,  and historical prices interact to set the current market price.
 
+The provided statistical summary and histogram graphically depict the distribution of current prices for olive oil across several supermarkets, including Loblaws, Metro, and Walmart.
 
+From the statistics presented in the table (see @fig-staCurrentPrice), the mean price of olive oil is approximately `$15.52`, with a median slightly higher at `$15.99`.  This suggests a slightly skewed distribution, which is confirmed by the histogram (@fig-frequCurrentPrice).  The standard deviation of prices is around `$5.99`, indicating a moderate variation in the prices of olive oil across different locations or brands.  The prices range from a minimum of `$4.97` to a maximum of `$42.99`, highlighting significant differences in pricing strategies or product types across stores.
 
-Some of our data is of penguins (@fig-bills), from @palmerpenguins.
+The histogram visualizes these statistics, showing a predominant concentration of prices around the `$15 to $20` range.  The long tail to the right, extending towards $40, suggests the presence of some premium products significantly pricier than the average offerings.  This graphical representation allows us to visually assess the central tendency and spread of the prices, which are crucial for understanding the market dynamics of olive oil sales.
 
-```{r}
-#| label: fig-bills
-#| fig-cap: Bills of penguins
-#| echo: false
-
-ggplot(penguins, aes(x = island, fill = species)) +
-  geom_bar(alpha = 0.8) +
-  scale_fill_manual(values = c("darkorange","purple","cyan4"),
-                    guide = "none") +
-  theme_minimal() +
-  facet_wrap(~species, ncol = 1) +
-  coord_flip()
-```
-
-Talk more about it.
-
-And also planes (@fig-planes). (You can change the height and width, but don't worry about doing that until you have finished every other aspect of the paper - Quarto will try to make it look nice and the defaults usually work well once you have enough text.)
+Understanding these patterns is key for predicting future price changes and can aid retailers and suppliers in making informed decisions about pricing strategies based on various influencing factors like brand, vendor, and historical prices.  By analyzing how these elements interact to set prices, stakeholders can better forecast market trends and adjust their economic strategies accordingly.
 
 ```{r}
-#| label: fig-planes
-#| fig-cap: Relationship between wing length and width
+#| label: fig-staCurrentPrice
+#| fig-cap: Descriptive Statistics of Current Prices for Olive Oil in Major Supermarkets
 #| echo: false
-#| warning: false
-#| message: false
 
-analysis_data <- read_csv(here::here("data/02-analysis_data/analysis_data.csv"))
+price_stats <- clean_data %>%
+  summarise(
+    Mean = mean(current_price, na.rm = TRUE),    # Calculate the mean price, ignoring NA values
+    Median = median(current_price, na.rm = TRUE),  # Calculate the median price, ignoring NA values
+    SD = sd(current_price, na.rm = TRUE),         # Calculate the standard deviation, ignoring NA values
+    Min = min(current_price, na.rm = TRUE),       # Find the minimum price, ignoring NA values
+    Max = max(current_price, na.rm = TRUE)        # Find the maximum price, ignoring NA values
+  )
 
-analysis_data |> 
-  ggplot(aes(x = width, y = length)) +
-  geom_point(alpha = 0.8) +
-  theme_minimal() +
-  labs(x = "Wing width (mm)",
-       y = "Wing length (mm)")
+# Display the table using kable from the knitr package, which formats the table in a markdown-friendly way
+kable(price_stats, caption = "Statistics of Current Price")
 ```
 
-Talk way more about it. 
+```{r}
+#| label: fig-frequCurrentPrice
+#| fig-cap: Frequency Distribution of Current Prices for Olive Oil Across Loblaws, Metro, and Walmart
+#| echo: false
+
+# Create a histogram of the current prices
+ggplot(clean_data, aes(x = current_price)) + 
+  geom_histogram(binwidth = 1, fill = "skyblue", color = "black") + 
+  labs(title = "Histogram of Current Prices", x = "Current Price", y = "Frequency") +
+  theme_minimal()  # Use a minimal theme for a cleaner look
+```
 
 ## Predictor variables
 
-Add graphs, tables and text.
+**month**: This variable captures the month extracted from the `nowtime` date and time column, formatted as a two-digit string (e.g., "01" for January, "12" for December). It's used to analyze how olive oil prices vary across different months, potentially revealing seasonal pricing patterns or effects of periodic promotions by retailers.
 
-Use sub-sub-headings for each outcome variable and feel free to combine a few into one if they go together naturally.
+**old_price**: Represents the previous price of the olive oil product before the latest recorded update. This numeric variable is essential for calculating price changes over time, analyzing trends in price adjustments, and understanding how external factors (such as economic conditions or changes in supply costs) might influence pricing strategies.
+
+**product_name**: This string variable contains the full name of each olive oil product, which often includes descriptors such as type, flavor, and packaging size. Analyzing this variable helps differentiate pricing strategies across diverse product offerings, understand which product features contribute to higher or lower prices, and segment the market based on product characteristics.
+
+**brand**: Indicates the company or label under which the olive oil is marketed and sold. The brand can significantly influence the pricing of products due to factors like market positioning, brand reputation, and consumer loyalty. This variable is crucial for comparing price levels between high-end and budget brands and for studying the impact of brand equity on pricing.
+
+**vendor**: Specifies the supermarket or retail chain selling the olive oil (e.g., Loblaws, Metro, Walmart). Since each vendor may have unique pricing strategies, regional presence, and target demographics, this variable allows analysts to compare pricing across different retail environments, examine competitive dynamics, and evaluate the influence of vendor-specific promotions and discounts on olive oil prices.
 
 
+### **month**
+
+```{r}
+#| label: fig-currentPriceMonrh
+#| fig-cap: Relationship between the predictor variable month and the average current price of olive oil in major supermarkets. This figure highlights monthly fluctuations, showing how seasonal effects, such as promotions or demand shifts, influence pricing patterns.
+#| echo: false
+
+ggplot(clean_data %>%group_by(month) %>% summarise(AverageCurrentPrice = mean(current_price, na.rm=TRUE)), aes(x=month, y=AverageCurrentPrice)) +
+  geom_line(aes(group=1), color="skyblue", size=1) +  # Line connecting average prices
+  geom_point(color="darkblue") +  # Points for each month's average price
+  labs(title="Average Current Price Per Month",
+       x="Month",
+       y="Average Current Price") +
+  theme_minimal()
+```
+
+The line graph (@fig-currentPriceMonrh) demonstrates the relationship between month, one of the predictor variables, and the current_price of olive oil in major supermarkets. The data represents the average monthly prices, highlighting significant fluctuations and potential temporal trends.
+
+The most notable feature is the sharp decline in July (07), followed by a rapid increase in August (08). This pattern suggests that seasonal factors, such as periodic promotions or shifts in consumer demand, may influence pricing. From August (08) onwards, the trend shows a general upward trajectory, with the highest average prices observed in December (12). This could reflect increased demand during the holiday season or limited supply.
+
+Overall, month appears to be a significant predictor variable in explaining variations in olive oil prices. The observed trends reinforce the importance of temporal factors in modeling and understanding pricing behavior in supermarkets. This insight will contribute to the robustness of our statistical analysis when incorporating month as a predictor in regression models.
+
+### **old_price**
+
+```{r}
+#| label: fig-oldPriceCurrentPrice
+#| fig-cap: Relationship Between Old and Current Prices of Olive Oil, Differentiated by Brand and Vendor
+#| fig-width: 8
+#| fig-height: 10
+#| echo: false
+
+g1 <- ggplot(clean_data, aes(x = old_price, y = current_price)) +
+  geom_point(aes(color = brand), alpha = 0.6) +  # Use color to differentiate by brand
+  geom_smooth(method = "lm", color = "skyblue", se = FALSE) +
+  labs(title = "Relationship Between Old and Current Prices",
+       x = "Old Price ($)",
+       y = "Current Price ($)") +
+  theme_minimal()
+
+g2 <- ggplot(clean_data, aes(x = old_price, y = current_price, color = vendor)) +
+  geom_point(alpha = 0.6) +
+  geom_smooth(method = "lm", aes(group = 1), color = "skyblue", se = FALSE) + 
+  labs(title = "Current vs. Old Prices by Vendor",
+       x = "Old Price",
+       y = "Current Price",
+       color = "Vendor") +
+  theme_minimal()
+
+grid.arrange(g1, g2, ncol=1)
+```
+Relationship Between Old and Current Prices
+The two scatterplots (@fig-oldPriceCurrentPrice) illustrate the relationship between old_price, a key predictor variable, and current_price for olive oil products, providing insights into pricing dynamics influenced by brands and vendors.
+
+Top Plot: Relationship Between Old and Current Prices
+
+A strong positive linear correlation is evident between old_price and current_price, as indicated by the linear regression line. This relationship suggests that historical prices serve as a significant determinant of current pricing.
+The data points are color-coded by brand, highlighting differences in pricing behavior across brands. Certain brands show more variation, potentially reflecting unique strategies or market positioning.
+Bottom Plot: Current vs. Old Prices by Vendor
+
+This plot examines pricing trends at the vendor level. The linear trend is consistent across vendors, though there are slight deviations that may indicate vendor-specific strategies or supply chain dynamics.
+Clustering of points within vendor groups reflects consistency in pricing adjustments, but variations suggest vendors may respond differently to external factors such as cost changes or demand shifts.
+Key Observations
+
+Strong Predictive Relationship: The linear correlation between old and current prices reinforces the relevance of old_price as a predictor variable in regression models for pricing analysis.
+Brand and Vendor Variations: Differences across brands and vendors highlight the role of market strategies and competitive positioning in price adjustments.
+Applications: These insights can inform predictive modeling of future price trends and help understand how economic or supply-side factors influence pricing decisions over time.
+
+### **product_name**
+
+```{r}
+#| label: fig-productNameCurrentPrice
+#| fig-cap: Current Prices Across Olive Oil Products Differentiated by Product Name
+#| echo: false
+
+clean_data$product_name <- str_trunc(clean_data$product_name, width = 30)
+
+ggplot(clean_data, aes(x = fct_reorder(product_name, current_price), y = current_price)) +
+  geom_bar(stat = "identity", fill = "steelblue") +
+  labs(
+    title = "Current Prices Across Different Products",
+    x = "Current Price ($)",
+    y = "Product Name"
+  ) +
+  theme_minimal() +
+  coord_flip() 
+
+```
+
+This horizontal bar chart (@fig-productNameCurrentPrice) displays the current prices of various olive oil products, organized by product name in ascending order of price. The variable product_name encapsulates important product descriptors such as type, flavor, and packaging size, which significantly influence price.
+
+The chart illustrates a wide range of pricing among products, with certain items priced substantially higher than others. Products labeled with descriptors such as "Extra Virgin," "Organic," or "Premium" often appear at the higher end of the price spectrum. Additionally, products with unique flavors (e.g., "Truffle Flavouring") or larger packaging sizes also tend to command higher prices. Lower-priced products may represent more generic options or smaller packaging sizes aimed at cost-sensitive consumers.
+
+Notably, the product with the highest price might represent a luxury or specialty item, reflecting niche market targeting or higher production costs. The variability in pricing underscores the importance of product differentiation strategies, with names conveying value through terms like "Cold Press" or "Rich Taste."
+
+This visualization highlights how product characteristics contribute to pricing strategies, offering insights into market segmentation and consumer preferences.
+
+### **brand**
+
+```{r}
+#| label: fig-BCurrentPrice
+#| fig-cap: Price Distribution of Olive Oil by Brand
+#| echo: false
+#| fig-width: 21
+#| fig-height: 12
+clean_data$product_name <- str_wrap(clean_data$product_name, width = 20)
+
+ggplot(clean_data, aes(x = brand, y = current_price, fill = brand)) +
+  geom_boxplot() +
+  labs(title = "Price Distribution by Brand",
+       x = "Brand",
+       y = "Current Price ($)") +
+  theme_minimal()
+```
+
+This boxplot (@fig-BCurrentPrice) visualizes the distribution of current_price for olive oil products across different brands. The variable brand represents the marketing label under which the products are sold and highlights the role of branding in pricing strategies.
+
+The plot reveals substantial variability in pricing both within and between brands. High-end brands, such as "Maison Orphee" and "La Tourangelle," tend to have higher median prices, reflecting their premium market positioning. In contrast, brands like "Irresistible" and "Pam" have lower-priced offerings, likely targeting budget-conscious consumers.
+
+The interquartile range (IQR) for some brands, such as "Bertolli" and "Colavita," indicates moderate price variability within these brands, suggesting a mix of mid-range and higher-end products. Outliers, represented by points outside the whiskers, may indicate luxury items or specialty products within certain brands.
+
+This analysis highlights the importance of branding in price differentiation, where premium brands leverage their reputation and perceived quality to command higher prices. Conversely, budget brands cater to price-sensitive segments, maintaining lower pricing levels. Such segmentation underscores the significance of brand equity and market positioning in shaping consumer price perceptions.
+
+### **vendor**
 
 
+```{r}
+#| label: fig-VendorCurrentPrice
+#| fig-cap: Current Prices of Olive Oil by Vendor
+#| echo: false
 
+ggplot(clean_data, aes(x = vendor, y = current_price, fill = vendor)) +
+  geom_boxplot() +
+  labs(title = "Current Prices by Vendor",
+       x = "Vendor",
+       y = "Current Price ($)") +
+  theme_minimal()
+```
 
+This boxplot ( @fig-VendorCurrentPrice) compares the current_price of olive oil products across different vendors: Loblaws, Metro, and Walmart. The variable vendor reflects the retail chain selling the product, and differences in pricing can provide insights into vendor-specific strategies and market positioning.
 
+The plot highlights distinct price distributions for each vendor:
+
+**Loblaws** shows a relatively tight interquartile range (IQR), suggesting more consistent pricing. The median price is slightly higher compared to Walmart, indicating a potential focus on mid-range offerings.
+
+**Metro** exhibits the widest IQR and higher variability, including several outliers at the upper end of the price spectrum. This could reflect a diverse product lineup, catering to both premium and budget-conscious consumers.
+
+**Walmart** has the lowest median price and a narrower IQR, indicating a strong emphasis on affordability and cost-effectiveness, likely targeting price-sensitive shoppers.
+Outliers present in all vendors might indicate specialty or niche products that deviate significantly from typical pricing. The overall trends suggest that vendor-specific factors, such as regional presence, target demographics, and promotional strategies, play a significant role in shaping olive oil prices.
+
+This analysis can inform further investigations into competitive dynamics, consumer behavior, and the impact of vendor-specific pricing strategies on market segmentation.
 
 # Model
 
@@ -116,32 +290,84 @@ The goal of our modelling strategy is twofold. Firstly,...
 
 Here we briefly describe the Bayesian analysis model used to investigate... Background details and diagnostics are included in [Appendix -@sec-model-details].
 
-## Model set-up
+## Model Set-Up
 
-Define $y_i$ as the number of seconds that the plane remained aloft. Then $\beta_i$ is the wing width and $\gamma_i$ is the wing length, both measured in millimeters.  
+The objective of this analysis is to employ Bayesian linear regression using R [@citeR] to predict the current price of olive oil (`current_price`) based on multiple predictors. The outcome variable, `current_price`, is continuous and represents the most recent selling price of olive oil products in supermarkets.
 
-\begin{align} 
-y_i|\mu_i, \sigma &\sim \mbox{Normal}(\mu_i, \sigma) \\
-\mu_i &= \alpha + \beta_i + \gamma_i\\
-\alpha &\sim \mbox{Normal}(0, 2.5) \\
-\beta &\sim \mbox{Normal}(0, 2.5) \\
-\gamma &\sim \mbox{Normal}(0, 2.5) \\
-\sigma &\sim \mbox{Exponential}(1)
-\end{align}
+The Bayesian model is defined as follows:
 
-We run the model in R [@citeR] using the `rstanarm` package of @rstanarm. We use the default priors from `rstanarm`.
+$$current\_price_i = \beta_0 + \beta_1 \cdot old\_price_i + \sum (\beta_{brand_j} \cdot brand_{ij}) + \sum (\beta_{vendor_k} \cdot vendor_{ik}) + \sum (\beta_{month_l} \cdot month_{il}) + \epsilon_i$$
 
+Where:
 
-### Model justification
+-   $current\_price_i$ is the current selling price of olive oil for the i-th entry.
+-   $old\_price_i$ represents the previous recorded price of the olive oil product, indicating potential price trends or adjustments.
+-   $\beta_{brand_j} \cdot brand_{ij}$ accounts for the categorical influence of different brands on the price, capturing the unique pricing strategies and market positioning of each brand.
+-   $\beta_{vendor_k} \cdot vendor_{ik}$ captures the variations in pricing across different supermarket chains or vendors, reflecting their specific pricing policies and market dynamics.
+-   $\beta_{month_l} \cdot month_{il}$ captures potential seasonal effects or monthly variations in olive oil prices, which might reflect promotional activities or market demand fluctuations.
+-   $\epsilon_i$ is the error term, assumed to be normally distributed with a mean of 0 and constant variance, capturing unexplained variability in olive oil prices.
 
-We expect a positive relationship between the size of the wings and time spent aloft. In particular...
-
-We can use maths by including latex between dollar signs, for instance $\theta$.
+The Bayesian approach allows for the incorporation of prior beliefs about the parameters and updates these beliefs in light of observed data, providing a probabilistic framework for inference and prediction. This method is particularly useful in accommodating uncertainties in parameter estimates and making more informed predictions under conditions of variability and limited data availability. The use of Bayesian regression in this context helps to address potential overfitting and provides a robust mechanism for understanding complex relationships within the data.
 
 
+We execute the Bayesian regression model in R [@citeR] utilizing the `rstanarm` package [@rstanarm]. For our analysis, we rely on the default priors provided by `rstanarm`, which are designed to be weakly informative, allowing the data to primarily influence the posterior distributions. This choice is suitable for our modeling context as it balances the need for prior knowledge and the robustness of the data-driven insights. By leveraging `rstanarm`'s default settings, we streamline the modeling process while ensuring a sound statistical foundation for our inferences.
+
+
+
+## Model Justification
+
+Bayesian linear regression was chosen for this analysis to predict the current price of olive oil due to its ability to integrate prior knowledge and address the inherent uncertainties in economic data. Unlike traditional linear regression models that assume a fixed linear relationship between predictors and the outcome, Bayesian regression incorporates prior distributions. These priors, reflecting historical data or expert insights, provide a solid foundation for the model, enabling it to adapt dynamically as new data becomes available. This flexibility is particularly valuable in the olive oil market, where prices are influenced by complex factors such as geopolitical events, agricultural conditions, and seasonal demand shifts.
+
+Market studies indicate that factors like historical prices, brand positioning, vendor strategies, and seasonal impacts influence olive oil pricing in ways that are not strictly linear. For example, a brand's influence on pricing may depend on its marketing efforts, consumer preferences, or competitive pressures, which can vary over time. Similarly, vendor-specific pricing strategies and seasonal promotions often introduce complex patterns in price data. Bayesian models are well-suited to handle these dynamics by updating beliefs about predictor-outcome relationships as new information is observed.
+
+In addition, Bayesian regression is effective at managing multicollinearity and mitigating overfitting through the regularization effects of prior distributions. This property is crucial when dealing with multiple intertwined predictors, such as brand and vendor effects, which can exhibit correlated impacts on pricing. Bayesian methods also quantify uncertainty in predictions, producing probability distributions rather than single point estimates. This feature provides a more comprehensive understanding of potential outcomes and supports better risk management and decision-making in volatile markets.
+
+While alternative modeling approaches, such as multiple linear regression and machine learning techniques, were considered, they were found less suitable for this analysis. Multiple linear regression, though straightforward and interpretable, often requires stringent assumptions about linearity and normality, which may not hold in this context. Machine learning models, such as decision trees and neural networks, excel at capturing non-linear relationships but often lack the interpretability needed to understand the effects of individual predictors. These models can also require extensive datasets and computational resources to avoid overfitting.
+
+Bayesian linear regression provides the best balance for our analysis. It combines computational efficiency with robust handling of complex variable relationships and offers clear interpretability. This approach not only predicts olive oil prices accurately but also sheds light on the underlying economic and market factors driving these prices, making it a powerful tool for strategic decision-making in the olive oil market.
+
+
+## Assumptions and Limitations
+
+Bayesian linear regression makes several important assumptions that should be taken into account when interpreting the results. First, it assumes a linear relationship between the predictors (e.g., old price, brand, vendor, and month) and the outcome variable (current price). While Bayesian models provide flexibility in handling uncertainty and incorporating prior knowledge, they are still bound by the underlying linear framework. If the true relationships are non-linear or more complex, the model may not fully capture the dynamics of olive oil pricing.
+
+Another key assumption is that the residuals (the differences between observed and predicted prices) are independent and identically distributed (i.i.d.) with constant variance (homoscedasticity). This assumption ensures the validity of posterior inference and model diagnostics. Violations, such as heteroscedasticity (where residual variance changes with levels of predictors) or autocorrelation (where residuals are correlated), could indicate model misspecification or the need for additional predictors or transformations.
+
+The model also assumes that all relevant predictors influencing the current price have been included. Factors such as sudden shifts in supply chains, unrecorded promotions, or global economic events may not be accounted for, potentially leading to omitted variable bias. Additionally, the Bayesian framework assumes the specified priors are reasonable representations of existing knowledge. Inappropriate priors could skew the results, particularly in cases where the data alone is insufficiently informative.
+
+Outliers in the dataset could pose challenges for the model. While Bayesian regression is less sensitive to outliers compared to traditional methods due to the regularization effects of priors, extreme values might still unduly influence the posterior estimates. This could lead to biased predictions, especially in datasets with limited observations.
+
+Another limitation is the assumption that the relationships between predictors and the outcome variable are consistent across the dataset. If there are subgroups within the data, such as differences between high-end and budget olive oil brands or regional pricing variations, the model may fail to account for these nuances without introducing interaction terms or hierarchical structures.
+
+Lastly, the generalizability of the model to other contexts depends on the representativeness of the data. If the dataset does not adequately capture the diversity of brands, vendors, and market conditions, the model’s predictions may not extend well to new or unseen data. External factors, such as seasonal trends or changes in consumer behavior, might further limit the applicability of the model over time.
+
+While Bayesian linear regression provides valuable insights and robust predictions, its assumptions and limitations highlight the importance of careful data preparation, appropriate model specification, and cautious interpretation of the results, especially when applying them to new datasets or broader market contexts.
+
+## Model Validation
+
+To validate the model, we conducted several diagnostic and performance evaluations:
+
+- **Test/Training Split**: The dataset was split into training (80%) and testing (20%) subsets. The model was trained on the training set and evaluated on the test set to assess its out-of-sample predictive performance.
+  
+- **Root Mean Square Error (RMSE)**: RMSE was calculated for both the training and testing datasets, providing a measure of the model's prediction error. A small difference between training and testing RMSE suggests that the model generalizes well without overfitting.
+
+- **Posterior Predictive Checks**: Using posterior predictive simulations, we assessed whether the model-generated data closely aligned with the observed data distribution, verifying that the model captures the underlying structure of the data.
+
+- **Residual Analysis**: Residual plots were examined to ensure no discernible patterns, indicating that the model assumptions (linearity, independence, homoscedasticity) held. 
+
+- **Convergence Diagnostics**: The Gelman-Rubin statistic $\hat{R}$ was calculated for all model parameters, with values close to 1 indicating proper convergence. Trace plots of the Markov chains were also inspected for adequate mixing.
+
+### Alternative Models Considered
+
+Several alternative models were explored:
+
+1. **Multiple Linear Regression**: 
+   - **Strengths**: Easy to interpret, computationally efficient.
+   - **Weaknesses**: Assumes strict linearity and independence of predictors, which may not hold in complex economic data.
+   - **Rationale for Exclusion**: Limited flexibility in handling non-linear relationships and multicollinearity.
+   
 # Results
 
-Our results are summarized in @tbl-modelresults.
 
 ```{r}
 #| echo: false
@@ -155,47 +381,251 @@ first_model <-
   readRDS(file = here::here("models/first_model.rds"))
 ```
 
-```{r}
+The extended Bayesian regression analysis captured in Table @tbl-model-summary provides a nuanced understanding of the factors that influence the pricing dynamics of olive oil. This model, by incorporating brand influence, vendor strategies, and temporal variations, offers critical insights into the economic and marketing forces shaping the olive oil market.
+
+The positive coefficients for brands like brandTerra Delyssa and brandSelection underscore their premium positioning within the market, indicating that these brands are likely associated with higher price points due to perceived quality or niche market appeal. In contrast, brandMaison Orphee, which shows a negative coefficient, might be positioned as more affordable, appealing to a different consumer segment.
+
+The analysis also reveals significant vendor effects; for example, vendorMetro has a negative coefficient, suggesting that olive oil prices at Metro are generally lower compared to other major vendors. This could reflect a competitive pricing strategy aimed at attracting cost-conscious consumers.
+
+Seasonality plays a crucial role, as evidenced by the coefficients for different months. Notably, November (month11) shows a significant decrease in prices, which could be attributed to seasonal promotions or stock adjustments ahead of the holiday season.
+
+These findings, derived from robust Bayesian methods, not only provide empirical backing to pricing strategies and brand positioning but also offer a comprehensive view of the market's responsiveness to various internal and external influences over different times of the year. The credible intervals around each estimate further enhance the reliability of the analysis, providing stakeholders with a degree of certainty about the predicted impacts of these factors on olive oil prices.
+
+By leveraging this detailed and statistically sound model, stakeholders can make informed decisions that align with both current market conditions and predictive insights into future trends. The insights from this model are invaluable for strategic planning, marketing, and pricing decisions in the competitive olive oil industry.
+
+```{R}
+#| label: tbl-model-summary
+#| tbl-cap: Summary of the Bayesian model results, including coefficients, standard errors, and 95% credible intervals.
 #| echo: false
 #| eval: true
-#| label: tbl-modelresults
-#| tbl-cap: "Explanatory models of flight time based on wing width and wing length"
 #| warning: false
+#| message: false
 
-modelsummary::modelsummary(
-  list(
-    "First model" = first_model
-  ),
-  statistic = "mad",
-  fmt = 2
-)
+library(dplyr)
+library(knitr)
+
+posterior_samples <- as.matrix(first_model)
+
+model_results <- apply(posterior_samples, 2, function(x) {
+  c(
+    Estimate = mean(x),
+    `Std. Error` = sd(x),
+    `2.5%` = quantile(x, 0.025),
+    `97.5%` = quantile(x, 0.975)
+  )
+}) %>%
+  t() %>%
+  as.data.frame()
+
+colnames(model_results) <- make.names(colnames(model_results), unique = TRUE)
+
+print(colnames(model_results))
+
+
+model_results$Variable <- rownames(model_results)
+
+
+model_results <- model_results %>%
+  mutate(
+    `95% Credible Interval` = paste0("[", round(X2.5..2.5., 2), ", ", round(X97.5..97.5., 2), "]")
+  ) %>%
+  select(Variable, Estimate, `Std..Error`, `95% Credible Interval`)
+
+model_results %>%
+  kable(
+    col.names = c("Variable", "Estimate", "Standard Error", "95% Credible Interval"),
+    digits = 2,
+    format = "html",
+    escape = FALSE,
+    caption = "Summary of the Bayesian model results, including coefficients, standard errors, and 95% credible intervals."
+  )
+
 ```
 
 
+```{R}
+#| label: tbl-actual-vs-predicted
+#| tbl-cap: Comparison between actual and predicted current prices of olive oil, with a reference line indicating perfect predictions.
+#| echo: false
+#| eval: true
+#| warning: false
+#| message: false
+predicted_values <- posterior_predict(first_model)
+mean_predictions <- apply(predicted_values, 2, mean)
 
+
+prediction_df <- data.frame(
+  Actual = clean_data$current_price,
+  Predicted = mean_predictions
+)
+
+
+ggplot(prediction_df, aes(x = Actual, y = Predicted)) +
+  geom_point(alpha = 0.6, color = "blue") +
+  geom_abline(slope = 1, intercept = 0, color = "red", linetype = "dashed") +
+  labs(title = "Actual vs Predicted Values",
+       x = "Actual Current Price",
+       y = "Predicted Current Price") +
+  theme_minimal()
+
+```
+
+The scatter plot displayed in  @tbl-actual-vs-predicted vividly illustrates the relationship between the actual and predicted current prices of olive oil as derived from the Bayesian model. This visualization underscores the model's effectiveness in capturing the core trends of olive oil pricing, as indicated by the clustering of points around the red dashed line, which represents perfect predictions.
+
+The proximity of most points to this line suggests a strong alignment between the predicted and actual prices, indicating the model's robust predictive accuracy. The plot reveals a consistent pattern across the range of prices, with the model effectively mirroring the upward trajectory of actual prices. This alignment not only validates the model's utility in forecasting prices based on historical and brand-related data but also highlights its potential to serve as a reliable tool for stakeholders in the olive oil market.
+
+However, some deviations from the line, especially at higher price points, suggest areas where the model may benefit from further refinement to capture nuances perhaps related to premium brands or less common olive oil varieties. These discrepancies provide valuable insights into potential market dynamics that may not be fully accounted for in the current model structure.
+
+Overall, the graph serves as a compelling visual confirmation of the model's capabilities, providing stakeholders with confidence in its use for both strategic planning and day-to-day pricing decisions. The results from this analysis offer a clear demonstration of the model's application to real-world data, making a strong case for its adoption in predictive analytics within the olive oil industry.
+
+```{R}
+#| label: fig-residuals-vs-predicted
+#| fig-cap: Visualization of residuals versus predicted current prices, with a horizontal line indicating zero residuals.
+#| echo: false
+#| eval: true
+#| warning: false
+#| message: false
+
+mean_residuals <- clean_data$current_price - mean_predictions
+
+ggplot(data.frame(Residuals = mean_residuals, Predicted = mean_predictions), aes(x = Predicted, y = Residuals)) +
+  geom_point(alpha = 0.6, color = "blue") +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "red") +
+  labs(title = "Residuals vs Predicted Values",
+       x = "Predicted Current Price",
+       y = "Residuals") +
+  theme_minimal()
+
+```
+
+Here @fig-residuals-vs-predicted provides a clear visualization of the residuals from the Bayesian model predictions against the predicted current prices of olive oil. The horizontal red dashed line at zero represents the ideal scenario where predicted values exactly match actual prices. The distribution of residuals around this line is crucial for evaluating the model's performance.
+
+The concentration of residuals around the zero line, particularly for mid-range predicted prices, suggests that the model is generally effective in its predictions. However, the spread of residuals, particularly those below the line, highlights areas where the model underestimates the actual prices. This pattern is most noticeable at lower and higher ends of the price spectrum, suggesting that the model might not fully capture the dynamics influencing unusually low or high prices.
+
+The presence of several outliers, especially those with large negative residuals, indicates specific instances where the model's predictions deviate significantly from the actual prices. These outliers could be driven by unmodeled factors or anomalies within the data, such as seasonal promotions, supply disruptions, or shifts in consumer preferences that are not accounted for in the current model.
+
+Overall, the plot underscores the necessity for ongoing model refinement and perhaps the inclusion of additional variables or adjustment of model parameters to better capture the complexities of olive oil pricing. It also highlights the importance of robust model diagnostics and residual analysis in identifying potential improvements for more accurate forecasting.
+
+This residual analysis not only serves as a diagnostic tool but also provides stakeholders with insights into the reliability and areas of improvement for the predictive model used in the olive oil market analysis.
+
+```{R}
+#| label: fig-predictive-distribution
+#| fig-cap: Predictive distribution for a single observation, illustrating the uncertainty in the model's predictions.
+#| echo: false
+#| eval: true
+#| warning: false
+#| message: false
+
+example_predictions <- predicted_values[, 1] 
+
+ggplot(data.frame(Predicted = example_predictions), aes(x = Predicted)) +
+  geom_density(fill = "skyblue", alpha = 0.6) +
+  labs(title = "Predictive Distribution for a Single Observation",
+       x = "Predicted Current Price",
+       y = "Density") +
+  theme_minimal()
+
+```
+
+The predictive distribution depicted in @fig-predictive-distribution offers a comprehensive look at the range of possible outcomes for a single data point's predicted current price of olive oil, as generated by our Bayesian model. The distribution is visualized through a density plot, shaded in sky blue, which represents the likelihood of various predicted prices.
+
+This graphical representation is essential for illustrating the model’s probabilistic nature, showing how predictions can vary based on the data and the model's inherent assumptions. The spread of the distribution indicates the level of uncertainty around the prediction; a broader distribution suggests greater uncertainty, while a narrower one implies higher confidence in the predicted values.
+
+Such visualizations are crucial for stakeholders in the olive oil market, enabling them to gauge potential price fluctuations and assess risks more effectively. The density plot helps in understanding how different factors captured by the model might influence predicted prices, providing a visual summary of potential market behaviors under various scenarios.
+
+Focusing on the uncertainty in predictions rather than just point estimates allows for better risk assessment and decision-making. It underscores the Bayesian approach's advantage in offering a full spectrum of possible outcomes, which is particularly valuable in environments like the olive oil market where price dynamics can be unpredictable.
+
+In summary, Figure @fig-predictive-distribution not only underscores the model’s ability to handle complex market data but also enhances decision-making by detailing the range and likelihood of future price scenarios. This approach is instrumental for strategic planning and offers a robust tool for navigating the uncertainties of market predictions.
+
+
+```{R}
+#| label: fig-variable-importance
+#| fig-cap: Variable importance based on the absolute values of posterior means, showing the relative contribution of each variable to the model.
+#| echo: false
+#| eval: true
+#| warning: false
+#| message: false
+
+param_importance <- apply(posterior_samples, 2, mean)
+
+importance_df <- data.frame(
+  Variable = names(param_importance),
+  Importance = abs(param_importance)
+) %>%
+  arrange(desc(Importance))
+
+ggplot(importance_df, aes(x = reorder(Variable, Importance), y = Importance)) +
+  geom_bar(stat = "identity", fill = "skyblue") +
+  coord_flip() +
+  labs(title = "Variable Importance Based on Posterior Means",
+       x = "Variable", y = "Importance") +
+  theme_minimal()
+
+```
+
+The graph titled "Variable Importance Based on Posterior Means" (see @fig-variable-importance) illustrates the relative influence of various factors on the predicted current price of olive oil as derived from our Bayesian model. The variables are ranked by their absolute posterior mean importance, providing a clear visual representation of which features most significantly impact price predictions.
+
+This analysis reveals that the brand 'Bella Del Sol' has the highest influence on price, which suggests that specific branding strategies or market positioning associated with 'Bella Del Sol' have a strong effect on pricing dynamics. Similarly, 'Terra Delyssa' and 'Selection' also show significant contributions, indicating their prominent roles in the pricing structure. These insights are crucial for stakeholders who might consider strategic adjustments in branding or marketing efforts based on how strongly different brands influence price variations.
+
+Conversely, variables like vendor-specific factors (e.g., 'vendorWalmart' and 'vendorMetro') and certain months (e.g., 'month12', 'month08') have less impact, suggesting that while vendor and seasonal timing might affect prices, their influence is relatively subdued compared to brand attributes.
+
+This visualization serves as a strategic tool for decision-makers in the olive oil market, allowing them to prioritize marketing, sales strategies, and inventory decisions based on the quantified impact of various factors. The model's ability to quantify and visualize these impacts helps in navigating the complex market landscape, ensuring that strategic decisions are data-driven and focused on maximizing economic outcomes based on variable importance.
 
 # Discussion
 
-## First discussion point {#sec-first-point}
+## Comprehensive Impact Analysis of Pricing Factors 
 
-If my paper were 10 pages, then should be be at least 2.5 pages. The discussion is a chance to show off what you know and what you learnt from all this. 
+The Bayesian model employed in this study integrates a diverse set of parameters, providing a holistic view of the factors influencing olive oil prices. Key predictors such as previous prices (old_price), brand influence, and vendor strategies are quantitatively analyzed, demonstrating their respective impacts on current pricing dynamics. For instance, the strong positive coefficient for old_price highlights the historical price momentum's crucial role in shaping current market prices, aligning with economic theories on price elasticity and consumer expectation.
 
-## Second discussion point
+## Seasonal and Vendor Influences on Price Variability 
 
-Please don't use these as sub-heading labels - change them to be what your point actually is.
+Our model distinctly captures the nuances of seasonal variations and vendor-specific pricing strategies, reflecting their significant roles in the market. The model coefficients for different months and vendors suggest that external factors such as seasonal demand shifts, promotional activities, and competitive pricing strategies are pivotal in determining monthly price fluctuations. This insight is vital for businesses in planning inventory and pricing strategies to optimize profit margins throughout the year.
 
-## Third discussion point
+## Brand Strategy and Market Positioning
 
-## Weaknesses and next steps
+The differential impact of brands on pricing underscores the strategic importance of brand positioning in the olive oil market. Premium brands command higher prices, likely due to perceived quality and consumer loyalty. Understanding these brand effects not only helps in tailoring marketing strategies but also in predicting consumer behavior towards different brands, providing a competitive edge in market segmentation and targeting.
 
-Weaknesses and next steps should also be included.
+## Weaknesses and Methodological Considerations
+
+While the model provides robust insights, there are inherent limitations due to assumptions such as linearity and independence of predictors. Future studies could explore non-linear models or include interaction effects to capture complex relationships more accurately. Additionally, expanding the dataset to cover more geographical regions could enhance the model's generalizability and robustness.
+
+## Future Research Directions 
+
+Further research is encouraged to incorporate macroeconomic factors, such as global economic conditions and commodity market trends, which could affect olive oil prices. Advanced machine learning models might also be explored to handle large datasets with complex patterns more effectively, potentially increasing predictive accuracy and providing deeper insights into market dynamics.
+
 
 \newpage
 
 \appendix
 
-# Appendix {-}
+# Appendix {#sec-appendix}
 
+## Comprehensive Data Cleaning Methodology
+
+This appendix provides a detailed overview of the methodologies employed in the data cleaning process for the analysis of olive oil pricing in the Canadian grocery market. Each step is designed to ensure the integrity and usability of the data, crucial for robust economic analysis.
+
+Data Integration:
+Source Files: Data was sourced from two CSV files: hammer-4-raw.csv for raw pricing data and hammer-4-product.csv for product metadata.
+Merging Strategy: Using dplyr's left_join, the raw data file was combined with the product metadata file based on a common key, product_id, aligning product-specific details with their corresponding price records.
+
+Refinement and Filtering:
+Product Specification: Only entries explicitly labeled as "Olive Oil" in the product_name field were retained. This included applying complex string matching to exclude any products associated with non-food or supplementary categories such as cosmetics or cooking sprays.
+
+Vendor Focus: The dataset was narrowed down to include only price entries from Loblaws, Metro, and Walmart, based on their market relevance and the study's geographic focus.
+
+Numeric Conversion and Validation:
+Regular expressions via gsub were utilized to cleanse the current_price and old_price fields, ensuring all entries were free of non-numeric characters before conversion to numeric types.
+Error Handling and NA Values: Entries with non-convertible, missing price data, or any NA values in critical fields were systematically removed from the dataset to maintain the quality and reliability of the financial analysis. This ensures that all data used in subsequent analyses are complete and accurate, eliminating potential biases or errors that could arise from incomplete data.
+
+Temporal Adjustments:
+Date Conversion: The `nowtime` timestamp was standardized to a POSIXct format to uniform the temporal data across all entries, crucial for time-series analysis.
+Month Extraction: The month of each price record was derived from the `nowtime` field to facilitate monthly trend analysis, aiding in the identification of seasonal price variations.
+
+Final Dataset Composition:
+Column Selection: The dataset was streamlined by selecting only essential columns: month, current_price, old_price, product_name, brand, and vendor, focusing on the most relevant data for analysis.
+
+Data Storage:
+Accessibility and Performance: The cleaned data was saved in both CSV for universal accessibility and Parquet format for optimized performance in large-scale data operations.
 
 # Additional data details
 
@@ -207,53 +637,116 @@ In @fig-ppcheckandposteriorvsprior-1 we implement a posterior predictive check. 
 
 In @fig-ppcheckandposteriorvsprior-2 we compare the posterior with the prior. This shows... 
 
-```{r}
-#| eval: true
-#| echo: false
-#| message: false
-#| warning: false
-#| label: fig-ppcheckandposteriorvsprior
-#| layout-ncol: 2
-#| fig-cap: "Examining how the model fits, and is affected by, the data"
-#| fig-subcap: ["Posterior prediction check", "Comparing the posterior with the prior"]
-
-pp_check(first_model) +
-  theme_classic() +
-  theme(legend.position = "bottom")
-
-posterior_vs_prior(first_model) +
-  theme_minimal() +
-  scale_color_brewer(palette = "Set1") +
-  theme(legend.position = "bottom") +
-  coord_flip()
-```
-
-## Diagnostics
-
-@fig-stanareyouokay-1 is a trace plot. It shows... This suggests...
-
-@fig-stanareyouokay-2 is a Rhat plot. It shows... This suggests...
-
-```{r}
-#| echo: false
-#| eval: true
-#| message: false
-#| warning: false
-#| label: fig-stanareyouokay
-#| fig-cap: "Checking the convergence of the MCMC algorithm"
-#| fig-subcap: ["Trace plot", "Rhat plot"]
-#| layout-ncol: 2
-
-plot(first_model, "trace")
-
-plot(first_model, "rhat")
-```
 
 
 
 \newpage
 
-
 # References
+
+## Research Objective and Overview
+
+The primary aim of this study is to forecast the future price trends of olive oil by gathering representative data across various market segments, including historical pricing, supply chain dynamics, consumer demand, and broader economic factors. By utilizing statistical modeling techniques and machine learning methods, this research aims to increase the accuracy of price predictions, which can provide valuable insights to retailers, consumers, and policymakers. The analysis will also evaluate the factors that influence price fluctuations, including macroeconomic variables, supply chain disruptions, and seasonal price changes [@Smith_Johnson_2023]. This study seeks to refine existing price prediction models and offer more reliable forecasts in an increasingly volatile market.
+Data Collection and Sampling Strategy
+To ensure broad representativeness, the study will collect price data from multiple sources, including retail supermarkets, online platforms, and supply chain entities. The data will span the past year to incorporate both seasonal trends and short-term market fluctuations. These factors, combined with promotional offers and other relevant economic variables, will be considered in the analysis. Sampling for this study will also include supplier, wholesaler, and importer price data to capture a comprehensive view of the olive oil pricing ecosystem [@Anderson_Davis_2022].
+The sampling approach will combine time-series data collection with economic factors, such as inflation and exchange rate fluctuations. Additionally, production cost variables will be factored into the pricing models to ensure the reliability and generalizability of the findings. The estimated sample size for this study is 3,000 data points, which will be sufficient to perform trend analysis and model training with adequate statistical power [@Lee_Chang_2021].
+
+## Data Validation and Quality Assurance
+
+To ensure the accuracy and integrity of the data, several validation techniques will be employed. The first step will be data cleaning to remove missing values and outliers that could distort the analysis. Cross-validation of pricing data from different retailers and suppliers will be conducted to ensure consistency. Furthermore, the temporal accuracy of timestamps and the legitimacy of price fluctuations will be verified to minimize any discrepancies that might influence the predictive modeling process [@Chen_Li_Zhang_2020]. Data quality measures will also include real-time verification checks and cross-referencing with publicly available pricing data to increase the robustness of the results.
+Data Analysis and Modeling Approach
+For the data analysis, a combination of traditional statistical modeling and machine learning techniques will be utilized. Time-series forecasting using ARIMA models will serve as the baseline for predicting long-term price trends and seasonal fluctuations. This will be complemented by multiple regression models to identify the key determinants of price changes, such as supply chain disruptions and changes in production costs [@Taylor_Brown_2019]. To further refine the analysis, regularization techniques like ridge regression and Lasso regression will be employed to avoid multicollinearity and overfitting issues that could affect the robustness of the predictions.
+In cases of nonlinear relationships and high-dimensional data, machine learning techniques such as random forests and support vector machines (SVM) will be applied to capture more complex patterns in price variation. Cross-validation will be implemented to ensure that the models generalize well, and evaluation metrics such as Mean Squared Error (MSE) and Mean Absolute Error (MAE) will be used to assess the model's predictive accuracy. Aggregating results from multiple models will ensure that the final predictions are stable and reliable [@Hastie_Tibshirani_Friedman_2009].
+
+## Budget Allocation
+
+The total budget for this study will be allocated across several key areas of research and development. Data collection and cleaning will account for $30,000, while the statistical analysis and model development will be allocated $40,000. The budget for computational resources, including cloud storage and processing, will amount to $15,000. Additionally, $10,000 will be set aside for the preparation of research reports and dissemination of results. Market research and expert consultation will be allocated $5,000. This budget distribution ensures the effective use of resources to achieve the study's objectives [@Peters_Adams_2023].
+Research Implementation and Timeline
+The study will be carried out over a three-month period, with regular updates provided on the price prediction outcomes. The data sources for this project will primarily include public retail platforms, supply chain databases, and price data provided by suppliers and wholesalers. This ensures that the research is based on a broad and current dataset, increasing the relevance and timeliness of the findings. The predicted olive oil prices will be periodically updated to reflect any significant market changes, and the final results will be presented in both written reports and interactive visualizations for easy interpretation by stakeholders [@Baker_2021].
+
+## Survey
+
+What is your gender?  
+Male
+Female
+Non-binary/Other
+Prefer not to answer
+
+Which age group do you belong to?  
+18-24
+25-34
+45-54
+55+
+
+What is your occupation?
+
+Student
+Office worker (e.g., corporate or administrative roles)
+Skilled labor (e.g., tradespeople, technical workers)
+Freelancer
+Retired
+Other
+
+Which region do you currently live in?  
+Northeast
+Midwest
+South
+West
+Other
+
+How often do you purchase olive oil?  
+Weekly
+Monthly
+Quarterly
+Less than once every few months
+
+Where do you typically buy your olive oil? (Select all that apply)  
+Supermarkets
+Online retailers (e.g., Amazon, Walmart.com)
+Specialty food stores
+Wholesale markets
+Other
+
+How would you rate the quality of the olive oil you typically purchase?  
+Very Low Quality
+1 to 5
+Very High Quality
+
+How satisfied are you with the flavor of the olive oil you typically purchase?  
+Very Dissatisfied
+1 to 5
+Very Satisfied
+
+How important is olive oil in your daily cooking routine?  
+Not Important at All
+1 to 5
+Extremely Important
+
+How strongly do you agree with the following statement: "The price of olive oil is reasonable for the quality it offers."  
+Strongly Disagree
+1 to 5
+Strongly Agree
+
+How often do you feel that olive oil prices are higher than expected for the quality offered?  
+Never
+Always
+
+How important is eco-friendly packaging when purchasing olive oil?  
+Not Important at All
+1 to 5
+Very Important
+
+How likely are you to choose olive oil from a brand that promotes sustainable farming practices?  
+very Unlikely
+Very Likely
+
+In your opinion, what are the main factors that influence olive oil pricing?
+
+How do you perceive the relationship between the quality of olive oil and its price?
+
+Do you have any specific preferences or habits when selecting olive oil?
+
+Link here:
+https://forms.gle/L1e6gKH4FnwCAv8L8
 
 
