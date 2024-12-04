@@ -286,10 +286,6 @@ This analysis can inform further investigations into competitive dynamics, consu
 
 # Model
 
-The goal of our modelling strategy is twofold. Firstly,...
-
-Here we briefly describe the Bayesian analysis model used to investigate... Background details and diagnostics are included in [Appendix -@sec-model-details].
-
 ## Model Set-Up
 
 The objective of this analysis is to employ Bayesian linear regression using R [@citeR] to predict the current price of olive oil (`current_price`) based on multiple predictors. The outcome variable, `current_price`, is continuous and represents the most recent selling price of olive oil products in supermarkets.
