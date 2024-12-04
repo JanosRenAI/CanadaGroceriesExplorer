@@ -3,7 +3,7 @@ library(rstanarm)
 library(tidyverse)
 
 # Load the model
-model <- readRDS("first_model.rds")
+model <- readRDS("first_model_copy.rds")
 
 # Define the model version
 version_number <- "0.0.1"
