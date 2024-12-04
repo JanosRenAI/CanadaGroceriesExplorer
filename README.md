@@ -1,30 +1,76 @@
-# Starter folder
+# Bayesian Analysis of Olive Oil Pricing in Canadian Markets
 
 ## Overview
+This repository contains the research project analyzing olive oil pricing dynamics in Canadian grocery retailers using Bayesian linear regression. The study investigates how factors like brand identity, vendor strategies, and seasonal patterns influence olive oil prices, providing insights for retailers and policymakers.
 
-This repo provides students with a foundation for their own projects associated with *Telling Stories with Data*. You do not need every aspect for every paper and you should delete aspects that you do not need.
+## Research Focus
+- Analysis of pricing patterns across major Canadian grocery retailers (Loblaws, Metro, Walmart)
+- Investigation of brand influence on pricing strategies
+- Examination of seasonal and vendor-specific pricing dynamics
+- Application of Bayesian linear regression for predictive modeling
 
+## Statement on LLM Usage
+This research utilized ChatGPT for certain aspects of the analysis and writing process. The complete chat history and prompt interactions are documented in `/other/llm_usage/chatgpt.txt`. The use of AI assistance was primarily focused on:
+- Structuring the research methodology
+- Refining analytical approaches
+- Improving clarity in writing
+All AI-assisted content was carefully reviewed and validated to ensure accuracy and academic integrity.
 
-## File Structure
+## Repository Structure
+- `/data`
+  - `/raw_data`: Contains original Project Hammer dataset files
+  - `/analysis_data`: Processed and cleaned data ready for analysis
+- `/model`: Contains fitted Bayesian models and statistical outputs
+- `/paper`: Research paper files including the PDF output
+- `/scripts`: R scripts for data processing and analysis
+  - Data cleaning and transformation scripts
+  - Statistical modeling scripts
+  - Visualization generation scripts
+- `/other`: Supplementary materials
+  - Literature references
+  - Research notes
+  - Model diagnostics
+  - ChatGPT interaction logs and documentation
+  - AI assistance methodology notes
 
-The repo is structured as:
+## Key Findings
+- Historical prices serve as strong predictors of current pricing
+- Premium brands command significantly higher prices
+- Seasonal patterns show notable price variations, particularly during holidays
+- Vendor-specific strategies play a significant role in price determination
 
--   `data/raw_data` contains the raw data as obtained from X.
--   `data/analysis_data` contains the cleaned dataset that was constructed.
--   `model` contains fitted models. 
--   `other` contains relevant literature, details about LLM chat interactions, and sketches.
--   `paper` contains the files used to generate the paper, including the Quarto document and reference bibliography file, as well as the PDF of the paper. 
--   `scripts` contains the R scripts used to simulate, download and clean data.
+## Technical Details
+- Analysis conducted using R programming language
+- Key packages: tidyverse, rstanarm, here, lubridate, arrow
+- Bayesian linear regression implemented for predictive modeling
+- Visualization tools: ggplot2, gridExtra
 
+## Data Source
+Data sourced from Project Hammer (Filipp 2024), providing comprehensive pricing information across Canadian grocery retailers.
 
-## Statement on LLM usage
+## Usage
+1. Clone the repository
+2. Install required R packages listed in scripts/requirements.R
+3. Run data processing scripts in the scripts directory
+4. Execute analysis scripts to reproduce results
 
-Aspects of the code were written with the help of the auto-complete tool, Codriver. The abstract and introduction were written with the help of ChatHorse and the entire chat history is available in inputs/llms/usage.txt.
+## Requirements
+- R version 4.0 or higher
+- RStudio (recommended for ease of use)
+The following R packages are required:
+- tidyverse (for data manipulation and visualization)
+- rstanarm (for Bayesian regression modeling)
+- here (for file path management)
+- lubridate (for date/time handling)
+- arrow (for data storage and retrieval)
+- readr (for efficient data reading)
+- dplyr (for data manipulation)
+- stringr (for string processing)
+- gridExtra (for arranging plots)
+- knitr (for dynamic report generation)
 
-## Some checks
+## Authors
+Xuanang Ren
 
-- [ ] Change the rproj file name so that it's not starter_folder.Rproj
-- [ ] Change the README title so that it's not Starter folder
-- [ ] Remove files that you're not using
-- [ ] Update comments in R scripts
-- [ ] Remove this checklist
+## Acknowledgments
+Thanks to Jacob Filipp for providing the Project Hammer dataset and the research community for methodological guidance.
