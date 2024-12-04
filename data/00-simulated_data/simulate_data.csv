@@ -1,0 +1,2001 @@
+nowtime,current_price,old_price,price_per_unit,product_name,brand,vendor,month
+2024-04-12T14:00:00Z,31.9,32.42,21.27,Pure Olive Oil 1L,BrandE,Walmart,04
+2024-04-14T14:00:00Z,16.93,22.55,16.93,Classic Olive Oil 2L,BrandC,Loblaws,04
+2024-12-29T05:00:00Z,37.83,35.3,18.91,Pure Olive Oil 1L,BrandE,Loblaws,12
+2024-05-04T09:00:00Z,22.63,33.69,22.63,Premium Olive Oil 1L,BrandA,Walmart,05
+2024-03-17T17:00:00Z,16.35,14.97,8.18,Classic Olive Oil 2L,BrandC,Metro,03
+2024-05-20T10:00:00Z,20.49,24.7,20.49,Pure Olive Oil 1L,BrandA,Loblaws,05
+2024-07-17T08:00:00Z,22.04,31.28,44.08,Extra Virgin Olive Oil 500ml,BrandD,Metro,07
+2024-10-08T01:00:00Z,34.46,37.25,34.46,Premium Olive Oil 1L,BrandA,Loblaws,10
+2024-04-24T20:00:00Z,38.22,48.61,76.44,Premium Olive Oil 1L,BrandE,Loblaws,04
+2024-07-31T18:00:00Z,21.46,26.59,10.73,Pure Olive Oil 1L,BrandA,Loblaws,07
+2024-04-30T07:00:00Z,17.99,21.03,35.98,Extra Virgin Olive Oil 500ml,BrandD,Walmart,04
+2024-09-14T01:00:00Z,12.91,18.92,8.61,Premium Olive Oil 1L,BrandE,Loblaws,09
+2024-04-16T22:00:00Z,5.16,5.83,5.16,Premium Olive Oil 1L,BrandB,Metro,04
+2024-05-04T03:00:00Z,29.83,33.02,19.89,Premium Olive Oil 1L,BrandA,Loblaws,05
+2024-03-08T05:00:00Z,29.37,43.06,14.69,Organic Olive Oil 750ml,BrandA,Metro,03
+2024-01-24T02:00:00Z,5.51,5.26,11.02,Extra Virgin Olive Oil 500ml,BrandD,Metro,01
+2024-07-05T04:00:00Z,11.57,16.56,23.14,Extra Virgin Olive Oil 500ml,BrandB,Metro,07
+2024-11-20T12:00:00Z,23.79,25.67,11.89,Premium Olive Oil 1L,BrandD,Loblaws,11
+2024-02-13T14:00:00Z,10.57,10.51,21.14,Extra Virgin Olive Oil 500ml,BrandD,Loblaws,02
+2024-10-21T10:00:00Z,13.61,13.16,9.07,Premium Olive Oil 1L,BrandB,Loblaws,10
+2024-05-05T03:00:00Z,37.28,35.39,37.28,Premium Olive Oil 1L,BrandA,Loblaws,05
+2024-05-13T14:00:00Z,17.71,18.4,11.81,Classic Olive Oil 2L,BrandB,Walmart,05
+2024-11-28T20:00:00Z,39.75,56.31,39.75,Extra Virgin Olive Oil 500ml,BrandE,Metro,11
+2024-06-15T10:00:00Z,30.4,34.9,60.8,Classic Olive Oil 2L,BrandB,Metro,06
+2024-12-14T05:00:00Z,10.22,13.57,20.44,Organic Olive Oil 750ml,BrandC,Walmart,12
+2024-01-10T00:00:00Z,25.72,37.5,12.86,Premium Olive Oil 1L,BrandD,Loblaws,01
+2024-12-05T20:00:00Z,34.71,37.58,23.14,Extra Virgin Olive Oil 500ml,BrandB,Walmart,12
+2024-09-15T23:00:00Z,30.69,41.22,20.46,Pure Olive Oil 1L,BrandB,Metro,09
+2024-12-31T19:00:00Z,21.19,27.39,42.38,Extra Virgin Olive Oil 500ml,BrandA,Metro,12
+2024-03-07T14:00:00Z,22.89,24.78,15.26,Extra Virgin Olive Oil 500ml,BrandA,Loblaws,03
+2024-06-25T12:00:00Z,24.47,22.34,16.31,Extra Virgin Olive Oil 500ml,BrandA,Walmart,06
+2024-06-13T00:00:00Z,12.03,13.59,12.03,Classic Olive Oil 2L,BrandC,Walmart,06
+2024-06-19T08:00:00Z,36.12,37.99,72.24,Extra Virgin Olive Oil 500ml,BrandA,Loblaws,06
+2024-05-01T02:00:00Z,10.4,12.68,20.8,Pure Olive Oil 1L,BrandD,Walmart,05
+2024-01-13T05:00:00Z,25.46,33.12,25.46,Pure Olive Oil 1L,BrandE,Walmart,01
+2024-12-18T20:00:00Z,21.83,23.47,10.91,Organic Olive Oil 750ml,BrandE,Loblaws,12
+2024-01-02T16:00:00Z,11.9,14.07,5.95,Classic Olive Oil 2L,BrandE,Walmart,01
+2024-12-20T11:00:00Z,39.24,44.25,26.16,Classic Olive Oil 2L,BrandB,Walmart,12
+2024-11-03T22:00:00Z,16.17,15.52,10.78,Extra Virgin Olive Oil 500ml,BrandB,Loblaws,11
+2024-10-04T23:00:00Z,6.57,6.62,3.29,Extra Virgin Olive Oil 500ml,BrandD,Loblaws,10
+2024-10-30T11:00:00Z,31.38,44.15,31.38,Organic Olive Oil 750ml,BrandA,Loblaws,10
+2024-04-14T07:00:00Z,24.84,29.4,24.84,Premium Olive Oil 1L,BrandB,Metro,04
+2024-10-07T21:00:00Z,5.34,7.62,10.68,Extra Virgin Olive Oil 500ml,BrandD,Walmart,10
+2024-12-22T21:00:00Z,15.53,21.82,7.76,Organic Olive Oil 750ml,BrandB,Metro,12
+2024-09-12T08:00:00Z,35.22,35.37,23.48,Extra Virgin Olive Oil 500ml,BrandB,Metro,09
+2024-07-11T03:00:00Z,13.13,17.53,6.57,Classic Olive Oil 2L,BrandC,Walmart,07
+2024-03-29T04:00:00Z,7.05,8.15,3.52,Pure Olive Oil 1L,BrandB,Loblaws,03
+2024-09-12T13:00:00Z,29.89,37.4,14.95,Organic Olive Oil 750ml,BrandA,Walmart,09
+2024-02-01T10:00:00Z,22.81,31.03,15.21,Extra Virgin Olive Oil 500ml,BrandE,Metro,02
+2024-09-30T00:00:00Z,19.17,27.9,12.78,Pure Olive Oil 1L,BrandD,Loblaws,09
+2024-08-14T03:00:00Z,19.86,27.48,19.86,Organic Olive Oil 750ml,BrandB,Loblaws,08
+2024-10-23T22:00:00Z,36.99,54.2,36.99,Extra Virgin Olive Oil 500ml,BrandA,Metro,10
+2024-05-19T21:00:00Z,36.57,39.46,18.28,Classic Olive Oil 2L,BrandA,Walmart,05
+2024-06-14T19:00:00Z,12.63,11.38,6.32,Pure Olive Oil 1L,BrandD,Loblaws,06
+2024-05-14T13:00:00Z,25.12,25.47,16.75,Pure Olive Oil 1L,BrandE,Loblaws,05
+2024-08-21T10:00:00Z,6.42,8.64,3.21,Classic Olive Oil 2L,BrandD,Loblaws,08
+2024-07-09T15:00:00Z,23.92,30.64,23.92,Classic Olive Oil 2L,BrandE,Walmart,07
+2024-06-06T14:00:00Z,8.95,10.77,5.97,Pure Olive Oil 1L,BrandA,Walmart,06
+2024-11-22T06:00:00Z,31.51,28.88,15.76,Pure Olive Oil 1L,BrandB,Loblaws,11
+2024-09-05T14:00:00Z,8.89,8.33,4.44,Organic Olive Oil 750ml,BrandA,Walmart,09
+2024-11-21T15:00:00Z,12.14,12.17,6.07,Classic Olive Oil 2L,BrandB,Metro,11
+2024-02-27T17:00:00Z,31.87,47.69,21.25,Classic Olive Oil 2L,BrandC,Walmart,02
+2024-07-15T01:00:00Z,19.78,27.06,39.56,Premium Olive Oil 1L,BrandD,Loblaws,07
+2024-04-09T01:00:00Z,24.14,29.29,24.14,Classic Olive Oil 2L,BrandC,Walmart,04
+2024-06-17T11:00:00Z,35.82,33.19,71.64,Extra Virgin Olive Oil 500ml,BrandB,Metro,06
+2024-01-29T13:00:00Z,30.47,32.36,15.23,Organic Olive Oil 750ml,BrandE,Metro,01
+2024-09-10T05:00:00Z,31.35,30.38,31.35,Pure Olive Oil 1L,BrandD,Loblaws,09
+2024-07-28T10:00:00Z,26.03,34.71,26.03,Pure Olive Oil 1L,BrandD,Metro,07
+2024-09-23T02:00:00Z,8.54,9.76,5.69,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,09
+2024-10-30T08:00:00Z,33.92,48.56,22.61,Pure Olive Oil 1L,BrandD,Metro,10
+2024-07-15T10:00:00Z,30.84,34.81,15.42,Organic Olive Oil 750ml,BrandD,Metro,07
+2024-01-07T06:00:00Z,35.9,41.52,35.9,Pure Olive Oil 1L,BrandE,Walmart,01
+2024-10-10T17:00:00Z,7.95,7.34,3.98,Organic Olive Oil 750ml,BrandD,Walmart,10
+2024-12-06T13:00:00Z,34.03,39.81,68.06,Extra Virgin Olive Oil 500ml,BrandB,Metro,12
+2024-10-14T22:00:00Z,14.62,19.25,7.31,Classic Olive Oil 2L,BrandA,Metro,10
+2024-04-01T23:00:00Z,16.7,23.13,8.35,Premium Olive Oil 1L,BrandD,Metro,04
+2024-02-12T20:00:00Z,36.05,35.77,24.03,Organic Olive Oil 750ml,BrandD,Walmart,02
+2024-12-20T21:00:00Z,11.7,14.41,11.7,Extra Virgin Olive Oil 500ml,BrandC,Metro,12
+2024-11-06T07:00:00Z,5.43,6.31,3.62,Classic Olive Oil 2L,BrandC,Metro,11
+2024-11-18T06:00:00Z,29.69,39.7,59.38,Extra Virgin Olive Oil 500ml,BrandE,Metro,11
+2024-11-29T18:00:00Z,6.32,7.29,3.16,Extra Virgin Olive Oil 500ml,BrandA,Walmart,11
+2024-03-22T11:00:00Z,33.79,39.52,16.9,Extra Virgin Olive Oil 500ml,BrandB,Metro,03
+2024-12-06T11:00:00Z,36.62,49.59,36.62,Classic Olive Oil 2L,BrandE,Loblaws,12
+2024-08-11T05:00:00Z,10.83,11.35,10.83,Extra Virgin Olive Oil 500ml,BrandA,Loblaws,08
+2024-09-02T03:00:00Z,12.27,14.53,24.54,Classic Olive Oil 2L,BrandC,Walmart,09
+2024-06-19T12:00:00Z,32.86,34.07,21.91,Pure Olive Oil 1L,BrandA,Walmart,06
+2024-02-11T00:00:00Z,36.26,42.35,72.52,Organic Olive Oil 750ml,BrandA,Metro,02
+2024-09-14T14:00:00Z,13.53,19.51,13.53,Extra Virgin Olive Oil 500ml,BrandE,Walmart,09
+2024-02-11T01:00:00Z,20.16,29.65,20.16,Classic Olive Oil 2L,BrandD,Walmart,02
+2024-06-25T08:00:00Z,18.94,23.71,18.94,Organic Olive Oil 750ml,BrandD,Walmart,06
+2024-03-06T23:00:00Z,28.3,36.42,14.15,Organic Olive Oil 750ml,BrandC,Walmart,03
+2024-07-14T04:00:00Z,15.68,22.99,10.45,Extra Virgin Olive Oil 500ml,BrandA,Metro,07
+2024-11-23T15:00:00Z,32.72,43.85,32.72,Organic Olive Oil 750ml,BrandE,Loblaws,11
+2024-07-17T23:00:00Z,16.94,24.9,33.88,Extra Virgin Olive Oil 500ml,BrandE,Walmart,07
+2024-10-03T19:00:00Z,14.01,18.35,28.02,Premium Olive Oil 1L,BrandA,Walmart,10
+2024-02-11T00:00:00Z,5.14,5.42,3.43,Premium Olive Oil 1L,BrandB,Walmart,02
+2024-12-21T15:00:00Z,18.31,24.35,12.21,Extra Virgin Olive Oil 500ml,BrandA,Metro,12
+2024-11-07T13:00:00Z,25.98,31.02,12.99,Pure Olive Oil 1L,BrandE,Loblaws,11
+2024-04-14T10:00:00Z,16.87,24.39,16.87,Organic Olive Oil 750ml,BrandA,Walmart,04
+2024-01-09T02:00:00Z,11.15,16.29,7.43,Organic Olive Oil 750ml,BrandA,Metro,01
+2024-05-10T03:00:00Z,39.91,47.35,19.95,Pure Olive Oil 1L,BrandA,Loblaws,05
+2024-10-05T05:00:00Z,14.29,16.63,14.29,Premium Olive Oil 1L,BrandA,Metro,10
+2024-07-12T17:00:00Z,24.26,30.51,48.52,Extra Virgin Olive Oil 500ml,BrandB,Walmart,07
+2024-03-29T19:00:00Z,9.73,12.88,4.86,Pure Olive Oil 1L,BrandD,Metro,03
+2024-05-24T07:00:00Z,28.86,42.87,57.72,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,05
+2024-06-13T12:00:00Z,20.76,24.49,41.52,Extra Virgin Olive Oil 500ml,BrandD,Metro,06
+2024-11-19T04:00:00Z,17.83,19.24,17.83,Extra Virgin Olive Oil 500ml,BrandB,Loblaws,11
+2024-04-24T21:00:00Z,18.51,25.84,12.34,Premium Olive Oil 1L,BrandD,Walmart,04
+2024-06-08T16:00:00Z,19.16,27.61,9.58,Pure Olive Oil 1L,BrandC,Walmart,06
+2024-01-30T15:00:00Z,33.96,43.08,67.92,Classic Olive Oil 2L,BrandB,Loblaws,01
+2024-08-11T17:00:00Z,37.06,39.4,18.53,Pure Olive Oil 1L,BrandE,Loblaws,08
+2024-05-25T20:00:00Z,31.64,36.7,63.28,Extra Virgin Olive Oil 500ml,BrandA,Metro,05
+2024-05-07T20:00:00Z,17.86,26.32,11.91,Premium Olive Oil 1L,BrandB,Metro,05
+2024-12-29T07:00:00Z,29.2,35.2,14.6,Extra Virgin Olive Oil 500ml,BrandC,Metro,12
+2024-06-17T22:00:00Z,22.78,23.95,22.78,Organic Olive Oil 750ml,BrandD,Walmart,06
+2024-01-20T16:00:00Z,5.68,6.51,11.36,Classic Olive Oil 2L,BrandA,Walmart,01
+2024-09-11T01:00:00Z,27.64,28.32,27.64,Premium Olive Oil 1L,BrandE,Metro,09
+2024-02-17T20:00:00Z,26.81,32.23,17.87,Extra Virgin Olive Oil 500ml,BrandE,Metro,02
+2024-03-25T20:00:00Z,16.65,23.48,16.65,Extra Virgin Olive Oil 500ml,BrandD,Loblaws,03
+2024-04-06T08:00:00Z,5.92,5.41,3.95,Classic Olive Oil 2L,BrandC,Loblaws,04
+2024-11-18T12:00:00Z,39.12,54.75,26.08,Pure Olive Oil 1L,BrandB,Metro,11
+2024-12-26T09:00:00Z,39.69,41.8,39.69,Pure Olive Oil 1L,BrandE,Loblaws,12
+2024-02-14T21:00:00Z,7.68,10.18,7.68,Premium Olive Oil 1L,BrandE,Loblaws,02
+2024-07-27T22:00:00Z,23.83,30.93,23.83,Organic Olive Oil 750ml,BrandA,Metro,07
+2024-08-23T17:00:00Z,39.22,49.6,19.61,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,08
+2024-09-22T18:00:00Z,8.84,11.23,17.68,Organic Olive Oil 750ml,BrandB,Walmart,09
+2024-02-24T16:00:00Z,17.69,22.24,8.85,Organic Olive Oil 750ml,BrandC,Loblaws,02
+2024-01-08T16:00:00Z,22.49,29.37,11.24,Organic Olive Oil 750ml,BrandB,Loblaws,01
+2024-11-26T12:00:00Z,36.94,54.97,24.63,Pure Olive Oil 1L,BrandA,Metro,11
+2024-01-18T04:00:00Z,25.02,35.09,25.02,Pure Olive Oil 1L,BrandC,Loblaws,01
+2024-07-15T18:00:00Z,5.8,5.48,5.8,Organic Olive Oil 750ml,BrandE,Walmart,07
+2024-02-25T12:00:00Z,34.93,42.51,17.46,Pure Olive Oil 1L,BrandA,Walmart,02
+2024-07-22T02:00:00Z,34.07,33.97,34.07,Extra Virgin Olive Oil 500ml,BrandC,Walmart,07
+2024-01-24T11:00:00Z,35.74,41.42,35.74,Premium Olive Oil 1L,BrandD,Loblaws,01
+2024-06-07T06:00:00Z,33.34,32.01,66.68,Classic Olive Oil 2L,BrandC,Metro,06
+2024-06-26T07:00:00Z,5,4.82,10,Organic Olive Oil 750ml,BrandD,Walmart,06
+2024-05-29T04:00:00Z,8.56,11.98,4.28,Premium Olive Oil 1L,BrandA,Metro,05
+2024-05-10T08:00:00Z,34.22,50.39,22.81,Extra Virgin Olive Oil 500ml,BrandD,Metro,05
+2024-10-02T00:00:00Z,12.74,14.55,8.49,Premium Olive Oil 1L,BrandA,Metro,10
+2024-07-15T08:00:00Z,6.06,6.79,4.04,Pure Olive Oil 1L,BrandB,Walmart,07
+2024-12-22T04:00:00Z,25.19,29.45,25.19,Organic Olive Oil 750ml,BrandC,Metro,12
+2024-01-12T14:00:00Z,31.49,36.54,20.99,Premium Olive Oil 1L,BrandA,Metro,01
+2024-06-30T21:00:00Z,35.58,52.57,71.16,Pure Olive Oil 1L,BrandB,Metro,06
+2024-10-09T21:00:00Z,7.11,9.56,14.22,Organic Olive Oil 750ml,BrandC,Loblaws,10
+2024-09-27T10:00:00Z,12.76,13.64,12.76,Extra Virgin Olive Oil 500ml,BrandB,Walmart,09
+2024-05-13T08:00:00Z,19.49,23.28,19.49,Organic Olive Oil 750ml,BrandC,Metro,05
+2024-04-04T09:00:00Z,19.4,28.85,38.8,Pure Olive Oil 1L,BrandE,Metro,04
+2024-01-26T17:00:00Z,25.28,31.36,25.28,Premium Olive Oil 1L,BrandC,Metro,01
+2024-03-20T08:00:00Z,37.97,35.98,37.97,Extra Virgin Olive Oil 500ml,BrandA,Walmart,03
+2024-12-21T08:00:00Z,39.57,37.02,26.38,Pure Olive Oil 1L,BrandB,Loblaws,12
+2024-01-23T10:00:00Z,9.54,13.77,19.08,Extra Virgin Olive Oil 500ml,BrandC,Metro,01
+2024-05-31T00:00:00Z,14.62,20.39,7.31,Premium Olive Oil 1L,BrandE,Loblaws,05
+2024-10-13T03:00:00Z,33.99,43.37,17,Classic Olive Oil 2L,BrandC,Metro,10
+2024-05-24T05:00:00Z,39.69,40.81,39.69,Extra Virgin Olive Oil 500ml,BrandB,Metro,05
+2024-08-22T01:00:00Z,28.56,31.68,28.56,Organic Olive Oil 750ml,BrandB,Metro,08
+2024-10-10T22:00:00Z,7.71,7.59,5.14,Classic Olive Oil 2L,BrandA,Walmart,10
+2024-10-18T20:00:00Z,9.7,11.24,4.85,Classic Olive Oil 2L,BrandB,Metro,10
+2024-10-10T08:00:00Z,16.83,22.96,33.66,Premium Olive Oil 1L,BrandA,Loblaws,10
+2024-05-05T07:00:00Z,13.82,19.98,13.82,Organic Olive Oil 750ml,BrandE,Metro,05
+2024-10-10T11:00:00Z,13.78,19.24,13.78,Classic Olive Oil 2L,BrandE,Loblaws,10
+2024-04-02T02:00:00Z,32.41,47.76,32.41,Pure Olive Oil 1L,BrandD,Loblaws,04
+2024-04-05T05:00:00Z,11.08,12.47,11.08,Organic Olive Oil 750ml,BrandA,Loblaws,04
+2024-08-29T08:00:00Z,25.94,24.07,12.97,Classic Olive Oil 2L,BrandE,Loblaws,08
+2024-11-16T03:00:00Z,29.21,31.36,58.42,Pure Olive Oil 1L,BrandB,Metro,11
+2024-04-09T01:00:00Z,37.3,55.94,24.87,Pure Olive Oil 1L,BrandA,Metro,04
+2024-08-17T12:00:00Z,29.15,34.08,14.57,Classic Olive Oil 2L,BrandC,Metro,08
+2024-06-24T12:00:00Z,14.58,21.83,9.72,Premium Olive Oil 1L,BrandA,Loblaws,06
+2024-11-22T01:00:00Z,5.38,7.13,10.76,Organic Olive Oil 750ml,BrandC,Loblaws,11
+2024-03-12T01:00:00Z,6.51,7.03,6.51,Premium Olive Oil 1L,BrandD,Walmart,03
+2024-11-24T06:00:00Z,10.88,15.72,7.25,Premium Olive Oil 1L,BrandD,Walmart,11
+2024-12-02T16:00:00Z,34.84,41.27,34.84,Extra Virgin Olive Oil 500ml,BrandE,Loblaws,12
+2024-02-11T03:00:00Z,6.61,9.18,13.22,Pure Olive Oil 1L,BrandD,Metro,02
+2024-11-28T20:00:00Z,14.5,15.26,9.67,Premium Olive Oil 1L,BrandB,Loblaws,11
+2024-07-19T06:00:00Z,36.11,53.26,18.06,Organic Olive Oil 750ml,BrandE,Loblaws,07
+2024-08-20T19:00:00Z,24.18,28.48,24.18,Pure Olive Oil 1L,BrandA,Walmart,08
+2024-06-07T16:00:00Z,33.17,32.44,16.59,Pure Olive Oil 1L,BrandB,Walmart,06
+2024-11-05T09:00:00Z,38.5,52.44,25.67,Premium Olive Oil 1L,BrandB,Loblaws,11
+2024-04-02T16:00:00Z,29.14,28.71,58.28,Extra Virgin Olive Oil 500ml,BrandE,Walmart,04
+2024-02-18T12:00:00Z,19.04,23.32,12.69,Pure Olive Oil 1L,BrandC,Loblaws,02
+2024-09-10T10:00:00Z,38.99,50.47,25.99,Classic Olive Oil 2L,BrandC,Metro,09
+2024-11-14T01:00:00Z,37.88,47.19,18.94,Classic Olive Oil 2L,BrandE,Loblaws,11
+2024-04-02T04:00:00Z,23.14,27.84,15.43,Pure Olive Oil 1L,BrandD,Loblaws,04
+2024-03-08T03:00:00Z,9.77,14.25,9.77,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,03
+2024-06-09T12:00:00Z,26.94,27.91,26.94,Organic Olive Oil 750ml,BrandA,Walmart,06
+2024-08-19T20:00:00Z,33.79,30.69,33.79,Classic Olive Oil 2L,BrandC,Walmart,08
+2024-01-30T13:00:00Z,9.77,10.42,4.88,Organic Olive Oil 750ml,BrandA,Metro,01
+2024-12-01T01:00:00Z,25.91,28.16,25.91,Classic Olive Oil 2L,BrandB,Loblaws,12
+2024-02-22T09:00:00Z,39.4,56.75,26.27,Pure Olive Oil 1L,BrandA,Walmart,02
+2024-04-12T21:00:00Z,13.07,16.13,6.54,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,04
+2024-03-28T23:00:00Z,19.61,19.24,13.07,Organic Olive Oil 750ml,BrandD,Metro,03
+2024-09-16T07:00:00Z,8.51,8.77,5.67,Organic Olive Oil 750ml,BrandA,Loblaws,09
+2024-05-06T10:00:00Z,14.75,14.02,7.38,Organic Olive Oil 750ml,BrandC,Metro,05
+2024-04-07T10:00:00Z,23.57,33.31,15.71,Classic Olive Oil 2L,BrandB,Loblaws,04
+2024-10-14T20:00:00Z,15.99,14.95,10.66,Extra Virgin Olive Oil 500ml,BrandE,Walmart,10
+2024-02-26T02:00:00Z,26.02,28.54,13.01,Classic Olive Oil 2L,BrandD,Loblaws,02
+2024-10-02T22:00:00Z,39.55,47.46,39.55,Classic Olive Oil 2L,BrandE,Metro,10
+2024-11-17T23:00:00Z,26.32,28.96,26.32,Organic Olive Oil 750ml,BrandE,Metro,11
+2024-07-27T08:00:00Z,10.1,14.4,10.1,Premium Olive Oil 1L,BrandA,Metro,07
+2024-08-13T06:00:00Z,29.65,42.39,59.3,Organic Olive Oil 750ml,BrandA,Loblaws,08
+2024-08-31T21:00:00Z,28.77,41.45,57.54,Organic Olive Oil 750ml,BrandA,Loblaws,08
+2024-07-01T19:00:00Z,16.29,22.46,16.29,Organic Olive Oil 750ml,BrandA,Metro,07
+2024-08-10T17:00:00Z,19.82,28.56,39.64,Premium Olive Oil 1L,BrandA,Metro,08
+2024-03-12T03:00:00Z,15.66,18.23,15.66,Premium Olive Oil 1L,BrandC,Loblaws,03
+2024-07-14T20:00:00Z,34.15,38.88,68.3,Extra Virgin Olive Oil 500ml,BrandB,Loblaws,07
+2024-03-17T10:00:00Z,25.78,28.95,51.56,Organic Olive Oil 750ml,BrandD,Metro,03
+2024-05-09T14:00:00Z,33.25,40.47,33.25,Premium Olive Oil 1L,BrandD,Metro,05
+2024-09-19T20:00:00Z,15.29,14.44,7.64,Organic Olive Oil 750ml,BrandB,Metro,09
+2024-07-15T10:00:00Z,9.94,13.22,6.63,Pure Olive Oil 1L,BrandA,Loblaws,07
+2024-12-10T18:00:00Z,36.1,37.75,18.05,Premium Olive Oil 1L,BrandC,Metro,12
+2024-05-24T11:00:00Z,5.29,7.44,2.64,Classic Olive Oil 2L,BrandE,Loblaws,05
+2024-11-03T08:00:00Z,24.92,37.31,49.84,Organic Olive Oil 750ml,BrandC,Metro,11
+2024-06-22T19:00:00Z,38.86,37.42,19.43,Pure Olive Oil 1L,BrandB,Loblaws,06
+2024-08-05T05:00:00Z,14.42,17.17,14.42,Organic Olive Oil 750ml,BrandD,Loblaws,08
+2024-11-03T16:00:00Z,39.44,51.67,26.29,Premium Olive Oil 1L,BrandE,Walmart,11
+2024-10-22T09:00:00Z,6.24,8.68,12.48,Organic Olive Oil 750ml,BrandE,Loblaws,10
+2024-09-28T13:00:00Z,14.03,19.07,14.03,Classic Olive Oil 2L,BrandD,Loblaws,09
+2024-03-31T02:00:00Z,14.1,16.3,7.05,Premium Olive Oil 1L,BrandE,Walmart,03
+2024-08-17T00:00:00Z,38.19,55.82,76.38,Pure Olive Oil 1L,BrandD,Loblaws,08
+2024-11-14T00:00:00Z,39.29,52.55,19.64,Pure Olive Oil 1L,BrandD,Loblaws,11
+2024-01-29T09:00:00Z,30.7,33.84,20.47,Extra Virgin Olive Oil 500ml,BrandD,Walmart,01
+2024-10-22T01:00:00Z,15.06,17.88,15.06,Pure Olive Oil 1L,BrandA,Metro,10
+2024-03-06T01:00:00Z,19.31,28.57,12.87,Pure Olive Oil 1L,BrandB,Walmart,03
+2024-09-29T12:00:00Z,12.06,17.47,8.04,Classic Olive Oil 2L,BrandD,Loblaws,09
+2024-06-07T21:00:00Z,31.83,33,31.83,Pure Olive Oil 1L,BrandD,Metro,06
+2024-06-17T19:00:00Z,31.01,33.63,31.01,Premium Olive Oil 1L,BrandD,Walmart,06
+2024-12-06T15:00:00Z,22.45,24.87,11.22,Premium Olive Oil 1L,BrandB,Metro,12
+2024-08-19T22:00:00Z,28.47,26.37,28.47,Organic Olive Oil 750ml,BrandA,Loblaws,08
+2024-02-26T17:00:00Z,31.34,46.33,62.68,Premium Olive Oil 1L,BrandC,Loblaws,02
+2024-03-30T17:00:00Z,32.09,44.58,64.18,Organic Olive Oil 750ml,BrandD,Metro,03
+2024-06-13T22:00:00Z,26.18,34.16,13.09,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,06
+2024-09-13T10:00:00Z,18.67,21.35,37.34,Extra Virgin Olive Oil 500ml,BrandB,Walmart,09
+2024-07-15T16:00:00Z,28.49,30.19,56.98,Organic Olive Oil 750ml,BrandE,Metro,07
+2024-01-17T01:00:00Z,35.42,51.61,35.42,Classic Olive Oil 2L,BrandE,Walmart,01
+2024-12-13T04:00:00Z,20.27,22.7,20.27,Organic Olive Oil 750ml,BrandD,Loblaws,12
+2024-01-02T06:00:00Z,9.22,11.34,4.61,Premium Olive Oil 1L,BrandA,Loblaws,01
+2024-06-23T13:00:00Z,26.66,32.33,53.32,Classic Olive Oil 2L,BrandB,Loblaws,06
+2024-06-06T17:00:00Z,21.82,31.77,14.55,Extra Virgin Olive Oil 500ml,BrandA,Loblaws,06
+2024-11-12T03:00:00Z,37.34,44.85,24.89,Classic Olive Oil 2L,BrandE,Loblaws,11
+2024-12-14T17:00:00Z,13.42,17.21,6.71,Premium Olive Oil 1L,BrandE,Metro,12
+2024-08-18T11:00:00Z,32.18,33.5,32.18,Extra Virgin Olive Oil 500ml,BrandB,Loblaws,08
+2024-07-11T11:00:00Z,31.32,35.02,31.32,Pure Olive Oil 1L,BrandE,Walmart,07
+2024-08-25T09:00:00Z,28.68,41.19,28.68,Pure Olive Oil 1L,BrandE,Loblaws,08
+2024-01-09T11:00:00Z,24.31,33.05,48.62,Extra Virgin Olive Oil 500ml,BrandD,Walmart,01
+2024-05-15T06:00:00Z,25.93,35.71,12.96,Pure Olive Oil 1L,BrandC,Metro,05
+2024-04-10T20:00:00Z,35.33,38.64,35.33,Premium Olive Oil 1L,BrandB,Metro,04
+2024-10-09T21:00:00Z,22.34,21.35,44.68,Pure Olive Oil 1L,BrandB,Walmart,10
+2024-11-13T23:00:00Z,39.31,57.88,26.21,Premium Olive Oil 1L,BrandA,Walmart,11
+2024-04-11T07:00:00Z,7.43,8.69,14.86,Classic Olive Oil 2L,BrandC,Walmart,04
+2024-08-06T09:00:00Z,24.46,30.21,12.23,Extra Virgin Olive Oil 500ml,BrandE,Metro,08
+2024-11-11T06:00:00Z,11.63,11.66,5.82,Extra Virgin Olive Oil 500ml,BrandE,Loblaws,11
+2024-04-08T10:00:00Z,15.38,14.04,7.69,Premium Olive Oil 1L,BrandC,Metro,04
+2024-01-11T18:00:00Z,34.44,35.37,17.22,Classic Olive Oil 2L,BrandE,Metro,01
+2024-09-06T08:00:00Z,12.18,13.29,6.09,Pure Olive Oil 1L,BrandC,Walmart,09
+2024-08-13T08:00:00Z,25.4,31.74,50.8,Organic Olive Oil 750ml,BrandB,Metro,08
+2024-10-27T15:00:00Z,18.87,17.56,37.74,Organic Olive Oil 750ml,BrandD,Metro,10
+2024-02-25T04:00:00Z,15.69,16.47,7.84,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,02
+2024-06-20T01:00:00Z,21.53,19.57,21.53,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,06
+2024-06-26T17:00:00Z,31.01,31.97,15.51,Classic Olive Oil 2L,BrandB,Walmart,06
+2024-05-19T15:00:00Z,39.19,47.58,78.38,Premium Olive Oil 1L,BrandE,Loblaws,05
+2024-11-09T03:00:00Z,10.47,11.5,20.94,Extra Virgin Olive Oil 500ml,BrandE,Metro,11
+2024-06-18T14:00:00Z,9.53,12.82,6.35,Premium Olive Oil 1L,BrandE,Metro,06
+2024-04-12T01:00:00Z,25.32,37.3,16.88,Pure Olive Oil 1L,BrandC,Metro,04
+2024-02-21T08:00:00Z,9.8,10.13,19.6,Pure Olive Oil 1L,BrandC,Metro,02
+2024-03-10T16:00:00Z,12.07,17.94,8.05,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,03
+2024-05-24T10:00:00Z,16.96,16.2,33.92,Pure Olive Oil 1L,BrandD,Loblaws,05
+2024-06-30T12:00:00Z,14.31,19.2,9.54,Premium Olive Oil 1L,BrandC,Walmart,06
+2024-04-17T20:00:00Z,30.26,32.2,20.17,Extra Virgin Olive Oil 500ml,BrandD,Loblaws,04
+2024-09-26T13:00:00Z,29.34,31.27,29.34,Pure Olive Oil 1L,BrandE,Metro,09
+2024-08-04T09:00:00Z,32.8,30.71,21.87,Organic Olive Oil 750ml,BrandA,Loblaws,08
+2024-04-07T01:00:00Z,14.61,15.15,9.74,Extra Virgin Olive Oil 500ml,BrandD,Loblaws,04
+2024-03-08T00:00:00Z,11.37,15.41,7.58,Organic Olive Oil 750ml,BrandD,Walmart,03
+2024-05-19T02:00:00Z,21.19,23.45,21.19,Classic Olive Oil 2L,BrandB,Loblaws,05
+2024-09-07T06:00:00Z,24.27,32.29,24.27,Premium Olive Oil 1L,BrandE,Loblaws,09
+2024-08-12T05:00:00Z,26.8,27.39,17.87,Pure Olive Oil 1L,BrandB,Loblaws,08
+2024-03-14T07:00:00Z,21.9,20.44,43.8,Premium Olive Oil 1L,BrandC,Loblaws,03
+2024-01-09T11:00:00Z,9.54,12.75,9.54,Classic Olive Oil 2L,BrandD,Loblaws,01
+2024-08-10T10:00:00Z,35.94,38.09,17.97,Classic Olive Oil 2L,BrandE,Metro,08
+2024-10-11T23:00:00Z,39.7,43.6,79.4,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,10
+2024-05-22T15:00:00Z,35.17,49.64,23.45,Extra Virgin Olive Oil 500ml,BrandC,Metro,05
+2024-07-30T21:00:00Z,34.83,31.46,23.22,Classic Olive Oil 2L,BrandD,Metro,07
+2024-07-08T11:00:00Z,18.21,21.12,12.14,Organic Olive Oil 750ml,BrandA,Metro,07
+2024-03-22T03:00:00Z,26.6,25.83,17.73,Premium Olive Oil 1L,BrandE,Walmart,03
+2024-08-25T10:00:00Z,23.14,27.82,23.14,Classic Olive Oil 2L,BrandB,Walmart,08
+2024-03-22T15:00:00Z,6.29,9.34,4.19,Pure Olive Oil 1L,BrandB,Loblaws,03
+2024-01-27T21:00:00Z,31.01,40.22,62.02,Organic Olive Oil 750ml,BrandE,Walmart,01
+2024-02-14T03:00:00Z,34.48,49.32,17.24,Premium Olive Oil 1L,BrandB,Metro,02
+2024-05-10T06:00:00Z,6.72,9.01,13.44,Organic Olive Oil 750ml,BrandA,Walmart,05
+2024-02-22T15:00:00Z,36.27,43.64,24.18,Classic Olive Oil 2L,BrandB,Walmart,02
+2024-06-19T03:00:00Z,18.24,26.11,18.24,Premium Olive Oil 1L,BrandE,Walmart,06
+2024-05-08T09:00:00Z,29.34,35.13,58.68,Extra Virgin Olive Oil 500ml,BrandB,Loblaws,05
+2024-05-25T13:00:00Z,30.11,41.19,30.11,Premium Olive Oil 1L,BrandE,Loblaws,05
+2024-08-26T19:00:00Z,28.89,34.79,14.45,Extra Virgin Olive Oil 500ml,BrandE,Walmart,08
+2024-02-20T03:00:00Z,15.51,14.74,31.02,Extra Virgin Olive Oil 500ml,BrandB,Walmart,02
+2024-07-01T05:00:00Z,15.59,19.15,10.39,Pure Olive Oil 1L,BrandE,Walmart,07
+2024-12-17T08:00:00Z,21.66,24.15,14.44,Pure Olive Oil 1L,BrandC,Loblaws,12
+2024-06-20T15:00:00Z,6.7,8.19,13.4,Pure Olive Oil 1L,BrandE,Loblaws,06
+2024-10-11T06:00:00Z,22.21,28.23,22.21,Organic Olive Oil 750ml,BrandC,Loblaws,10
+2024-11-17T22:00:00Z,25.6,26.84,51.2,Premium Olive Oil 1L,BrandD,Metro,11
+2024-12-04T11:00:00Z,13.21,15.51,6.61,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,12
+2024-03-27T20:00:00Z,38.76,37.26,19.38,Classic Olive Oil 2L,BrandB,Metro,03
+2024-08-13T22:00:00Z,10.6,9.63,7.07,Organic Olive Oil 750ml,BrandA,Loblaws,08
+2024-03-13T14:00:00Z,25.13,24.07,12.56,Organic Olive Oil 750ml,BrandB,Walmart,03
+2024-06-14T23:00:00Z,19.73,20.41,13.15,Extra Virgin Olive Oil 500ml,BrandD,Loblaws,06
+2024-11-24T07:00:00Z,9.29,9.17,9.29,Classic Olive Oil 2L,BrandE,Metro,11
+2024-08-29T06:00:00Z,17.75,24.97,17.75,Pure Olive Oil 1L,BrandD,Metro,08
+2024-12-23T01:00:00Z,39.96,45.92,19.98,Premium Olive Oil 1L,BrandB,Walmart,12
+2024-01-23T20:00:00Z,32.93,40.76,65.86,Premium Olive Oil 1L,BrandC,Walmart,01
+2024-08-26T22:00:00Z,17.24,21.57,17.24,Organic Olive Oil 750ml,BrandE,Metro,08
+2024-03-28T07:00:00Z,37.79,35.61,37.79,Organic Olive Oil 750ml,BrandB,Loblaws,03
+2024-07-06T00:00:00Z,29.96,40.81,14.98,Organic Olive Oil 750ml,BrandC,Metro,07
+2024-05-20T10:00:00Z,22.33,27.94,44.66,Extra Virgin Olive Oil 500ml,BrandE,Loblaws,05
+2024-07-17T13:00:00Z,33.43,45.58,66.86,Classic Olive Oil 2L,BrandA,Metro,07
+2024-08-09T04:00:00Z,27.92,32.45,13.96,Organic Olive Oil 750ml,BrandB,Walmart,08
+2024-12-05T01:00:00Z,17.63,22.55,11.75,Extra Virgin Olive Oil 500ml,BrandC,Walmart,12
+2024-12-20T06:00:00Z,21.52,29.04,14.35,Premium Olive Oil 1L,BrandA,Walmart,12
+2024-09-20T20:00:00Z,25.94,34.16,17.29,Organic Olive Oil 750ml,BrandD,Walmart,09
+2024-03-01T01:00:00Z,30.42,45.31,60.84,Premium Olive Oil 1L,BrandE,Metro,03
+2024-08-17T05:00:00Z,17.46,18.65,11.64,Classic Olive Oil 2L,BrandD,Walmart,08
+2024-03-27T21:00:00Z,25.53,23.97,51.06,Premium Olive Oil 1L,BrandA,Metro,03
+2024-01-14T06:00:00Z,23.08,26.66,15.39,Extra Virgin Olive Oil 500ml,BrandB,Walmart,01
+2024-04-30T13:00:00Z,25.77,27.94,51.54,Organic Olive Oil 750ml,BrandA,Metro,04
+2024-11-11T09:00:00Z,36.09,41.78,72.18,Extra Virgin Olive Oil 500ml,BrandB,Walmart,11
+2024-03-10T09:00:00Z,35.35,41.25,35.35,Pure Olive Oil 1L,BrandB,Metro,03
+2024-12-12T07:00:00Z,34.09,43.97,68.18,Premium Olive Oil 1L,BrandC,Metro,12
+2024-04-24T23:00:00Z,10.66,9.7,21.32,Extra Virgin Olive Oil 500ml,BrandE,Metro,04
+2024-11-08T10:00:00Z,16.6,17.26,33.2,Organic Olive Oil 750ml,BrandB,Metro,11
+2024-03-05T20:00:00Z,37.42,44.62,37.42,Premium Olive Oil 1L,BrandE,Walmart,03
+2024-10-01T08:00:00Z,37.38,53.58,37.38,Premium Olive Oil 1L,BrandB,Metro,10
+2024-11-02T22:00:00Z,27.28,29.08,27.28,Organic Olive Oil 750ml,BrandB,Loblaws,11
+2024-05-28T18:00:00Z,32.75,35.37,21.83,Organic Olive Oil 750ml,BrandE,Walmart,05
+2024-01-25T22:00:00Z,25.01,37.32,16.67,Classic Olive Oil 2L,BrandB,Walmart,01
+2024-09-15T23:00:00Z,6.38,7.52,4.25,Organic Olive Oil 750ml,BrandE,Metro,09
+2024-10-11T04:00:00Z,15.07,13.58,10.05,Classic Olive Oil 2L,BrandE,Metro,10
+2024-01-06T13:00:00Z,21.83,20.43,21.83,Premium Olive Oil 1L,BrandE,Metro,01
+2024-07-07T07:00:00Z,20.22,29.5,20.22,Extra Virgin Olive Oil 500ml,BrandB,Metro,07
+2024-09-13T05:00:00Z,37.64,44.55,37.64,Classic Olive Oil 2L,BrandA,Walmart,09
+2024-05-13T07:00:00Z,27.6,38.8,55.2,Organic Olive Oil 750ml,BrandD,Metro,05
+2024-09-03T15:00:00Z,5.03,7.04,3.35,Organic Olive Oil 750ml,BrandE,Metro,09
+2024-12-09T08:00:00Z,5.68,7.73,3.79,Premium Olive Oil 1L,BrandA,Loblaws,12
+2024-08-21T03:00:00Z,15.39,19.42,7.7,Organic Olive Oil 750ml,BrandE,Walmart,08
+2024-05-17T22:00:00Z,14.58,18.01,14.58,Organic Olive Oil 750ml,BrandA,Loblaws,05
+2024-11-08T19:00:00Z,34.03,41.36,17.02,Pure Olive Oil 1L,BrandA,Walmart,11
+2024-01-09T00:00:00Z,30.24,31.55,60.48,Pure Olive Oil 1L,BrandA,Loblaws,01
+2024-07-02T06:00:00Z,28.82,36.59,28.82,Premium Olive Oil 1L,BrandD,Walmart,07
+2024-10-20T09:00:00Z,18.45,26.19,12.3,Classic Olive Oil 2L,BrandC,Loblaws,10
+2024-06-02T23:00:00Z,11.48,15.6,7.65,Extra Virgin Olive Oil 500ml,BrandA,Loblaws,06
+2024-01-08T22:00:00Z,12.41,12.57,8.27,Pure Olive Oil 1L,BrandE,Metro,01
+2024-10-01T13:00:00Z,29.63,33.29,19.75,Classic Olive Oil 2L,BrandD,Walmart,10
+2024-09-17T22:00:00Z,14.19,19.21,9.46,Premium Olive Oil 1L,BrandE,Metro,09
+2024-06-03T02:00:00Z,12.92,12.31,12.92,Extra Virgin Olive Oil 500ml,BrandC,Walmart,06
+2024-11-16T09:00:00Z,25.76,33.33,51.52,Pure Olive Oil 1L,BrandC,Loblaws,11
+2024-07-23T16:00:00Z,10.16,13.51,10.16,Organic Olive Oil 750ml,BrandB,Walmart,07
+2024-02-24T19:00:00Z,6.79,9.61,4.53,Pure Olive Oil 1L,BrandB,Loblaws,02
+2024-02-28T04:00:00Z,5.49,5.63,3.66,Classic Olive Oil 2L,BrandD,Loblaws,02
+2024-08-23T14:00:00Z,33.29,35.46,22.19,Classic Olive Oil 2L,BrandA,Metro,08
+2024-03-31T02:00:00Z,33.09,46.37,22.06,Organic Olive Oil 750ml,BrandD,Walmart,03
+2024-08-26T07:00:00Z,5.53,5.91,3.69,Pure Olive Oil 1L,BrandC,Metro,08
+2024-06-03T19:00:00Z,25.84,36.4,17.23,Premium Olive Oil 1L,BrandD,Metro,06
+2024-08-09T18:00:00Z,15.76,20.03,7.88,Premium Olive Oil 1L,BrandB,Walmart,08
+2024-05-18T05:00:00Z,26.21,27.51,17.47,Classic Olive Oil 2L,BrandB,Walmart,05
+2024-03-01T23:00:00Z,12.55,15.96,12.55,Organic Olive Oil 750ml,BrandA,Metro,03
+2024-01-11T10:00:00Z,38.18,35.62,38.18,Classic Olive Oil 2L,BrandB,Loblaws,01
+2024-04-18T15:00:00Z,8.71,12.62,8.71,Premium Olive Oil 1L,BrandD,Metro,04
+2024-04-18T00:00:00Z,9.18,13.14,18.36,Premium Olive Oil 1L,BrandE,Walmart,04
+2024-04-02T01:00:00Z,9.92,13.01,9.92,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,04
+2024-08-14T17:00:00Z,15.25,22.45,30.5,Organic Olive Oil 750ml,BrandE,Loblaws,08
+2024-09-19T23:00:00Z,25.96,32.05,17.31,Pure Olive Oil 1L,BrandE,Metro,09
+2024-10-15T19:00:00Z,12.32,16.88,8.21,Organic Olive Oil 750ml,BrandE,Loblaws,10
+2024-09-16T05:00:00Z,20.83,28.75,13.89,Organic Olive Oil 750ml,BrandD,Loblaws,09
+2024-01-28T16:00:00Z,20.85,22.08,20.85,Pure Olive Oil 1L,BrandD,Loblaws,01
+2024-03-04T04:00:00Z,18.36,19.76,18.36,Classic Olive Oil 2L,BrandC,Loblaws,03
+2024-11-02T22:00:00Z,39.57,40.97,26.38,Organic Olive Oil 750ml,BrandC,Metro,11
+2024-08-18T23:00:00Z,5.36,7.6,3.57,Premium Olive Oil 1L,BrandE,Walmart,08
+2024-12-25T20:00:00Z,35.29,47.09,23.53,Extra Virgin Olive Oil 500ml,BrandB,Metro,12
+2024-05-06T18:00:00Z,8.24,8.17,5.49,Organic Olive Oil 750ml,BrandD,Walmart,05
+2024-12-11T06:00:00Z,11.37,16.05,11.37,Classic Olive Oil 2L,BrandA,Loblaws,12
+2024-12-23T02:00:00Z,20.67,26.45,13.78,Organic Olive Oil 750ml,BrandC,Walmart,12
+2024-02-26T21:00:00Z,30.52,37.64,15.26,Premium Olive Oil 1L,BrandB,Loblaws,02
+2024-01-19T15:00:00Z,11.65,10.79,5.82,Premium Olive Oil 1L,BrandB,Loblaws,01
+2024-01-11T01:00:00Z,9.88,10.55,4.94,Premium Olive Oil 1L,BrandB,Loblaws,01
+2024-10-21T14:00:00Z,12.45,15.67,24.9,Pure Olive Oil 1L,BrandC,Metro,10
+2024-11-29T03:00:00Z,10.91,16.08,5.46,Pure Olive Oil 1L,BrandB,Metro,11
+2024-10-21T13:00:00Z,34.86,32.6,34.86,Pure Olive Oil 1L,BrandA,Metro,10
+2024-01-17T22:00:00Z,30.9,36.29,20.6,Organic Olive Oil 750ml,BrandB,Walmart,01
+2024-09-22T12:00:00Z,24.94,28.56,12.47,Premium Olive Oil 1L,BrandA,Metro,09
+2024-11-03T23:00:00Z,34.94,42.12,69.88,Premium Olive Oil 1L,BrandA,Walmart,11
+2024-04-28T00:00:00Z,10.19,9.41,10.19,Pure Olive Oil 1L,BrandB,Walmart,04
+2024-03-03T09:00:00Z,18.21,25.82,9.11,Extra Virgin Olive Oil 500ml,BrandC,Metro,03
+2024-12-07T00:00:00Z,16.19,17.11,8.1,Classic Olive Oil 2L,BrandC,Walmart,12
+2024-06-28T17:00:00Z,6.05,7.12,6.05,Organic Olive Oil 750ml,BrandE,Walmart,06
+2024-05-28T03:00:00Z,18.58,19.16,37.16,Premium Olive Oil 1L,BrandC,Loblaws,05
+2024-07-16T15:00:00Z,29.83,43.6,59.66,Premium Olive Oil 1L,BrandB,Metro,07
+2024-01-04T06:00:00Z,13.69,18.16,9.13,Classic Olive Oil 2L,BrandC,Loblaws,01
+2024-05-14T19:00:00Z,27.68,31.54,55.36,Classic Olive Oil 2L,BrandC,Metro,05
+2024-09-22T20:00:00Z,10.86,11.6,10.86,Organic Olive Oil 750ml,BrandD,Metro,09
+2024-07-13T18:00:00Z,32.03,42.35,16.02,Extra Virgin Olive Oil 500ml,BrandE,Walmart,07
+2024-03-17T06:00:00Z,21.78,22.49,10.89,Pure Olive Oil 1L,BrandA,Metro,03
+2024-05-04T00:00:00Z,7.11,7.65,7.11,Pure Olive Oil 1L,BrandA,Metro,05
+2024-07-07T05:00:00Z,31.97,45.83,63.94,Organic Olive Oil 750ml,BrandA,Metro,07
+2024-03-16T19:00:00Z,35.7,42.83,17.85,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,03
+2024-07-14T14:00:00Z,25.64,37.73,12.82,Pure Olive Oil 1L,BrandB,Walmart,07
+2024-06-05T20:00:00Z,26.34,35.97,17.56,Pure Olive Oil 1L,BrandD,Metro,06
+2024-04-10T05:00:00Z,19.72,27.96,9.86,Classic Olive Oil 2L,BrandE,Metro,04
+2024-02-07T15:00:00Z,6.7,8.34,4.47,Organic Olive Oil 750ml,BrandC,Walmart,02
+2024-07-24T23:00:00Z,27.78,26.13,18.52,Extra Virgin Olive Oil 500ml,BrandB,Loblaws,07
+2024-07-08T09:00:00Z,22.57,27.33,11.29,Pure Olive Oil 1L,BrandA,Walmart,07
+2024-06-21T08:00:00Z,32.52,46.81,21.68,Organic Olive Oil 750ml,BrandE,Walmart,06
+2024-06-06T00:00:00Z,24.15,22.18,16.1,Extra Virgin Olive Oil 500ml,BrandD,Walmart,06
+2024-12-15T16:00:00Z,20.54,19.84,20.54,Organic Olive Oil 750ml,BrandC,Metro,12
+2024-01-03T03:00:00Z,34.32,43.89,68.64,Extra Virgin Olive Oil 500ml,BrandA,Walmart,01
+2024-08-10T16:00:00Z,28.65,33.89,57.3,Organic Olive Oil 750ml,BrandA,Walmart,08
+2024-06-09T01:00:00Z,6.81,10.18,6.81,Pure Olive Oil 1L,BrandD,Walmart,06
+2024-01-25T00:00:00Z,9.41,12.81,6.27,Organic Olive Oil 750ml,BrandA,Loblaws,01
+2024-07-08T16:00:00Z,33.92,46.28,67.84,Extra Virgin Olive Oil 500ml,BrandE,Loblaws,07
+2024-02-12T06:00:00Z,19.05,21.89,19.05,Pure Olive Oil 1L,BrandC,Loblaws,02
+2024-06-17T12:00:00Z,22.68,33.98,15.12,Organic Olive Oil 750ml,BrandA,Walmart,06
+2024-02-21T05:00:00Z,16.8,19.56,16.8,Premium Olive Oil 1L,BrandA,Metro,02
+2024-03-31T11:00:00Z,26.83,39.72,26.83,Extra Virgin Olive Oil 500ml,BrandC,Metro,03
+2024-04-26T03:00:00Z,25.21,31.01,50.42,Classic Olive Oil 2L,BrandC,Loblaws,04
+2024-05-19T16:00:00Z,12.78,17.27,25.56,Organic Olive Oil 750ml,BrandB,Metro,05
+2024-10-10T04:00:00Z,27.39,35.59,13.7,Classic Olive Oil 2L,BrandC,Metro,10
+2024-03-24T11:00:00Z,17.49,24.45,34.98,Classic Olive Oil 2L,BrandC,Walmart,03
+2024-10-31T09:00:00Z,20.78,26.93,13.85,Pure Olive Oil 1L,BrandB,Metro,10
+2024-01-26T05:00:00Z,19.02,17.18,12.68,Premium Olive Oil 1L,BrandC,Loblaws,01
+2024-11-12T08:00:00Z,12.76,11.81,6.38,Classic Olive Oil 2L,BrandC,Loblaws,11
+2024-11-27T03:00:00Z,13.68,19.91,27.36,Extra Virgin Olive Oil 500ml,BrandE,Metro,11
+2024-05-08T07:00:00Z,11.17,12.94,22.34,Pure Olive Oil 1L,BrandB,Walmart,05
+2024-02-04T22:00:00Z,20.13,25.78,40.26,Extra Virgin Olive Oil 500ml,BrandE,Metro,02
+2024-05-14T22:00:00Z,26.34,33.39,52.68,Organic Olive Oil 750ml,BrandA,Walmart,05
+2024-11-05T06:00:00Z,19.32,28.44,19.32,Classic Olive Oil 2L,BrandC,Loblaws,11
+2024-03-10T01:00:00Z,36.94,49.26,73.88,Premium Olive Oil 1L,BrandE,Walmart,03
+2024-05-02T21:00:00Z,14.84,15.24,7.42,Extra Virgin Olive Oil 500ml,BrandB,Metro,05
+2024-12-10T06:00:00Z,12.55,14.12,6.28,Pure Olive Oil 1L,BrandC,Loblaws,12
+2024-09-02T11:00:00Z,24.33,31.58,24.33,Premium Olive Oil 1L,BrandA,Metro,09
+2024-06-17T09:00:00Z,17.26,18.03,34.52,Organic Olive Oil 750ml,BrandA,Metro,06
+2024-06-16T07:00:00Z,37.83,47.14,75.66,Classic Olive Oil 2L,BrandE,Walmart,06
+2024-10-15T07:00:00Z,27.03,25.72,54.06,Extra Virgin Olive Oil 500ml,BrandB,Walmart,10
+2024-07-26T03:00:00Z,20.29,29.69,20.29,Pure Olive Oil 1L,BrandB,Walmart,07
+2024-05-26T04:00:00Z,15.14,15.74,10.09,Classic Olive Oil 2L,BrandB,Loblaws,05
+2024-09-01T13:00:00Z,6.28,6.73,3.14,Premium Olive Oil 1L,BrandE,Loblaws,09
+2024-01-12T05:00:00Z,24.19,28.33,16.13,Organic Olive Oil 750ml,BrandE,Walmart,01
+2024-02-29T19:00:00Z,16.21,19.1,16.21,Organic Olive Oil 750ml,BrandE,Loblaws,02
+2024-07-15T19:00:00Z,21.84,23.1,14.56,Premium Olive Oil 1L,BrandD,Walmart,07
+2024-04-17T10:00:00Z,33.33,34.05,22.22,Premium Olive Oil 1L,BrandE,Metro,04
+2024-09-22T12:00:00Z,12.66,16.89,8.44,Classic Olive Oil 2L,BrandE,Metro,09
+2024-11-03T19:00:00Z,8.13,9.38,8.13,Pure Olive Oil 1L,BrandC,Walmart,11
+2024-11-23T11:00:00Z,32.9,42.31,32.9,Premium Olive Oil 1L,BrandB,Metro,11
+2024-05-17T05:00:00Z,11.1,14.18,5.55,Pure Olive Oil 1L,BrandD,Walmart,05
+2024-02-04T19:00:00Z,33.05,30.81,33.05,Pure Olive Oil 1L,BrandA,Walmart,02
+2024-01-26T01:00:00Z,6.29,7.47,12.58,Extra Virgin Olive Oil 500ml,BrandD,Walmart,01
+2024-12-21T02:00:00Z,34.65,44.17,17.32,Extra Virgin Olive Oil 500ml,BrandA,Walmart,12
+2024-07-27T04:00:00Z,33.76,37.02,22.51,Premium Olive Oil 1L,BrandD,Walmart,07
+2024-01-13T02:00:00Z,36.42,48.21,24.28,Premium Olive Oil 1L,BrandD,Walmart,01
+2024-11-24T04:00:00Z,18.1,26.06,18.1,Pure Olive Oil 1L,BrandC,Loblaws,11
+2024-07-24T04:00:00Z,15.72,17.89,10.48,Classic Olive Oil 2L,BrandD,Metro,07
+2024-04-25T16:00:00Z,37.16,42.2,37.16,Classic Olive Oil 2L,BrandE,Loblaws,04
+2024-11-18T00:00:00Z,16.24,19.39,8.12,Classic Olive Oil 2L,BrandD,Walmart,11
+2024-02-26T20:00:00Z,37.39,34.84,18.7,Classic Olive Oil 2L,BrandB,Metro,02
+2024-11-07T23:00:00Z,26.11,28.71,26.11,Premium Olive Oil 1L,BrandC,Metro,11
+2024-01-21T23:00:00Z,25.34,25.72,16.89,Classic Olive Oil 2L,BrandA,Walmart,01
+2024-05-11T03:00:00Z,30.75,34.77,15.38,Pure Olive Oil 1L,BrandC,Loblaws,05
+2024-02-02T17:00:00Z,18.99,22.07,9.49,Classic Olive Oil 2L,BrandD,Loblaws,02
+2024-03-15T19:00:00Z,17.85,17.75,35.7,Classic Olive Oil 2L,BrandE,Loblaws,03
+2024-10-30T01:00:00Z,20.09,18.95,13.39,Pure Olive Oil 1L,BrandA,Walmart,10
+2024-02-05T14:00:00Z,16.76,21.77,8.38,Organic Olive Oil 750ml,BrandC,Metro,02
+2024-12-26T00:00:00Z,29.43,33.88,19.62,Classic Olive Oil 2L,BrandE,Metro,12
+2024-10-19T23:00:00Z,14.39,13.9,28.78,Extra Virgin Olive Oil 500ml,BrandA,Walmart,10
+2024-05-10T07:00:00Z,34.87,41.07,23.25,Extra Virgin Olive Oil 500ml,BrandC,Metro,05
+2024-01-26T17:00:00Z,37.58,40.08,25.05,Extra Virgin Olive Oil 500ml,BrandD,Walmart,01
+2024-06-28T06:00:00Z,21.26,20.32,14.17,Extra Virgin Olive Oil 500ml,BrandD,Metro,06
+2024-01-19T03:00:00Z,5.21,5.25,5.21,Pure Olive Oil 1L,BrandC,Metro,01
+2024-05-07T00:00:00Z,37.93,46.07,37.93,Organic Olive Oil 750ml,BrandE,Metro,05
+2024-06-16T20:00:00Z,20.17,20.48,13.45,Classic Olive Oil 2L,BrandD,Walmart,06
+2024-01-26T00:00:00Z,34.16,41.31,17.08,Classic Olive Oil 2L,BrandE,Loblaws,01
+2024-02-24T19:00:00Z,23.03,25.65,23.03,Organic Olive Oil 750ml,BrandA,Walmart,02
+2024-12-23T10:00:00Z,21.8,30.43,21.8,Pure Olive Oil 1L,BrandD,Metro,12
+2024-05-18T22:00:00Z,10.06,10.95,10.06,Premium Olive Oil 1L,BrandA,Loblaws,05
+2024-05-10T19:00:00Z,7.03,8.53,7.03,Premium Olive Oil 1L,BrandB,Loblaws,05
+2024-04-26T07:00:00Z,27.75,29,27.75,Organic Olive Oil 750ml,BrandD,Loblaws,04
+2024-10-06T12:00:00Z,18.07,19.79,18.07,Extra Virgin Olive Oil 500ml,BrandD,Walmart,10
+2024-08-16T04:00:00Z,5.86,6.68,5.86,Extra Virgin Olive Oil 500ml,BrandE,Loblaws,08
+2024-01-31T21:00:00Z,7.62,9.83,15.24,Premium Olive Oil 1L,BrandB,Walmart,01
+2024-02-04T19:00:00Z,34.06,31.81,22.71,Extra Virgin Olive Oil 500ml,BrandA,Loblaws,02
+2024-07-11T10:00:00Z,30.7,40.62,61.4,Classic Olive Oil 2L,BrandB,Metro,07
+2024-07-14T01:00:00Z,6.68,8.19,3.34,Organic Olive Oil 750ml,BrandE,Metro,07
+2024-01-11T15:00:00Z,30.38,33.52,60.76,Premium Olive Oil 1L,BrandA,Walmart,01
+2024-05-22T12:00:00Z,5.48,7.35,10.96,Classic Olive Oil 2L,BrandD,Walmart,05
+2024-11-14T06:00:00Z,26.38,27.96,13.19,Organic Olive Oil 750ml,BrandA,Loblaws,11
+2024-07-27T04:00:00Z,12.79,12.28,12.79,Extra Virgin Olive Oil 500ml,BrandB,Metro,07
+2024-06-23T07:00:00Z,26.72,30.04,26.72,Pure Olive Oil 1L,BrandE,Walmart,06
+2024-09-06T00:00:00Z,24.75,23.45,16.5,Extra Virgin Olive Oil 500ml,BrandA,Walmart,09
+2024-03-26T18:00:00Z,22.76,23.57,11.38,Pure Olive Oil 1L,BrandC,Metro,03
+2024-12-31T17:00:00Z,14.01,20.91,28.02,Organic Olive Oil 750ml,BrandB,Loblaws,12
+2024-07-08T22:00:00Z,17.56,17.05,11.71,Premium Olive Oil 1L,BrandB,Metro,07
+2024-06-08T10:00:00Z,15.08,18.95,15.08,Extra Virgin Olive Oil 500ml,BrandB,Metro,06
+2024-04-24T11:00:00Z,11.65,15.32,5.82,Premium Olive Oil 1L,BrandB,Metro,04
+2024-11-06T14:00:00Z,27.07,32.83,54.14,Classic Olive Oil 2L,BrandC,Metro,11
+2024-10-18T01:00:00Z,5.38,6.14,10.76,Extra Virgin Olive Oil 500ml,BrandD,Metro,10
+2024-09-24T15:00:00Z,10.07,11.61,6.71,Premium Olive Oil 1L,BrandB,Walmart,09
+2024-05-29T07:00:00Z,22.83,27.8,15.22,Pure Olive Oil 1L,BrandE,Metro,05
+2024-04-05T09:00:00Z,21.3,27.97,10.65,Extra Virgin Olive Oil 500ml,BrandE,Loblaws,04
+2024-02-26T07:00:00Z,23.24,34.63,15.49,Classic Olive Oil 2L,BrandA,Walmart,02
+2024-09-20T03:00:00Z,29.18,35.28,19.45,Organic Olive Oil 750ml,BrandA,Metro,09
+2024-03-11T22:00:00Z,40,47.82,26.67,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,03
+2024-12-02T06:00:00Z,38.21,41.1,38.21,Organic Olive Oil 750ml,BrandB,Loblaws,12
+2024-11-22T21:00:00Z,38.34,38.19,25.56,Extra Virgin Olive Oil 500ml,BrandA,Walmart,11
+2024-03-05T16:00:00Z,28.95,31.83,19.3,Premium Olive Oil 1L,BrandD,Metro,03
+2024-09-10T17:00:00Z,30.77,33.11,20.51,Classic Olive Oil 2L,BrandE,Metro,09
+2024-09-07T17:00:00Z,38.49,43.08,19.25,Extra Virgin Olive Oil 500ml,BrandA,Walmart,09
+2024-05-27T14:00:00Z,12.25,14.52,6.12,Extra Virgin Olive Oil 500ml,BrandE,Walmart,05
+2024-06-13T14:00:00Z,28.62,32.19,57.24,Pure Olive Oil 1L,BrandB,Walmart,06
+2024-04-30T01:00:00Z,8.42,9.73,16.84,Pure Olive Oil 1L,BrandD,Walmart,04
+2024-11-29T13:00:00Z,22.45,23.25,11.22,Premium Olive Oil 1L,BrandD,Loblaws,11
+2024-06-16T06:00:00Z,31.53,29.43,15.77,Organic Olive Oil 750ml,BrandC,Loblaws,06
+2024-01-23T06:00:00Z,5.42,7.67,3.61,Pure Olive Oil 1L,BrandA,Loblaws,01
+2024-12-02T14:00:00Z,10.6,13.11,21.2,Organic Olive Oil 750ml,BrandD,Metro,12
+2024-07-08T15:00:00Z,8.86,10.83,5.91,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,07
+2024-05-11T20:00:00Z,33.1,42.04,22.07,Premium Olive Oil 1L,BrandD,Walmart,05
+2024-11-15T00:00:00Z,18.12,18.7,12.08,Pure Olive Oil 1L,BrandD,Walmart,11
+2024-02-02T20:00:00Z,27.07,32.8,27.07,Organic Olive Oil 750ml,BrandB,Loblaws,02
+2024-03-28T07:00:00Z,31.66,42.22,31.66,Classic Olive Oil 2L,BrandD,Metro,03
+2024-05-05T16:00:00Z,13.7,12.56,13.7,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,05
+2024-07-09T17:00:00Z,18.07,23.17,36.14,Classic Olive Oil 2L,BrandA,Walmart,07
+2024-02-22T23:00:00Z,16.88,22.69,33.76,Classic Olive Oil 2L,BrandC,Metro,02
+2024-03-30T16:00:00Z,29.73,34.7,14.87,Extra Virgin Olive Oil 500ml,BrandE,Metro,03
+2024-01-20T02:00:00Z,25.01,34.47,50.02,Pure Olive Oil 1L,BrandD,Walmart,01
+2024-10-04T11:00:00Z,10.03,12.97,10.03,Organic Olive Oil 750ml,BrandE,Walmart,10
+2024-12-13T02:00:00Z,15.38,19.46,10.25,Extra Virgin Olive Oil 500ml,BrandA,Metro,12
+2024-01-21T00:00:00Z,18.72,18.9,18.72,Pure Olive Oil 1L,BrandE,Metro,01
+2024-08-26T04:00:00Z,23.28,31.33,15.52,Premium Olive Oil 1L,BrandB,Loblaws,08
+2024-07-16T00:00:00Z,25.51,29.41,17.01,Classic Olive Oil 2L,BrandB,Metro,07
+2024-06-27T18:00:00Z,15.82,15.26,10.55,Extra Virgin Olive Oil 500ml,BrandA,Metro,06
+2024-08-05T10:00:00Z,17.59,17.51,8.8,Extra Virgin Olive Oil 500ml,BrandE,Metro,08
+2024-10-24T03:00:00Z,37.53,51.48,25.02,Organic Olive Oil 750ml,BrandC,Walmart,10
+2024-03-05T12:00:00Z,24.07,23.37,12.04,Organic Olive Oil 750ml,BrandA,Loblaws,03
+2024-09-13T07:00:00Z,25.62,30.23,17.08,Pure Olive Oil 1L,BrandC,Loblaws,09
+2024-10-09T10:00:00Z,13.79,15.47,9.19,Pure Olive Oil 1L,BrandB,Metro,10
+2024-09-23T21:00:00Z,18.61,22.26,18.61,Pure Olive Oil 1L,BrandE,Walmart,09
+2024-03-05T16:00:00Z,27.61,34.24,13.8,Organic Olive Oil 750ml,BrandE,Metro,03
+2024-05-03T23:00:00Z,17.78,26.18,35.56,Classic Olive Oil 2L,BrandC,Walmart,05
+2024-06-28T05:00:00Z,21.37,21.55,42.74,Pure Olive Oil 1L,BrandA,Loblaws,06
+2024-09-05T07:00:00Z,11.2,12.68,11.2,Classic Olive Oil 2L,BrandA,Metro,09
+2024-01-20T02:00:00Z,21.84,25.3,43.68,Classic Olive Oil 2L,BrandE,Metro,01
+2024-02-22T09:00:00Z,37.61,53.02,75.22,Pure Olive Oil 1L,BrandA,Loblaws,02
+2024-03-05T16:00:00Z,5.9,5.43,3.93,Premium Olive Oil 1L,BrandB,Metro,03
+2024-06-11T22:00:00Z,18.41,16.82,9.2,Organic Olive Oil 750ml,BrandA,Loblaws,06
+2024-03-20T19:00:00Z,13.76,15.09,13.76,Premium Olive Oil 1L,BrandA,Metro,03
+2024-04-26T16:00:00Z,25.22,27.88,50.44,Classic Olive Oil 2L,BrandB,Loblaws,04
+2024-08-21T15:00:00Z,7.39,10.55,7.39,Premium Olive Oil 1L,BrandE,Loblaws,08
+2024-06-16T05:00:00Z,27.76,34.39,18.51,Classic Olive Oil 2L,BrandA,Walmart,06
+2024-07-06T05:00:00Z,6.9,6.73,13.8,Pure Olive Oil 1L,BrandE,Loblaws,07
+2024-08-10T09:00:00Z,15.19,14.23,7.6,Organic Olive Oil 750ml,BrandB,Walmart,08
+2024-02-21T08:00:00Z,15.87,15.39,31.74,Organic Olive Oil 750ml,BrandC,Loblaws,02
+2024-05-30T16:00:00Z,20.46,28.68,20.46,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,05
+2024-04-28T01:00:00Z,20.26,23.25,20.26,Pure Olive Oil 1L,BrandE,Walmart,04
+2024-12-21T18:00:00Z,39.73,58.84,79.46,Pure Olive Oil 1L,BrandE,Metro,12
+2024-11-28T09:00:00Z,26.41,34.92,13.2,Classic Olive Oil 2L,BrandB,Loblaws,11
+2024-05-11T01:00:00Z,16.03,17.01,16.03,Organic Olive Oil 750ml,BrandC,Walmart,05
+2024-06-11T14:00:00Z,35.18,50.49,23.45,Organic Olive Oil 750ml,BrandE,Metro,06
+2024-08-15T10:00:00Z,16.82,21.68,16.82,Extra Virgin Olive Oil 500ml,BrandE,Walmart,08
+2024-02-28T01:00:00Z,28.51,42.7,57.02,Pure Olive Oil 1L,BrandC,Walmart,02
+2024-07-26T03:00:00Z,36.48,35.35,36.48,Extra Virgin Olive Oil 500ml,BrandB,Metro,07
+2024-02-05T19:00:00Z,34.55,47.44,23.03,Classic Olive Oil 2L,BrandA,Loblaws,02
+2024-11-16T20:00:00Z,8.14,12.11,5.43,Extra Virgin Olive Oil 500ml,BrandD,Walmart,11
+2024-07-28T11:00:00Z,15.48,20.89,7.74,Pure Olive Oil 1L,BrandA,Metro,07
+2024-04-17T14:00:00Z,23.58,32.2,15.72,Organic Olive Oil 750ml,BrandE,Metro,04
+2024-05-31T01:00:00Z,18.27,27.17,12.18,Classic Olive Oil 2L,BrandE,Metro,05
+2024-03-13T04:00:00Z,34.58,37.91,17.29,Classic Olive Oil 2L,BrandE,Metro,03
+2024-04-14T11:00:00Z,35.14,39.67,70.28,Classic Olive Oil 2L,BrandD,Loblaws,04
+2024-06-02T18:00:00Z,28.85,29.05,14.43,Pure Olive Oil 1L,BrandC,Metro,06
+2024-11-23T10:00:00Z,22.52,25.88,11.26,Premium Olive Oil 1L,BrandE,Loblaws,11
+2024-07-31T05:00:00Z,33.03,38.11,66.06,Extra Virgin Olive Oil 500ml,BrandD,Walmart,07
+2024-05-19T01:00:00Z,6.63,8.35,13.26,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,05
+2024-06-18T04:00:00Z,14.16,16.24,28.32,Extra Virgin Olive Oil 500ml,BrandC,Walmart,06
+2024-04-14T21:00:00Z,11.95,11.31,23.9,Extra Virgin Olive Oil 500ml,BrandC,Walmart,04
+2024-09-27T02:00:00Z,33.57,43.41,67.14,Organic Olive Oil 750ml,BrandD,Walmart,09
+2024-12-15T15:00:00Z,34.51,31.75,69.02,Premium Olive Oil 1L,BrandC,Loblaws,12
+2024-05-17T20:00:00Z,34.15,33.9,22.77,Pure Olive Oil 1L,BrandC,Loblaws,05
+2024-12-18T01:00:00Z,14.47,21.4,9.65,Organic Olive Oil 750ml,BrandD,Walmart,12
+2024-02-28T11:00:00Z,5.68,6.85,5.68,Classic Olive Oil 2L,BrandB,Metro,02
+2024-03-22T18:00:00Z,27.07,28.95,27.07,Organic Olive Oil 750ml,BrandB,Loblaws,03
+2024-10-14T21:00:00Z,31.18,28.11,31.18,Pure Olive Oil 1L,BrandC,Loblaws,10
+2024-07-09T04:00:00Z,22.7,24.84,11.35,Premium Olive Oil 1L,BrandC,Metro,07
+2024-01-26T11:00:00Z,17.76,25.41,17.76,Premium Olive Oil 1L,BrandC,Metro,01
+2024-02-29T18:00:00Z,15.84,15.78,31.68,Organic Olive Oil 750ml,BrandA,Walmart,02
+2024-11-11T14:00:00Z,17.59,19.88,17.59,Classic Olive Oil 2L,BrandD,Walmart,11
+2024-03-21T02:00:00Z,17.7,21.85,35.4,Classic Olive Oil 2L,BrandE,Loblaws,03
+2024-06-04T06:00:00Z,23.85,28.54,23.85,Extra Virgin Olive Oil 500ml,BrandD,Walmart,06
+2024-06-02T14:00:00Z,27.83,37.12,13.91,Premium Olive Oil 1L,BrandE,Loblaws,06
+2024-08-03T17:00:00Z,19.12,26.53,38.24,Premium Olive Oil 1L,BrandA,Walmart,08
+2024-11-10T22:00:00Z,25.41,29.11,12.7,Classic Olive Oil 2L,BrandC,Walmart,11
+2024-12-19T09:00:00Z,29.35,30.37,29.35,Pure Olive Oil 1L,BrandD,Walmart,12
+2024-01-20T09:00:00Z,36.2,43.57,24.13,Organic Olive Oil 750ml,BrandE,Walmart,01
+2024-12-06T02:00:00Z,38.18,41.27,25.45,Organic Olive Oil 750ml,BrandB,Walmart,12
+2024-04-15T15:00:00Z,19.73,27.57,9.87,Organic Olive Oil 750ml,BrandA,Metro,04
+2024-05-19T00:00:00Z,27.28,28.88,18.19,Organic Olive Oil 750ml,BrandE,Metro,05
+2024-11-14T13:00:00Z,11.23,13.45,7.49,Extra Virgin Olive Oil 500ml,BrandD,Walmart,11
+2024-03-21T07:00:00Z,7.81,7.48,15.62,Classic Olive Oil 2L,BrandE,Walmart,03
+2024-09-26T08:00:00Z,24.81,26.61,12.4,Premium Olive Oil 1L,BrandC,Loblaws,09
+2024-07-16T09:00:00Z,33.59,47.26,22.39,Pure Olive Oil 1L,BrandD,Loblaws,07
+2024-07-27T10:00:00Z,31.59,37.45,31.59,Classic Olive Oil 2L,BrandE,Walmart,07
+2024-05-14T03:00:00Z,25.01,29.31,25.01,Premium Olive Oil 1L,BrandE,Loblaws,05
+2024-02-09T13:00:00Z,39.61,40.4,26.41,Organic Olive Oil 750ml,BrandD,Loblaws,02
+2024-07-06T05:00:00Z,39.83,42.05,79.66,Premium Olive Oil 1L,BrandB,Metro,07
+2024-06-22T10:00:00Z,16.25,19.9,8.12,Premium Olive Oil 1L,BrandC,Walmart,06
+2024-06-07T11:00:00Z,11.02,14.71,22.04,Organic Olive Oil 750ml,BrandE,Loblaws,06
+2024-07-05T14:00:00Z,18.02,18.21,18.02,Premium Olive Oil 1L,BrandD,Loblaws,07
+2024-11-17T14:00:00Z,23.86,24.13,23.86,Pure Olive Oil 1L,BrandE,Metro,11
+2024-06-25T22:00:00Z,33.39,48.45,16.7,Extra Virgin Olive Oil 500ml,BrandB,Walmart,06
+2024-04-19T22:00:00Z,29.45,28.87,14.72,Extra Virgin Olive Oil 500ml,BrandB,Loblaws,04
+2024-07-09T06:00:00Z,36.5,32.99,24.33,Pure Olive Oil 1L,BrandB,Loblaws,07
+2024-07-03T23:00:00Z,30.31,32.24,15.15,Classic Olive Oil 2L,BrandE,Metro,07
+2024-01-07T16:00:00Z,13.93,18.02,6.96,Extra Virgin Olive Oil 500ml,BrandE,Metro,01
+2024-12-24T20:00:00Z,15.8,19.04,15.8,Pure Olive Oil 1L,BrandB,Walmart,12
+2024-04-13T19:00:00Z,31.14,33.87,15.57,Organic Olive Oil 750ml,BrandB,Metro,04
+2024-03-27T12:00:00Z,12.18,12.37,24.36,Premium Olive Oil 1L,BrandC,Loblaws,03
+2024-01-27T08:00:00Z,15.01,22.3,7.5,Organic Olive Oil 750ml,BrandC,Loblaws,01
+2024-08-11T08:00:00Z,36.46,49.09,24.31,Classic Olive Oil 2L,BrandB,Walmart,08
+2024-07-17T08:00:00Z,10.88,12.45,10.88,Extra Virgin Olive Oil 500ml,BrandD,Walmart,07
+2024-12-09T03:00:00Z,10.03,9.66,6.69,Organic Olive Oil 750ml,BrandB,Walmart,12
+2024-12-16T15:00:00Z,30.67,40.21,30.67,Classic Olive Oil 2L,BrandD,Metro,12
+2024-08-01T15:00:00Z,24,30.28,48,Organic Olive Oil 750ml,BrandB,Loblaws,08
+2024-09-27T15:00:00Z,23.98,30.94,23.98,Extra Virgin Olive Oil 500ml,BrandD,Walmart,09
+2024-03-19T13:00:00Z,29.61,40.04,14.8,Classic Olive Oil 2L,BrandD,Walmart,03
+2024-11-29T01:00:00Z,27.8,34.99,27.8,Classic Olive Oil 2L,BrandE,Metro,11
+2024-06-28T16:00:00Z,31.64,30.18,63.28,Premium Olive Oil 1L,BrandB,Walmart,06
+2024-10-11T23:00:00Z,14.83,19.56,29.66,Premium Olive Oil 1L,BrandA,Walmart,10
+2024-01-29T10:00:00Z,39.44,35.98,39.44,Organic Olive Oil 750ml,BrandA,Loblaws,01
+2024-12-09T15:00:00Z,38.73,57.56,77.46,Extra Virgin Olive Oil 500ml,BrandD,Loblaws,12
+2024-11-20T02:00:00Z,5.98,8.8,11.96,Pure Olive Oil 1L,BrandE,Walmart,11
+2024-07-16T21:00:00Z,31.15,43.42,20.77,Classic Olive Oil 2L,BrandB,Metro,07
+2024-04-10T22:00:00Z,17.84,18.72,11.89,Pure Olive Oil 1L,BrandB,Loblaws,04
+2024-05-11T01:00:00Z,17.39,21.68,11.59,Extra Virgin Olive Oil 500ml,BrandA,Walmart,05
+2024-09-13T16:00:00Z,5.68,6.28,5.68,Pure Olive Oil 1L,BrandC,Walmart,09
+2024-01-07T18:00:00Z,31.56,46.64,63.12,Classic Olive Oil 2L,BrandA,Loblaws,01
+2024-11-13T06:00:00Z,10.52,14.85,21.04,Pure Olive Oil 1L,BrandC,Walmart,11
+2024-05-15T16:00:00Z,8.93,11.9,4.46,Pure Olive Oil 1L,BrandB,Metro,05
+2024-04-15T01:00:00Z,29.98,41.21,59.96,Classic Olive Oil 2L,BrandA,Metro,04
+2024-09-14T10:00:00Z,20.58,27.69,41.16,Organic Olive Oil 750ml,BrandA,Metro,09
+2024-12-04T05:00:00Z,5.91,6.47,5.91,Classic Olive Oil 2L,BrandD,Loblaws,12
+2024-05-30T09:00:00Z,37.19,53.41,74.38,Pure Olive Oil 1L,BrandD,Walmart,05
+2024-02-14T03:00:00Z,32.47,30.31,32.47,Classic Olive Oil 2L,BrandA,Loblaws,02
+2024-03-12T06:00:00Z,19.88,24.62,9.94,Classic Olive Oil 2L,BrandA,Metro,03
+2024-12-24T08:00:00Z,9.52,10.39,19.04,Pure Olive Oil 1L,BrandB,Loblaws,12
+2024-10-26T19:00:00Z,33.66,45.76,16.83,Classic Olive Oil 2L,BrandB,Walmart,10
+2024-10-23T12:00:00Z,30.09,38.32,60.18,Pure Olive Oil 1L,BrandD,Loblaws,10
+2024-06-25T19:00:00Z,19.43,22.06,19.43,Premium Olive Oil 1L,BrandD,Loblaws,06
+2024-04-06T12:00:00Z,11.12,15.78,7.41,Pure Olive Oil 1L,BrandB,Metro,04
+2024-04-25T04:00:00Z,5.38,6.62,5.38,Organic Olive Oil 750ml,BrandE,Metro,04
+2024-01-16T11:00:00Z,16.93,23.9,16.93,Organic Olive Oil 750ml,BrandA,Metro,01
+2024-01-22T12:00:00Z,11.63,14.07,5.82,Premium Olive Oil 1L,BrandB,Loblaws,01
+2024-08-03T15:00:00Z,24.68,31.83,49.36,Classic Olive Oil 2L,BrandB,Metro,08
+2024-06-22T20:00:00Z,25.58,27.03,12.79,Premium Olive Oil 1L,BrandA,Walmart,06
+2024-12-26T22:00:00Z,14.86,15.95,7.43,Extra Virgin Olive Oil 500ml,BrandB,Walmart,12
+2024-05-22T11:00:00Z,37.41,55.64,18.7,Classic Olive Oil 2L,BrandC,Walmart,05
+2024-09-18T05:00:00Z,29.64,44.33,59.28,Pure Olive Oil 1L,BrandD,Walmart,09
+2024-03-01T05:00:00Z,14.68,15.75,29.36,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,03
+2024-10-31T23:00:00Z,30.03,37.93,20.02,Extra Virgin Olive Oil 500ml,BrandA,Loblaws,10
+2024-04-20T06:00:00Z,26.31,29.38,52.62,Classic Olive Oil 2L,BrandA,Walmart,04
+2024-10-24T02:00:00Z,19.29,28.8,38.58,Pure Olive Oil 1L,BrandA,Loblaws,10
+2024-03-25T11:00:00Z,10.86,15.69,5.43,Classic Olive Oil 2L,BrandA,Walmart,03
+2024-01-13T15:00:00Z,5.86,7.1,5.86,Classic Olive Oil 2L,BrandD,Walmart,01
+2024-03-16T06:00:00Z,10.41,12.44,20.82,Extra Virgin Olive Oil 500ml,BrandB,Loblaws,03
+2024-07-24T08:00:00Z,25.53,28.94,51.06,Classic Olive Oil 2L,BrandE,Loblaws,07
+2024-08-30T05:00:00Z,12.65,18.05,6.32,Classic Olive Oil 2L,BrandA,Metro,08
+2024-04-27T17:00:00Z,6.55,9.52,6.55,Classic Olive Oil 2L,BrandD,Walmart,04
+2024-10-29T05:00:00Z,37.01,39.34,74.02,Classic Olive Oil 2L,BrandA,Loblaws,10
+2024-06-16T00:00:00Z,35.46,49.94,23.64,Pure Olive Oil 1L,BrandA,Metro,06
+2024-08-02T08:00:00Z,33.93,40.61,33.93,Classic Olive Oil 2L,BrandC,Loblaws,08
+2024-07-14T21:00:00Z,26.34,33.61,17.56,Extra Virgin Olive Oil 500ml,BrandD,Metro,07
+2024-12-07T01:00:00Z,30.33,34.59,60.66,Organic Olive Oil 750ml,BrandB,Loblaws,12
+2024-05-20T04:00:00Z,32.89,31.14,32.89,Classic Olive Oil 2L,BrandE,Loblaws,05
+2024-03-20T23:00:00Z,35.37,35.36,23.58,Pure Olive Oil 1L,BrandA,Walmart,03
+2024-07-12T02:00:00Z,29.51,27.23,19.67,Classic Olive Oil 2L,BrandB,Loblaws,07
+2024-04-25T00:00:00Z,16.75,18.9,33.5,Pure Olive Oil 1L,BrandE,Walmart,04
+2024-07-28T09:00:00Z,22.42,29.78,44.84,Organic Olive Oil 750ml,BrandE,Metro,07
+2024-01-30T06:00:00Z,32.17,33.9,16.09,Premium Olive Oil 1L,BrandD,Loblaws,01
+2024-07-03T22:00:00Z,19.67,22.49,13.11,Organic Olive Oil 750ml,BrandA,Walmart,07
+2024-01-04T03:00:00Z,25.41,35.13,25.41,Pure Olive Oil 1L,BrandB,Walmart,01
+2024-11-12T16:00:00Z,15.52,21.37,15.52,Pure Olive Oil 1L,BrandB,Loblaws,11
+2024-08-13T10:00:00Z,10.15,11.48,20.3,Extra Virgin Olive Oil 500ml,BrandC,Metro,08
+2024-07-30T20:00:00Z,14.64,19.73,14.64,Organic Olive Oil 750ml,BrandA,Metro,07
+2024-11-09T21:00:00Z,12.1,14.28,24.2,Pure Olive Oil 1L,BrandA,Walmart,11
+2024-03-27T17:00:00Z,12.88,13.33,8.59,Extra Virgin Olive Oil 500ml,BrandC,Walmart,03
+2024-06-28T00:00:00Z,23.2,23.72,15.47,Organic Olive Oil 750ml,BrandB,Metro,06
+2024-11-28T14:00:00Z,37.22,34.67,18.61,Classic Olive Oil 2L,BrandC,Loblaws,11
+2024-08-28T00:00:00Z,25.35,31.72,16.9,Premium Olive Oil 1L,BrandD,Walmart,08
+2024-03-12T00:00:00Z,14.15,20.95,28.3,Pure Olive Oil 1L,BrandE,Walmart,03
+2024-06-29T17:00:00Z,18.09,16.86,18.09,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,06
+2024-12-01T03:00:00Z,24.72,32.9,49.44,Pure Olive Oil 1L,BrandD,Walmart,12
+2024-05-28T23:00:00Z,10.58,9.53,21.16,Extra Virgin Olive Oil 500ml,BrandE,Walmart,05
+2024-12-02T05:00:00Z,28.48,42.54,14.24,Extra Virgin Olive Oil 500ml,BrandA,Metro,12
+2024-06-15T15:00:00Z,5.64,8.36,5.64,Pure Olive Oil 1L,BrandD,Walmart,06
+2024-10-07T15:00:00Z,5.43,7.17,3.62,Extra Virgin Olive Oil 500ml,BrandD,Loblaws,10
+2024-10-18T17:00:00Z,28.26,38.58,56.52,Premium Olive Oil 1L,BrandC,Metro,10
+2024-01-17T15:00:00Z,12.19,14.24,8.13,Pure Olive Oil 1L,BrandD,Walmart,01
+2024-06-19T17:00:00Z,18.44,24.75,18.44,Extra Virgin Olive Oil 500ml,BrandD,Walmart,06
+2024-03-11T17:00:00Z,10.58,13.82,7.05,Classic Olive Oil 2L,BrandE,Walmart,03
+2024-05-14T13:00:00Z,29.8,27.05,29.8,Pure Olive Oil 1L,BrandD,Metro,05
+2024-09-19T11:00:00Z,26.52,32.4,26.52,Organic Olive Oil 750ml,BrandC,Walmart,09
+2024-02-10T20:00:00Z,7.14,9.64,7.14,Premium Olive Oil 1L,BrandC,Metro,02
+2024-06-28T14:00:00Z,19.22,17.53,12.81,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,06
+2024-03-12T17:00:00Z,8.68,11.45,17.36,Pure Olive Oil 1L,BrandE,Walmart,03
+2024-09-24T21:00:00Z,19.09,26.94,12.73,Organic Olive Oil 750ml,BrandB,Metro,09
+2024-11-25T00:00:00Z,20.95,24.75,13.97,Pure Olive Oil 1L,BrandB,Loblaws,11
+2024-05-25T14:00:00Z,26.86,28.36,53.72,Organic Olive Oil 750ml,BrandB,Walmart,05
+2024-02-26T05:00:00Z,7.76,10.69,5.17,Organic Olive Oil 750ml,BrandB,Metro,02
+2024-08-30T18:00:00Z,16.97,19.6,33.94,Classic Olive Oil 2L,BrandD,Loblaws,08
+2024-07-07T13:00:00Z,5.83,8.29,2.92,Classic Olive Oil 2L,BrandA,Metro,07
+2024-03-12T18:00:00Z,16.95,21.65,16.95,Pure Olive Oil 1L,BrandB,Metro,03
+2024-04-26T13:00:00Z,32.42,37.96,21.61,Pure Olive Oil 1L,BrandD,Walmart,04
+2024-08-24T15:00:00Z,30.94,37.5,15.47,Organic Olive Oil 750ml,BrandB,Walmart,08
+2024-05-30T11:00:00Z,33.57,49.83,22.38,Premium Olive Oil 1L,BrandD,Walmart,05
+2024-07-19T11:00:00Z,6.94,9.09,4.63,Organic Olive Oil 750ml,BrandC,Walmart,07
+2024-09-29T00:00:00Z,10.3,14.45,20.6,Pure Olive Oil 1L,BrandB,Loblaws,09
+2024-11-12T16:00:00Z,27.86,31.67,13.93,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,11
+2024-09-19T16:00:00Z,18.75,26.88,12.5,Organic Olive Oil 750ml,BrandA,Metro,09
+2024-10-20T20:00:00Z,11.43,10.46,5.72,Classic Olive Oil 2L,BrandD,Loblaws,10
+2024-03-20T09:00:00Z,9.49,10.68,18.98,Premium Olive Oil 1L,BrandC,Metro,03
+2024-01-14T22:00:00Z,9.51,12.46,19.02,Classic Olive Oil 2L,BrandA,Metro,01
+2024-05-11T04:00:00Z,26.85,31.38,53.7,Pure Olive Oil 1L,BrandB,Walmart,05
+2024-04-02T13:00:00Z,22.57,23.21,11.29,Extra Virgin Olive Oil 500ml,BrandC,Walmart,04
+2024-06-02T05:00:00Z,22.09,22.24,14.73,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,06
+2024-08-27T14:00:00Z,35.55,46.51,71.1,Pure Olive Oil 1L,BrandE,Walmart,08
+2024-10-19T11:00:00Z,11.73,15.19,5.86,Extra Virgin Olive Oil 500ml,BrandA,Loblaws,10
+2024-02-03T11:00:00Z,31.59,36.41,63.18,Extra Virgin Olive Oil 500ml,BrandA,Walmart,02
+2024-02-04T08:00:00Z,12.68,16.01,12.68,Premium Olive Oil 1L,BrandC,Walmart,02
+2024-07-11T02:00:00Z,10.48,11.95,20.96,Organic Olive Oil 750ml,BrandE,Metro,07
+2024-08-10T08:00:00Z,10.04,12.27,5.02,Extra Virgin Olive Oil 500ml,BrandC,Walmart,08
+2024-11-16T10:00:00Z,36.02,50.73,24.01,Pure Olive Oil 1L,BrandC,Walmart,11
+2024-09-13T10:00:00Z,28.41,29.8,56.82,Pure Olive Oil 1L,BrandA,Metro,09
+2024-04-04T21:00:00Z,20.99,27.48,41.98,Pure Olive Oil 1L,BrandD,Metro,04
+2024-05-22T15:00:00Z,30.06,34.42,20.04,Extra Virgin Olive Oil 500ml,BrandD,Loblaws,05
+2024-04-22T04:00:00Z,29.75,36.42,14.88,Classic Olive Oil 2L,BrandC,Metro,04
+2024-04-09T06:00:00Z,27.64,41.07,55.28,Classic Olive Oil 2L,BrandD,Loblaws,04
+2024-09-23T02:00:00Z,37.06,46.6,74.12,Extra Virgin Olive Oil 500ml,BrandE,Walmart,09
+2024-03-08T23:00:00Z,11.99,12.06,23.98,Organic Olive Oil 750ml,BrandD,Loblaws,03
+2024-01-14T05:00:00Z,20.22,28.92,20.22,Classic Olive Oil 2L,BrandC,Walmart,01
+2024-12-24T18:00:00Z,6.3,6.96,12.6,Extra Virgin Olive Oil 500ml,BrandA,Walmart,12
+2024-03-08T18:00:00Z,10.51,14.8,7.01,Classic Olive Oil 2L,BrandD,Loblaws,03
+2024-09-08T13:00:00Z,29.58,28.05,29.58,Premium Olive Oil 1L,BrandD,Walmart,09
+2024-06-25T14:00:00Z,30.9,28.97,20.6,Classic Olive Oil 2L,BrandA,Walmart,06
+2024-08-25T12:00:00Z,20.04,19.33,20.04,Organic Olive Oil 750ml,BrandC,Walmart,08
+2024-05-13T09:00:00Z,17.28,24.41,11.52,Pure Olive Oil 1L,BrandD,Loblaws,05
+2024-08-21T15:00:00Z,21.95,24.85,10.97,Organic Olive Oil 750ml,BrandE,Walmart,08
+2024-08-31T15:00:00Z,5.83,8.32,11.66,Premium Olive Oil 1L,BrandB,Walmart,08
+2024-11-06T02:00:00Z,34.71,38.48,69.42,Organic Olive Oil 750ml,BrandE,Loblaws,11
+2024-07-19T18:00:00Z,27.84,31.29,27.84,Pure Olive Oil 1L,BrandE,Loblaws,07
+2024-12-04T13:00:00Z,11.5,12.2,5.75,Extra Virgin Olive Oil 500ml,BrandB,Metro,12
+2024-02-21T10:00:00Z,24.16,28.63,12.08,Organic Olive Oil 750ml,BrandB,Metro,02
+2024-11-02T20:00:00Z,35.58,36.71,35.58,Premium Olive Oil 1L,BrandA,Walmart,11
+2024-10-12T23:00:00Z,13.03,18.04,8.69,Organic Olive Oil 750ml,BrandC,Loblaws,10
+2024-12-27T14:00:00Z,16.89,19.48,8.45,Premium Olive Oil 1L,BrandB,Loblaws,12
+2024-07-25T23:00:00Z,32.17,43.22,64.34,Extra Virgin Olive Oil 500ml,BrandB,Metro,07
+2024-12-29T23:00:00Z,13.33,18.97,6.66,Organic Olive Oil 750ml,BrandA,Metro,12
+2024-11-22T09:00:00Z,7.67,10.97,7.67,Premium Olive Oil 1L,BrandC,Loblaws,11
+2024-06-15T03:00:00Z,19.65,21.93,13.1,Pure Olive Oil 1L,BrandE,Metro,06
+2024-12-13T15:00:00Z,11.98,14.91,11.98,Extra Virgin Olive Oil 500ml,BrandA,Loblaws,12
+2024-05-21T14:00:00Z,27.81,26.69,55.62,Premium Olive Oil 1L,BrandE,Metro,05
+2024-05-25T10:00:00Z,26.76,26.25,13.38,Extra Virgin Olive Oil 500ml,BrandA,Loblaws,05
+2024-06-17T13:00:00Z,19.63,19.35,39.26,Pure Olive Oil 1L,BrandD,Metro,06
+2024-01-23T08:00:00Z,10.2,10.3,6.8,Organic Olive Oil 750ml,BrandE,Walmart,01
+2024-05-09T04:00:00Z,11.44,10.45,5.72,Extra Virgin Olive Oil 500ml,BrandD,Loblaws,05
+2024-08-23T07:00:00Z,19.89,21.06,39.78,Pure Olive Oil 1L,BrandB,Loblaws,08
+2024-11-06T20:00:00Z,18.62,17.24,37.24,Classic Olive Oil 2L,BrandB,Walmart,11
+2024-09-01T11:00:00Z,7,6.53,7,Classic Olive Oil 2L,BrandE,Loblaws,09
+2024-06-19T14:00:00Z,5.19,5.38,2.6,Organic Olive Oil 750ml,BrandD,Loblaws,06
+2024-03-03T05:00:00Z,35.9,35.96,23.93,Pure Olive Oil 1L,BrandA,Loblaws,03
+2024-08-23T15:00:00Z,15.69,15.67,31.38,Organic Olive Oil 750ml,BrandD,Walmart,08
+2024-10-15T13:00:00Z,38.69,48.4,19.34,Premium Olive Oil 1L,BrandB,Loblaws,10
+2024-08-07T21:00:00Z,28.65,27.94,57.3,Classic Olive Oil 2L,BrandC,Loblaws,08
+2024-09-28T06:00:00Z,34.9,46.2,23.27,Pure Olive Oil 1L,BrandB,Metro,09
+2024-11-22T22:00:00Z,20.15,29.94,40.3,Classic Olive Oil 2L,BrandB,Walmart,11
+2024-05-17T12:00:00Z,37.4,49.32,74.8,Organic Olive Oil 750ml,BrandE,Metro,05
+2024-05-10T23:00:00Z,31.4,46.35,20.93,Extra Virgin Olive Oil 500ml,BrandB,Walmart,05
+2024-05-17T22:00:00Z,14.7,21.16,29.4,Extra Virgin Olive Oil 500ml,BrandE,Metro,05
+2024-12-25T07:00:00Z,29.03,43.45,19.35,Pure Olive Oil 1L,BrandE,Walmart,12
+2024-10-31T22:00:00Z,37.25,38.86,74.5,Organic Olive Oil 750ml,BrandE,Metro,10
+2024-02-14T13:00:00Z,30.93,42.34,20.62,Extra Virgin Olive Oil 500ml,BrandE,Metro,02
+2024-11-03T22:00:00Z,28.54,37.64,28.54,Extra Virgin Olive Oil 500ml,BrandB,Metro,11
+2024-04-24T14:00:00Z,31.04,36.06,20.69,Extra Virgin Olive Oil 500ml,BrandE,Walmart,04
+2024-01-11T15:00:00Z,8.97,11.77,17.94,Premium Olive Oil 1L,BrandC,Metro,01
+2024-06-21T06:00:00Z,6.44,6.37,3.22,Classic Olive Oil 2L,BrandE,Loblaws,06
+2024-01-02T20:00:00Z,18.06,16.49,36.12,Extra Virgin Olive Oil 500ml,BrandC,Walmart,01
+2024-02-25T06:00:00Z,22.56,22.14,45.12,Classic Olive Oil 2L,BrandC,Metro,02
+2024-09-26T19:00:00Z,38.26,50.32,19.13,Classic Olive Oil 2L,BrandA,Loblaws,09
+2024-11-14T02:00:00Z,38.2,41.48,25.47,Classic Olive Oil 2L,BrandA,Loblaws,11
+2024-07-24T03:00:00Z,27.56,30.57,13.78,Organic Olive Oil 750ml,BrandE,Walmart,07
+2024-05-11T10:00:00Z,16.04,23.1,8.02,Pure Olive Oil 1L,BrandC,Metro,05
+2024-08-28T08:00:00Z,23.63,28.03,11.81,Premium Olive Oil 1L,BrandB,Walmart,08
+2024-11-20T12:00:00Z,28.61,38.58,19.07,Classic Olive Oil 2L,BrandD,Loblaws,11
+2024-06-15T06:00:00Z,35,44.86,70,Premium Olive Oil 1L,BrandC,Loblaws,06
+2024-03-11T21:00:00Z,24.5,34,24.5,Pure Olive Oil 1L,BrandB,Loblaws,03
+2024-11-06T16:00:00Z,8.3,10.12,5.53,Pure Olive Oil 1L,BrandB,Walmart,11
+2024-06-28T01:00:00Z,29.89,34.54,19.93,Organic Olive Oil 750ml,BrandD,Loblaws,06
+2024-09-18T23:00:00Z,34.23,40.94,22.82,Premium Olive Oil 1L,BrandE,Metro,09
+2024-08-01T13:00:00Z,18.75,17.55,37.5,Classic Olive Oil 2L,BrandB,Metro,08
+2024-02-01T19:00:00Z,11.82,14.97,5.91,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,02
+2024-11-02T03:00:00Z,14.04,17.93,9.36,Extra Virgin Olive Oil 500ml,BrandC,Walmart,11
+2024-08-30T23:00:00Z,6.3,6.26,3.15,Organic Olive Oil 750ml,BrandA,Metro,08
+2024-06-23T08:00:00Z,23.5,27,11.75,Organic Olive Oil 750ml,BrandC,Loblaws,06
+2024-05-11T22:00:00Z,25.68,27.46,25.68,Pure Olive Oil 1L,BrandA,Loblaws,05
+2024-08-12T07:00:00Z,25.38,28.64,25.38,Organic Olive Oil 750ml,BrandD,Metro,08
+2024-08-08T10:00:00Z,36.4,49.94,18.2,Extra Virgin Olive Oil 500ml,BrandD,Walmart,08
+2024-02-06T22:00:00Z,19.93,29.72,13.29,Organic Olive Oil 750ml,BrandA,Loblaws,02
+2024-02-01T11:00:00Z,13.32,16.05,6.66,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,02
+2024-02-12T20:00:00Z,22.94,31.76,22.94,Classic Olive Oil 2L,BrandE,Metro,02
+2024-06-25T13:00:00Z,7.33,10.83,4.89,Extra Virgin Olive Oil 500ml,BrandD,Walmart,06
+2024-06-18T08:00:00Z,28.09,32.19,14.04,Pure Olive Oil 1L,BrandA,Walmart,06
+2024-06-03T15:00:00Z,30.71,43.96,30.71,Organic Olive Oil 750ml,BrandB,Loblaws,06
+2024-08-19T07:00:00Z,12.66,11.61,12.66,Premium Olive Oil 1L,BrandD,Metro,08
+2024-09-21T11:00:00Z,11.64,15.27,11.64,Premium Olive Oil 1L,BrandC,Loblaws,09
+2024-09-14T20:00:00Z,35.55,40.25,23.7,Pure Olive Oil 1L,BrandE,Loblaws,09
+2024-02-26T18:00:00Z,15.22,16.28,7.61,Extra Virgin Olive Oil 500ml,BrandB,Loblaws,02
+2024-12-22T05:00:00Z,39.51,55.45,39.51,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,12
+2024-02-06T22:00:00Z,30.52,38.01,15.26,Classic Olive Oil 2L,BrandE,Metro,02
+2024-02-08T01:00:00Z,37.56,48.35,18.78,Extra Virgin Olive Oil 500ml,BrandB,Walmart,02
+2024-05-03T17:00:00Z,31.31,34.99,15.65,Organic Olive Oil 750ml,BrandD,Loblaws,05
+2024-08-15T20:00:00Z,16.37,20.7,8.19,Pure Olive Oil 1L,BrandE,Walmart,08
+2024-01-01T00:00:00Z,18.14,26.32,18.14,Classic Olive Oil 2L,BrandE,Metro,01
+2024-12-03T23:00:00Z,6.2,8.75,6.2,Premium Olive Oil 1L,BrandB,Metro,12
+2024-05-10T03:00:00Z,36.32,54.33,18.16,Organic Olive Oil 750ml,BrandA,Metro,05
+2024-03-05T06:00:00Z,23.26,26.98,11.63,Extra Virgin Olive Oil 500ml,BrandB,Walmart,03
+2024-08-09T12:00:00Z,17.07,24.33,8.54,Organic Olive Oil 750ml,BrandD,Metro,08
+2024-05-24T09:00:00Z,33.37,37.34,16.68,Classic Olive Oil 2L,BrandD,Walmart,05
+2024-03-15T15:00:00Z,32.71,30.76,21.81,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,03
+2024-05-24T07:00:00Z,32.36,36.89,21.57,Pure Olive Oil 1L,BrandE,Loblaws,05
+2024-10-27T16:00:00Z,23.62,28.33,15.75,Pure Olive Oil 1L,BrandE,Metro,10
+2024-08-29T14:00:00Z,8.83,12.02,17.66,Classic Olive Oil 2L,BrandC,Loblaws,08
+2024-07-06T01:00:00Z,36.09,37.49,24.06,Classic Olive Oil 2L,BrandE,Metro,07
+2024-04-04T12:00:00Z,9.65,10.97,9.65,Classic Olive Oil 2L,BrandD,Metro,04
+2024-04-24T16:00:00Z,34.04,39.15,68.08,Organic Olive Oil 750ml,BrandA,Walmart,04
+2024-06-19T09:00:00Z,24.36,33.27,48.72,Extra Virgin Olive Oil 500ml,BrandB,Loblaws,06
+2024-07-02T06:00:00Z,24.5,29.81,49,Organic Olive Oil 750ml,BrandD,Walmart,07
+2024-01-03T22:00:00Z,30.7,29.65,15.35,Pure Olive Oil 1L,BrandC,Metro,01
+2024-11-22T17:00:00Z,18.6,22.13,12.4,Pure Olive Oil 1L,BrandB,Metro,11
+2024-09-12T21:00:00Z,33.3,32.01,16.65,Classic Olive Oil 2L,BrandD,Loblaws,09
+2024-11-10T04:00:00Z,34.82,50.04,34.82,Classic Olive Oil 2L,BrandC,Loblaws,11
+2024-03-13T14:00:00Z,32.75,40.3,32.75,Extra Virgin Olive Oil 500ml,BrandA,Metro,03
+2024-03-15T12:00:00Z,19.59,28.52,19.59,Pure Olive Oil 1L,BrandD,Metro,03
+2024-04-12T02:00:00Z,10.83,14.79,21.66,Organic Olive Oil 750ml,BrandA,Walmart,04
+2024-10-23T17:00:00Z,30.37,39.04,60.74,Extra Virgin Olive Oil 500ml,BrandB,Metro,10
+2024-03-09T13:00:00Z,8.31,9.18,5.54,Pure Olive Oil 1L,BrandD,Metro,03
+2024-03-21T21:00:00Z,6.99,9.54,3.5,Premium Olive Oil 1L,BrandE,Metro,03
+2024-01-19T02:00:00Z,5.77,6.17,2.88,Extra Virgin Olive Oil 500ml,BrandE,Loblaws,01
+2024-08-16T10:00:00Z,27.83,29.05,55.66,Classic Olive Oil 2L,BrandE,Loblaws,08
+2024-10-12T06:00:00Z,29.26,26.37,14.63,Premium Olive Oil 1L,BrandD,Metro,10
+2024-06-19T08:00:00Z,11.48,12.99,22.96,Organic Olive Oil 750ml,BrandD,Walmart,06
+2024-12-14T04:00:00Z,32.87,42.32,16.43,Pure Olive Oil 1L,BrandA,Metro,12
+2024-12-22T13:00:00Z,32.68,45.34,16.34,Organic Olive Oil 750ml,BrandA,Loblaws,12
+2024-09-26T08:00:00Z,27.1,27.37,54.2,Premium Olive Oil 1L,BrandE,Walmart,09
+2024-04-28T22:00:00Z,38.44,57.24,19.22,Pure Olive Oil 1L,BrandC,Walmart,04
+2024-09-10T13:00:00Z,10.07,13.03,5.04,Pure Olive Oil 1L,BrandD,Walmart,09
+2024-07-31T12:00:00Z,7.14,9.96,3.57,Premium Olive Oil 1L,BrandC,Metro,07
+2024-07-25T16:00:00Z,37.95,55.18,75.9,Organic Olive Oil 750ml,BrandC,Metro,07
+2024-09-06T13:00:00Z,34.64,43.61,34.64,Extra Virgin Olive Oil 500ml,BrandC,Metro,09
+2024-04-29T19:00:00Z,17.45,18.95,17.45,Extra Virgin Olive Oil 500ml,BrandE,Loblaws,04
+2024-12-06T20:00:00Z,19.04,26.04,9.52,Classic Olive Oil 2L,BrandA,Loblaws,12
+2024-01-15T09:00:00Z,38.68,52.38,19.34,Classic Olive Oil 2L,BrandB,Metro,01
+2024-07-11T17:00:00Z,8.41,11.96,4.2,Organic Olive Oil 750ml,BrandE,Walmart,07
+2024-05-26T20:00:00Z,29.83,34.71,29.83,Premium Olive Oil 1L,BrandD,Metro,05
+2024-05-05T03:00:00Z,24.38,34.26,16.25,Classic Olive Oil 2L,BrandA,Walmart,05
+2024-12-08T18:00:00Z,35.91,46.19,23.94,Pure Olive Oil 1L,BrandD,Walmart,12
+2024-12-15T13:00:00Z,30.65,34.6,20.43,Premium Olive Oil 1L,BrandA,Loblaws,12
+2024-10-24T04:00:00Z,27.03,26.34,54.06,Pure Olive Oil 1L,BrandD,Walmart,10
+2024-06-05T10:00:00Z,10.44,12.78,6.96,Organic Olive Oil 750ml,BrandE,Loblaws,06
+2024-10-24T05:00:00Z,21.6,28.02,14.4,Pure Olive Oil 1L,BrandC,Walmart,10
+2024-09-17T17:00:00Z,20.23,18.93,10.12,Organic Olive Oil 750ml,BrandC,Walmart,09
+2024-01-17T13:00:00Z,10.45,15.07,10.45,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,01
+2024-03-06T04:00:00Z,34.16,34.64,22.77,Pure Olive Oil 1L,BrandB,Loblaws,03
+2024-06-09T10:00:00Z,15.09,22.31,7.54,Pure Olive Oil 1L,BrandA,Metro,06
+2024-02-09T19:00:00Z,27.26,26.05,18.17,Pure Olive Oil 1L,BrandC,Walmart,02
+2024-10-02T08:00:00Z,21.84,21.2,43.68,Classic Olive Oil 2L,BrandB,Metro,10
+2024-08-11T03:00:00Z,24.81,29.04,12.4,Organic Olive Oil 750ml,BrandB,Loblaws,08
+2024-10-24T19:00:00Z,26.39,34.89,52.78,Premium Olive Oil 1L,BrandA,Walmart,10
+2024-05-01T00:00:00Z,8.71,9.82,4.36,Pure Olive Oil 1L,BrandE,Metro,05
+2024-01-12T04:00:00Z,22.04,23.88,22.04,Extra Virgin Olive Oil 500ml,BrandA,Walmart,01
+2024-01-21T11:00:00Z,10.68,14.12,10.68,Pure Olive Oil 1L,BrandB,Walmart,01
+2024-11-05T18:00:00Z,20.03,26.43,20.03,Extra Virgin Olive Oil 500ml,BrandB,Loblaws,11
+2024-05-08T18:00:00Z,28.47,38.27,14.23,Organic Olive Oil 750ml,BrandB,Metro,05
+2024-10-26T02:00:00Z,25.05,29,50.1,Extra Virgin Olive Oil 500ml,BrandE,Walmart,10
+2024-08-03T22:00:00Z,14.34,14.67,7.17,Premium Olive Oil 1L,BrandD,Loblaws,08
+2024-02-27T11:00:00Z,15.5,17.69,10.33,Organic Olive Oil 750ml,BrandA,Metro,02
+2024-04-06T01:00:00Z,5.37,5.74,5.37,Pure Olive Oil 1L,BrandB,Loblaws,04
+2024-12-06T06:00:00Z,15.36,20.76,30.72,Classic Olive Oil 2L,BrandA,Metro,12
+2024-09-29T05:00:00Z,29.63,36.53,59.26,Premium Olive Oil 1L,BrandA,Walmart,09
+2024-03-14T14:00:00Z,7.55,10.29,15.1,Pure Olive Oil 1L,BrandA,Loblaws,03
+2024-10-17T06:00:00Z,39.11,47.22,26.07,Pure Olive Oil 1L,BrandB,Walmart,10
+2024-12-28T09:00:00Z,33.05,41.84,22.03,Extra Virgin Olive Oil 500ml,BrandA,Metro,12
+2024-03-28T07:00:00Z,36.19,46.92,18.09,Classic Olive Oil 2L,BrandE,Metro,03
+2024-02-28T13:00:00Z,23.16,30.28,11.58,Pure Olive Oil 1L,BrandE,Loblaws,02
+2024-11-26T14:00:00Z,17.02,16.59,34.04,Extra Virgin Olive Oil 500ml,BrandB,Metro,11
+2024-07-22T20:00:00Z,21.33,27.48,21.33,Classic Olive Oil 2L,BrandB,Metro,07
+2024-04-03T11:00:00Z,8.8,9.24,5.87,Pure Olive Oil 1L,BrandC,Metro,04
+2024-10-11T08:00:00Z,13.03,16.49,26.06,Premium Olive Oil 1L,BrandB,Loblaws,10
+2024-04-11T12:00:00Z,18.12,24.03,9.06,Classic Olive Oil 2L,BrandE,Metro,04
+2024-03-09T15:00:00Z,19.08,23.31,9.54,Pure Olive Oil 1L,BrandB,Loblaws,03
+2024-04-05T18:00:00Z,28.31,38.17,14.15,Premium Olive Oil 1L,BrandB,Loblaws,04
+2024-04-09T10:00:00Z,9.85,13.71,4.92,Premium Olive Oil 1L,BrandD,Metro,04
+2024-11-01T03:00:00Z,21.25,24.72,14.17,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,11
+2024-06-09T14:00:00Z,10.15,13.77,20.3,Classic Olive Oil 2L,BrandD,Metro,06
+2024-04-19T03:00:00Z,24.35,35.52,16.23,Premium Olive Oil 1L,BrandE,Walmart,04
+2024-03-02T04:00:00Z,5.96,8.18,2.98,Premium Olive Oil 1L,BrandE,Loblaws,03
+2024-12-30T08:00:00Z,33.17,48.87,33.17,Extra Virgin Olive Oil 500ml,BrandB,Walmart,12
+2024-11-17T00:00:00Z,34.29,48.67,34.29,Premium Olive Oil 1L,BrandE,Loblaws,11
+2024-04-05T06:00:00Z,12.05,12.52,8.03,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,04
+2024-04-16T13:00:00Z,24.25,32.14,48.5,Classic Olive Oil 2L,BrandC,Loblaws,04
+2024-08-03T11:00:00Z,26.45,36.54,26.45,Classic Olive Oil 2L,BrandB,Loblaws,08
+2024-07-19T06:00:00Z,9.62,11.19,19.24,Premium Olive Oil 1L,BrandD,Loblaws,07
+2024-04-06T10:00:00Z,29.41,41.35,29.41,Premium Olive Oil 1L,BrandE,Metro,04
+2024-03-10T22:00:00Z,35.72,35.11,71.44,Classic Olive Oil 2L,BrandD,Metro,03
+2024-09-21T08:00:00Z,38.26,46.38,38.26,Classic Olive Oil 2L,BrandB,Walmart,09
+2024-08-15T10:00:00Z,30.69,33.38,20.46,Classic Olive Oil 2L,BrandD,Metro,08
+2024-01-28T02:00:00Z,5.06,6.23,10.12,Pure Olive Oil 1L,BrandE,Walmart,01
+2024-12-06T21:00:00Z,31.99,32.48,15.99,Organic Olive Oil 750ml,BrandA,Metro,12
+2024-10-05T16:00:00Z,17.05,25.24,17.05,Extra Virgin Olive Oil 500ml,BrandB,Loblaws,10
+2024-09-10T16:00:00Z,19.37,21.88,19.37,Organic Olive Oil 750ml,BrandB,Metro,09
+2024-08-20T07:00:00Z,5.11,7.09,10.22,Classic Olive Oil 2L,BrandD,Loblaws,08
+2024-09-17T05:00:00Z,16.77,18.11,16.77,Pure Olive Oil 1L,BrandA,Walmart,09
+2024-12-04T01:00:00Z,16.35,19.87,16.35,Organic Olive Oil 750ml,BrandC,Metro,12
+2024-09-15T22:00:00Z,21.13,24.37,42.26,Extra Virgin Olive Oil 500ml,BrandA,Walmart,09
+2024-11-11T03:00:00Z,33.89,45.06,22.59,Extra Virgin Olive Oil 500ml,BrandC,Metro,11
+2024-03-04T00:00:00Z,28,27.77,18.67,Classic Olive Oil 2L,BrandC,Metro,03
+2024-06-22T23:00:00Z,17.83,20.01,35.66,Classic Olive Oil 2L,BrandB,Walmart,06
+2024-07-16T10:00:00Z,32.58,34.54,21.72,Extra Virgin Olive Oil 500ml,BrandA,Metro,07
+2024-12-03T06:00:00Z,18.36,25.48,12.24,Organic Olive Oil 750ml,BrandD,Metro,12
+2024-11-04T02:00:00Z,38.04,48.82,38.04,Pure Olive Oil 1L,BrandC,Loblaws,11
+2024-06-08T05:00:00Z,32.01,43.53,32.01,Extra Virgin Olive Oil 500ml,BrandB,Metro,06
+2024-02-04T13:00:00Z,15.69,19.62,7.84,Extra Virgin Olive Oil 500ml,BrandE,Walmart,02
+2024-10-26T19:00:00Z,13.43,20.12,26.86,Premium Olive Oil 1L,BrandC,Loblaws,10
+2024-07-07T03:00:00Z,10.42,11.52,10.42,Pure Olive Oil 1L,BrandA,Walmart,07
+2024-12-13T17:00:00Z,36.09,40.74,72.18,Pure Olive Oil 1L,BrandB,Walmart,12
+2024-06-03T16:00:00Z,23.91,33.63,23.91,Premium Olive Oil 1L,BrandB,Walmart,06
+2024-06-23T09:00:00Z,36.73,41.41,24.49,Organic Olive Oil 750ml,BrandC,Walmart,06
+2024-08-12T20:00:00Z,39.96,37.17,26.64,Extra Virgin Olive Oil 500ml,BrandD,Loblaws,08
+2024-03-22T17:00:00Z,24.43,22.43,48.86,Premium Olive Oil 1L,BrandC,Walmart,03
+2024-03-26T19:00:00Z,16.69,21.88,33.38,Premium Olive Oil 1L,BrandD,Walmart,03
+2024-11-26T08:00:00Z,28.4,40.03,56.8,Premium Olive Oil 1L,BrandB,Metro,11
+2024-10-03T11:00:00Z,35.59,52.14,71.18,Organic Olive Oil 750ml,BrandB,Loblaws,10
+2024-05-13T20:00:00Z,39.23,47.06,78.46,Classic Olive Oil 2L,BrandE,Metro,05
+2024-06-11T01:00:00Z,19.14,21.15,38.28,Organic Olive Oil 750ml,BrandC,Loblaws,06
+2024-10-05T16:00:00Z,30.7,30.18,61.4,Organic Olive Oil 750ml,BrandD,Walmart,10
+2024-12-13T15:00:00Z,16.06,20.73,8.03,Pure Olive Oil 1L,BrandB,Metro,12
+2024-06-04T22:00:00Z,20.98,21.51,20.98,Organic Olive Oil 750ml,BrandE,Metro,06
+2024-01-15T15:00:00Z,13.36,14.34,26.72,Pure Olive Oil 1L,BrandB,Loblaws,01
+2024-01-16T23:00:00Z,29.23,34.43,58.46,Premium Olive Oil 1L,BrandA,Walmart,01
+2024-07-01T14:00:00Z,19.57,23.38,9.79,Classic Olive Oil 2L,BrandD,Walmart,07
+2024-03-28T19:00:00Z,29.14,31.7,29.14,Extra Virgin Olive Oil 500ml,BrandB,Loblaws,03
+2024-11-20T02:00:00Z,38.24,52.6,25.49,Premium Olive Oil 1L,BrandE,Loblaws,11
+2024-07-20T08:00:00Z,6.78,7.16,6.78,Premium Olive Oil 1L,BrandB,Metro,07
+2024-04-12T06:00:00Z,26.65,26.87,53.3,Classic Olive Oil 2L,BrandC,Metro,04
+2024-12-01T09:00:00Z,31.13,29.71,15.56,Classic Olive Oil 2L,BrandD,Metro,12
+2024-02-19T14:00:00Z,29.04,31.18,58.08,Classic Olive Oil 2L,BrandD,Loblaws,02
+2024-09-18T11:00:00Z,35.61,36.72,23.74,Classic Olive Oil 2L,BrandC,Loblaws,09
+2024-10-03T03:00:00Z,32.97,43.57,32.97,Classic Olive Oil 2L,BrandD,Walmart,10
+2024-03-03T03:00:00Z,35.89,43.57,23.93,Pure Olive Oil 1L,BrandD,Walmart,03
+2024-01-14T10:00:00Z,39.33,51,26.22,Organic Olive Oil 750ml,BrandE,Metro,01
+2024-03-01T07:00:00Z,24.2,24.15,48.4,Premium Olive Oil 1L,BrandD,Metro,03
+2024-11-05T12:00:00Z,32.34,44.44,21.56,Premium Olive Oil 1L,BrandB,Walmart,11
+2024-12-26T18:00:00Z,25.28,25.79,16.85,Organic Olive Oil 750ml,BrandC,Walmart,12
+2024-07-10T03:00:00Z,7.69,11.05,7.69,Organic Olive Oil 750ml,BrandA,Loblaws,07
+2024-11-18T22:00:00Z,21.41,20.44,10.7,Extra Virgin Olive Oil 500ml,BrandC,Walmart,11
+2024-09-19T00:00:00Z,10.27,14.05,10.27,Organic Olive Oil 750ml,BrandC,Loblaws,09
+2024-04-05T23:00:00Z,24.47,23.35,24.47,Pure Olive Oil 1L,BrandA,Walmart,04
+2024-09-17T01:00:00Z,6.96,6.85,4.64,Classic Olive Oil 2L,BrandB,Loblaws,09
+2024-08-23T08:00:00Z,30.78,31.41,20.52,Pure Olive Oil 1L,BrandB,Walmart,08
+2024-11-02T12:00:00Z,5.08,6.28,2.54,Classic Olive Oil 2L,BrandB,Walmart,11
+2024-08-12T10:00:00Z,8.06,10.43,5.37,Classic Olive Oil 2L,BrandC,Metro,08
+2024-09-19T16:00:00Z,36.56,40.47,18.28,Classic Olive Oil 2L,BrandC,Walmart,09
+2024-01-29T01:00:00Z,39.1,47.55,26.07,Organic Olive Oil 750ml,BrandB,Walmart,01
+2024-09-18T17:00:00Z,15.88,19.03,7.94,Pure Olive Oil 1L,BrandC,Loblaws,09
+2024-11-17T13:00:00Z,27.47,29.93,13.73,Extra Virgin Olive Oil 500ml,BrandE,Walmart,11
+2024-05-16T12:00:00Z,27.87,38.8,13.94,Organic Olive Oil 750ml,BrandA,Walmart,05
+2024-08-13T10:00:00Z,26.43,37.86,17.62,Classic Olive Oil 2L,BrandB,Walmart,08
+2024-10-29T23:00:00Z,35.85,45.36,17.92,Pure Olive Oil 1L,BrandB,Loblaws,10
+2024-02-20T10:00:00Z,32.35,34.63,64.7,Pure Olive Oil 1L,BrandB,Loblaws,02
+2024-02-14T00:00:00Z,15.65,19.36,10.43,Extra Virgin Olive Oil 500ml,BrandB,Metro,02
+2024-09-22T21:00:00Z,6.89,8.93,4.59,Organic Olive Oil 750ml,BrandB,Loblaws,09
+2024-05-04T10:00:00Z,20.62,24.15,20.62,Premium Olive Oil 1L,BrandA,Loblaws,05
+2024-11-19T08:00:00Z,19.91,25.45,39.82,Classic Olive Oil 2L,BrandC,Metro,11
+2024-10-07T11:00:00Z,27.29,35.27,18.19,Pure Olive Oil 1L,BrandD,Loblaws,10
+2024-01-13T14:00:00Z,31.06,44.13,20.71,Organic Olive Oil 750ml,BrandC,Metro,01
+2024-11-18T02:00:00Z,25.63,24.9,51.26,Pure Olive Oil 1L,BrandE,Metro,11
+2024-11-22T10:00:00Z,21.2,29.96,42.4,Organic Olive Oil 750ml,BrandB,Loblaws,11
+2024-04-19T18:00:00Z,12.68,13.97,12.68,Extra Virgin Olive Oil 500ml,BrandB,Metro,04
+2024-12-25T08:00:00Z,20.87,29.12,10.44,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,12
+2024-04-12T12:00:00Z,31.86,46.78,31.86,Organic Olive Oil 750ml,BrandC,Metro,04
+2024-12-24T21:00:00Z,14.04,14.43,7.02,Classic Olive Oil 2L,BrandA,Metro,12
+2024-02-24T02:00:00Z,29.76,39.84,14.88,Classic Olive Oil 2L,BrandE,Loblaws,02
+2024-11-06T04:00:00Z,32.26,39.77,64.52,Classic Olive Oil 2L,BrandA,Loblaws,11
+2024-01-03T00:00:00Z,18.53,18.55,9.27,Extra Virgin Olive Oil 500ml,BrandC,Metro,01
+2024-03-15T00:00:00Z,15.8,16.79,7.9,Classic Olive Oil 2L,BrandC,Metro,03
+2024-06-28T15:00:00Z,8.88,8.58,8.88,Classic Olive Oil 2L,BrandB,Walmart,06
+2024-06-25T15:00:00Z,21.8,20.55,10.9,Pure Olive Oil 1L,BrandB,Loblaws,06
+2024-03-20T02:00:00Z,30.79,30.83,20.53,Extra Virgin Olive Oil 500ml,BrandC,Metro,03
+2024-09-01T04:00:00Z,23.12,29.47,11.56,Classic Olive Oil 2L,BrandA,Walmart,09
+2024-03-12T21:00:00Z,37.31,49.68,74.62,Pure Olive Oil 1L,BrandA,Metro,03
+2024-02-11T18:00:00Z,5.51,7.07,3.67,Pure Olive Oil 1L,BrandD,Walmart,02
+2024-05-04T12:00:00Z,37.07,48.21,74.14,Classic Olive Oil 2L,BrandC,Loblaws,05
+2024-10-09T03:00:00Z,25.29,24.16,16.86,Premium Olive Oil 1L,BrandB,Loblaws,10
+2024-07-13T19:00:00Z,33.3,35.66,22.2,Extra Virgin Olive Oil 500ml,BrandD,Walmart,07
+2024-07-31T10:00:00Z,20.17,29.66,20.17,Classic Olive Oil 2L,BrandA,Metro,07
+2024-08-05T07:00:00Z,16.01,17.83,32.02,Organic Olive Oil 750ml,BrandD,Walmart,08
+2024-08-20T20:00:00Z,19.31,19.2,12.87,Pure Olive Oil 1L,BrandD,Loblaws,08
+2024-07-23T09:00:00Z,15.42,21.61,30.84,Premium Olive Oil 1L,BrandE,Metro,07
+2024-09-02T02:00:00Z,9.21,12.96,6.14,Extra Virgin Olive Oil 500ml,BrandA,Walmart,09
+2024-11-14T00:00:00Z,14.74,16.62,29.48,Classic Olive Oil 2L,BrandA,Walmart,11
+2024-01-04T02:00:00Z,14.64,19.16,29.28,Pure Olive Oil 1L,BrandA,Metro,01
+2024-03-29T18:00:00Z,16.91,20.06,16.91,Premium Olive Oil 1L,BrandD,Metro,03
+2024-07-02T02:00:00Z,5.64,5.59,11.28,Extra Virgin Olive Oil 500ml,BrandA,Loblaws,07
+2024-11-22T17:00:00Z,31.63,40.57,31.63,Premium Olive Oil 1L,BrandD,Loblaws,11
+2024-09-23T15:00:00Z,20.65,28.81,20.65,Pure Olive Oil 1L,BrandA,Walmart,09
+2024-10-08T01:00:00Z,26.04,30.12,17.36,Pure Olive Oil 1L,BrandC,Metro,10
+2024-10-25T19:00:00Z,8.67,10.12,8.67,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,10
+2024-05-05T08:00:00Z,6.11,6.35,4.07,Organic Olive Oil 750ml,BrandC,Walmart,05
+2024-04-04T08:00:00Z,11.46,10.85,7.64,Premium Olive Oil 1L,BrandD,Metro,04
+2024-07-19T20:00:00Z,6.1,6.73,6.1,Organic Olive Oil 750ml,BrandC,Loblaws,07
+2024-10-05T19:00:00Z,37.86,39.19,25.24,Organic Olive Oil 750ml,BrandA,Metro,10
+2024-04-22T16:00:00Z,22.18,21.82,22.18,Extra Virgin Olive Oil 500ml,BrandB,Loblaws,04
+2024-01-11T08:00:00Z,33.09,41.07,22.06,Pure Olive Oil 1L,BrandA,Walmart,01
+2024-06-07T12:00:00Z,24.59,32.17,49.18,Premium Olive Oil 1L,BrandD,Loblaws,06
+2024-07-22T22:00:00Z,8.85,9.7,5.9,Classic Olive Oil 2L,BrandB,Metro,07
+2024-11-02T21:00:00Z,5.37,7.76,2.68,Classic Olive Oil 2L,BrandE,Loblaws,11
+2024-04-07T16:00:00Z,20.13,21.07,13.42,Organic Olive Oil 750ml,BrandB,Walmart,04
+2024-03-06T10:00:00Z,12.25,15.41,24.5,Classic Olive Oil 2L,BrandE,Metro,03
+2024-11-28T16:00:00Z,33.22,43.23,22.15,Premium Olive Oil 1L,BrandD,Loblaws,11
+2024-06-18T10:00:00Z,22.88,31.46,22.88,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,06
+2024-05-18T10:00:00Z,23.85,27.79,15.9,Classic Olive Oil 2L,BrandA,Loblaws,05
+2024-09-09T05:00:00Z,37.48,39.52,24.99,Organic Olive Oil 750ml,BrandB,Metro,09
+2024-11-08T12:00:00Z,7.67,9.49,7.67,Pure Olive Oil 1L,BrandA,Metro,11
+2024-05-23T03:00:00Z,5.77,6.73,2.88,Premium Olive Oil 1L,BrandA,Metro,05
+2024-06-26T22:00:00Z,24.52,30.36,24.52,Pure Olive Oil 1L,BrandA,Walmart,06
+2024-08-26T12:00:00Z,8.66,10.11,5.77,Organic Olive Oil 750ml,BrandB,Loblaws,08
+2024-12-17T01:00:00Z,14.21,20.85,7.11,Organic Olive Oil 750ml,BrandE,Metro,12
+2024-11-28T20:00:00Z,9.9,9.36,4.95,Classic Olive Oil 2L,BrandD,Metro,11
+2024-08-12T15:00:00Z,10.35,11.35,10.35,Organic Olive Oil 750ml,BrandB,Metro,08
+2024-07-31T00:00:00Z,24.94,30.46,49.88,Pure Olive Oil 1L,BrandA,Walmart,07
+2024-08-07T06:00:00Z,7.05,9.2,4.7,Pure Olive Oil 1L,BrandE,Metro,08
+2024-04-01T13:00:00Z,27.04,35.44,54.08,Classic Olive Oil 2L,BrandC,Walmart,04
+2024-06-19T00:00:00Z,30.76,27.78,15.38,Organic Olive Oil 750ml,BrandA,Loblaws,06
+2024-12-16T05:00:00Z,18.1,24.47,12.07,Organic Olive Oil 750ml,BrandE,Loblaws,12
+2024-02-20T21:00:00Z,29.68,31.46,29.68,Pure Olive Oil 1L,BrandA,Walmart,02
+2024-07-21T20:00:00Z,6.87,9.92,3.44,Extra Virgin Olive Oil 500ml,BrandA,Metro,07
+2024-04-15T01:00:00Z,25.43,30.25,25.43,Pure Olive Oil 1L,BrandC,Loblaws,04
+2024-03-16T22:00:00Z,14.25,13.43,28.5,Classic Olive Oil 2L,BrandC,Loblaws,03
+2024-03-29T02:00:00Z,11.3,12.57,5.65,Pure Olive Oil 1L,BrandE,Loblaws,03
+2024-04-13T00:00:00Z,15.07,20.18,7.54,Pure Olive Oil 1L,BrandE,Loblaws,04
+2024-05-09T07:00:00Z,26.13,31.17,13.06,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,05
+2024-06-01T17:00:00Z,19.69,26.74,39.38,Extra Virgin Olive Oil 500ml,BrandE,Metro,06
+2024-03-24T13:00:00Z,27.26,28.98,13.63,Premium Olive Oil 1L,BrandE,Metro,03
+2024-01-14T01:00:00Z,38.17,43.9,76.34,Pure Olive Oil 1L,BrandA,Loblaws,01
+2024-02-29T14:00:00Z,23.4,31.42,11.7,Premium Olive Oil 1L,BrandE,Metro,02
+2024-04-16T08:00:00Z,13.72,18.33,9.15,Classic Olive Oil 2L,BrandB,Walmart,04
+2024-02-17T10:00:00Z,31.01,31.8,15.51,Extra Virgin Olive Oil 500ml,BrandC,Walmart,02
+2024-07-01T21:00:00Z,23.56,22.32,23.56,Extra Virgin Olive Oil 500ml,BrandB,Loblaws,07
+2024-08-23T21:00:00Z,9.77,11.87,4.88,Premium Olive Oil 1L,BrandE,Loblaws,08
+2024-08-28T03:00:00Z,13.41,16.77,13.41,Pure Olive Oil 1L,BrandA,Metro,08
+2024-01-21T21:00:00Z,9.14,8.69,6.09,Organic Olive Oil 750ml,BrandA,Walmart,01
+2024-02-06T19:00:00Z,8.76,7.89,4.38,Premium Olive Oil 1L,BrandB,Metro,02
+2024-02-19T01:00:00Z,27.78,27.87,55.56,Pure Olive Oil 1L,BrandA,Metro,02
+2024-03-27T22:00:00Z,30.82,39.25,20.55,Organic Olive Oil 750ml,BrandC,Walmart,03
+2024-12-03T02:00:00Z,20.65,27.5,13.77,Premium Olive Oil 1L,BrandA,Walmart,12
+2024-03-10T05:00:00Z,10.14,14.88,20.28,Premium Olive Oil 1L,BrandA,Metro,03
+2024-06-07T22:00:00Z,34.42,40.82,68.84,Organic Olive Oil 750ml,BrandB,Metro,06
+2024-12-22T00:00:00Z,39.89,58.36,26.59,Extra Virgin Olive Oil 500ml,BrandD,Metro,12
+2024-12-20T23:00:00Z,5.68,6.45,3.79,Organic Olive Oil 750ml,BrandE,Loblaws,12
+2024-10-26T08:00:00Z,23.79,21.47,11.89,Organic Olive Oil 750ml,BrandA,Walmart,10
+2024-05-23T19:00:00Z,32.87,29.96,65.74,Pure Olive Oil 1L,BrandD,Loblaws,05
+2024-05-01T05:00:00Z,23.34,30.86,46.68,Organic Olive Oil 750ml,BrandE,Walmart,05
+2024-07-06T15:00:00Z,13.63,20.12,13.63,Organic Olive Oil 750ml,BrandE,Loblaws,07
+2024-12-15T10:00:00Z,21.57,24.11,43.14,Organic Olive Oil 750ml,BrandA,Walmart,12
+2024-04-25T15:00:00Z,15.23,17.17,10.15,Classic Olive Oil 2L,BrandD,Walmart,04
+2024-04-03T22:00:00Z,38.86,46.4,25.91,Classic Olive Oil 2L,BrandD,Loblaws,04
+2024-07-14T14:00:00Z,29.47,42.94,29.47,Extra Virgin Olive Oil 500ml,BrandE,Metro,07
+2024-01-02T02:00:00Z,31.13,28.27,62.26,Pure Olive Oil 1L,BrandE,Walmart,01
+2024-12-01T17:00:00Z,5.48,5.29,5.48,Pure Olive Oil 1L,BrandD,Loblaws,12
+2024-01-04T04:00:00Z,19.03,24.55,19.03,Organic Olive Oil 750ml,BrandB,Metro,01
+2024-10-21T09:00:00Z,20.89,21.64,20.89,Classic Olive Oil 2L,BrandD,Walmart,10
+2024-08-29T04:00:00Z,9.26,10,4.63,Premium Olive Oil 1L,BrandB,Loblaws,08
+2024-05-18T05:00:00Z,14,19.84,14,Classic Olive Oil 2L,BrandD,Metro,05
+2024-01-06T16:00:00Z,10.23,13.17,6.82,Classic Olive Oil 2L,BrandC,Loblaws,01
+2024-02-09T09:00:00Z,19.59,21.74,39.18,Premium Olive Oil 1L,BrandA,Metro,02
+2024-11-13T16:00:00Z,12.57,14.51,12.57,Premium Olive Oil 1L,BrandC,Metro,11
+2024-06-01T00:00:00Z,23.29,27.77,46.58,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,06
+2024-01-15T17:00:00Z,36.07,35.77,36.07,Classic Olive Oil 2L,BrandC,Metro,01
+2024-10-02T16:00:00Z,23.08,28.3,15.39,Extra Virgin Olive Oil 500ml,BrandE,Loblaws,10
+2024-02-17T08:00:00Z,19.88,25.41,39.76,Extra Virgin Olive Oil 500ml,BrandE,Metro,02
+2024-09-26T05:00:00Z,15.33,17.62,10.22,Classic Olive Oil 2L,BrandA,Loblaws,09
+2024-10-23T13:00:00Z,12.86,17.16,6.43,Extra Virgin Olive Oil 500ml,BrandE,Walmart,10
+2024-01-10T06:00:00Z,6.86,9.98,4.57,Extra Virgin Olive Oil 500ml,BrandC,Metro,01
+2024-07-30T11:00:00Z,32.5,39.42,32.5,Premium Olive Oil 1L,BrandB,Loblaws,07
+2024-01-10T15:00:00Z,38.54,44.77,25.69,Premium Olive Oil 1L,BrandE,Metro,01
+2024-10-31T09:00:00Z,36.88,49.01,24.59,Extra Virgin Olive Oil 500ml,BrandA,Walmart,10
+2024-01-03T00:00:00Z,15.22,16.13,15.22,Classic Olive Oil 2L,BrandA,Metro,01
+2024-07-29T22:00:00Z,13.53,14.79,9.02,Extra Virgin Olive Oil 500ml,BrandE,Walmart,07
+2024-07-21T14:00:00Z,15.77,15.4,31.54,Organic Olive Oil 750ml,BrandE,Loblaws,07
+2024-07-30T23:00:00Z,16.49,23.75,32.98,Premium Olive Oil 1L,BrandC,Metro,07
+2024-09-02T18:00:00Z,26.51,39.24,17.67,Organic Olive Oil 750ml,BrandC,Metro,09
+2024-10-09T14:00:00Z,27.23,30.39,18.15,Premium Olive Oil 1L,BrandD,Loblaws,10
+2024-11-02T22:00:00Z,8.78,10.63,5.85,Premium Olive Oil 1L,BrandD,Metro,11
+2024-02-04T00:00:00Z,22.43,23.97,44.86,Organic Olive Oil 750ml,BrandC,Loblaws,02
+2024-06-27T21:00:00Z,6.66,6.65,6.66,Pure Olive Oil 1L,BrandD,Walmart,06
+2024-05-15T12:00:00Z,28.02,39.53,14.01,Premium Olive Oil 1L,BrandA,Walmart,05
+2024-09-03T20:00:00Z,38.41,44.31,76.82,Organic Olive Oil 750ml,BrandB,Walmart,09
+2024-09-20T20:00:00Z,38.49,54.68,19.25,Organic Olive Oil 750ml,BrandD,Walmart,09
+2024-12-14T21:00:00Z,36.86,46.92,36.86,Pure Olive Oil 1L,BrandB,Loblaws,12
+2024-04-02T22:00:00Z,21.66,29.27,14.44,Classic Olive Oil 2L,BrandB,Metro,04
+2024-02-09T21:00:00Z,17.92,16.42,35.84,Classic Olive Oil 2L,BrandE,Walmart,02
+2024-11-11T20:00:00Z,18.63,23.33,12.42,Classic Olive Oil 2L,BrandB,Loblaws,11
+2024-10-03T14:00:00Z,37.93,35.16,18.96,Extra Virgin Olive Oil 500ml,BrandC,Metro,10
+2024-11-18T02:00:00Z,29.02,42.57,58.04,Premium Olive Oil 1L,BrandD,Walmart,11
+2024-08-23T23:00:00Z,19.59,22.91,9.8,Organic Olive Oil 750ml,BrandB,Metro,08
+2024-01-29T01:00:00Z,21.81,21.67,21.81,Pure Olive Oil 1L,BrandB,Metro,01
+2024-07-19T14:00:00Z,31.15,38.6,20.77,Organic Olive Oil 750ml,BrandA,Walmart,07
+2024-02-23T17:00:00Z,30.72,43.73,30.72,Organic Olive Oil 750ml,BrandC,Walmart,02
+2024-07-24T12:00:00Z,21.49,20.15,10.74,Premium Olive Oil 1L,BrandB,Loblaws,07
+2024-12-14T22:00:00Z,19.4,28.6,19.4,Organic Olive Oil 750ml,BrandD,Metro,12
+2024-10-14T08:00:00Z,19.07,27.02,9.54,Organic Olive Oil 750ml,BrandD,Metro,10
+2024-02-18T01:00:00Z,28.5,34.57,28.5,Premium Olive Oil 1L,BrandD,Metro,02
+2024-02-29T18:00:00Z,29.18,40.93,58.36,Pure Olive Oil 1L,BrandA,Metro,02
+2024-05-13T18:00:00Z,7.06,9.41,3.53,Extra Virgin Olive Oil 500ml,BrandB,Metro,05
+2024-10-22T22:00:00Z,21.11,31.64,10.55,Classic Olive Oil 2L,BrandD,Loblaws,10
+2024-06-27T08:00:00Z,22.69,30.35,15.13,Pure Olive Oil 1L,BrandA,Walmart,06
+2024-05-19T22:00:00Z,10.5,12.6,21,Classic Olive Oil 2L,BrandD,Walmart,05
+2024-09-15T02:00:00Z,15.6,22.31,10.4,Classic Olive Oil 2L,BrandB,Metro,09
+2024-03-14T09:00:00Z,12.01,12.19,6,Pure Olive Oil 1L,BrandD,Walmart,03
+2024-06-14T03:00:00Z,9.09,9.25,6.06,Classic Olive Oil 2L,BrandD,Walmart,06
+2024-03-01T17:00:00Z,34.8,32.67,34.8,Extra Virgin Olive Oil 500ml,BrandA,Metro,03
+2024-07-03T08:00:00Z,16.89,23.46,11.26,Extra Virgin Olive Oil 500ml,BrandC,Metro,07
+2024-12-20T13:00:00Z,7.16,9.45,4.77,Organic Olive Oil 750ml,BrandD,Metro,12
+2024-10-09T09:00:00Z,27.58,25.55,27.58,Classic Olive Oil 2L,BrandA,Metro,10
+2024-12-11T13:00:00Z,31.73,46.06,31.73,Premium Olive Oil 1L,BrandE,Metro,12
+2024-08-26T23:00:00Z,23.79,35.42,15.86,Premium Olive Oil 1L,BrandC,Metro,08
+2024-03-25T19:00:00Z,22.59,31.39,11.3,Premium Olive Oil 1L,BrandA,Loblaws,03
+2024-02-29T09:00:00Z,31.46,33.67,15.73,Premium Olive Oil 1L,BrandA,Walmart,02
+2024-02-05T18:00:00Z,36.01,42.15,72.02,Pure Olive Oil 1L,BrandB,Metro,02
+2024-03-07T22:00:00Z,33.93,38.19,16.96,Premium Olive Oil 1L,BrandE,Walmart,03
+2024-09-05T04:00:00Z,22.53,21.09,11.27,Extra Virgin Olive Oil 500ml,BrandE,Metro,09
+2024-02-24T10:00:00Z,32.87,41.46,65.74,Pure Olive Oil 1L,BrandE,Loblaws,02
+2024-11-17T17:00:00Z,11.75,12.89,23.5,Organic Olive Oil 750ml,BrandB,Walmart,11
+2024-03-08T02:00:00Z,18.05,17.39,18.05,Premium Olive Oil 1L,BrandD,Walmart,03
+2024-09-30T03:00:00Z,19.25,17.33,9.62,Pure Olive Oil 1L,BrandA,Walmart,09
+2024-03-06T08:00:00Z,8.22,9.35,16.44,Extra Virgin Olive Oil 500ml,BrandE,Loblaws,03
+2024-12-17T16:00:00Z,5.07,5.57,3.38,Premium Olive Oil 1L,BrandD,Walmart,12
+2024-06-18T14:00:00Z,18.64,22.64,37.28,Classic Olive Oil 2L,BrandA,Metro,06
+2024-06-15T20:00:00Z,10.55,11.92,21.1,Pure Olive Oil 1L,BrandB,Metro,06
+2024-02-12T01:00:00Z,35.76,40.06,35.76,Classic Olive Oil 2L,BrandC,Metro,02
+2024-10-13T15:00:00Z,25.67,23.39,51.34,Premium Olive Oil 1L,BrandA,Walmart,10
+2024-05-16T06:00:00Z,20.81,30.95,10.4,Organic Olive Oil 750ml,BrandD,Walmart,05
+2024-09-28T01:00:00Z,23.64,29.07,11.82,Organic Olive Oil 750ml,BrandC,Walmart,09
+2024-03-23T07:00:00Z,6.78,6.25,6.78,Premium Olive Oil 1L,BrandE,Metro,03
+2024-07-26T13:00:00Z,31.37,37.91,62.74,Pure Olive Oil 1L,BrandA,Walmart,07
+2024-11-21T02:00:00Z,29.09,34.18,14.54,Organic Olive Oil 750ml,BrandA,Walmart,11
+2024-05-22T14:00:00Z,9.48,11.43,18.96,Pure Olive Oil 1L,BrandE,Walmart,05
+2024-07-19T02:00:00Z,26.38,37.68,17.59,Extra Virgin Olive Oil 500ml,BrandA,Metro,07
+2024-12-05T18:00:00Z,27.74,25.78,18.49,Pure Olive Oil 1L,BrandB,Loblaws,12
+2024-12-21T18:00:00Z,17.05,17.41,17.05,Organic Olive Oil 750ml,BrandA,Loblaws,12
+2024-09-06T00:00:00Z,29.11,27.11,58.22,Organic Olive Oil 750ml,BrandD,Loblaws,09
+2024-05-03T19:00:00Z,24.91,29.07,24.91,Classic Olive Oil 2L,BrandE,Metro,05
+2024-07-12T06:00:00Z,14.68,14.3,14.68,Classic Olive Oil 2L,BrandD,Metro,07
+2024-05-17T13:00:00Z,37.01,54.94,18.5,Premium Olive Oil 1L,BrandA,Loblaws,05
+2024-07-24T20:00:00Z,6.61,6.44,3.31,Organic Olive Oil 750ml,BrandB,Walmart,07
+2024-09-09T08:00:00Z,36.61,33.63,18.3,Pure Olive Oil 1L,BrandB,Metro,09
+2024-04-19T18:00:00Z,33.61,40.21,67.22,Extra Virgin Olive Oil 500ml,BrandC,Metro,04
+2024-04-24T08:00:00Z,16.34,16.77,8.17,Classic Olive Oil 2L,BrandA,Walmart,04
+2024-01-24T19:00:00Z,19.61,22.7,13.07,Organic Olive Oil 750ml,BrandE,Loblaws,01
+2024-03-17T22:00:00Z,22.65,21.95,11.32,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,03
+2024-09-17T17:00:00Z,24.32,26,16.21,Premium Olive Oil 1L,BrandB,Walmart,09
+2024-02-08T07:00:00Z,7.55,10.13,7.55,Pure Olive Oil 1L,BrandE,Metro,02
+2024-10-02T17:00:00Z,16.17,17.27,8.09,Premium Olive Oil 1L,BrandB,Loblaws,10
+2024-03-25T20:00:00Z,13.17,13.38,6.58,Classic Olive Oil 2L,BrandC,Loblaws,03
+2024-09-06T11:00:00Z,8.42,8.04,8.42,Organic Olive Oil 750ml,BrandB,Metro,09
+2024-12-16T11:00:00Z,39.22,51.3,78.44,Organic Olive Oil 750ml,BrandE,Loblaws,12
+2024-07-10T14:00:00Z,16.98,17.87,33.96,Classic Olive Oil 2L,BrandC,Walmart,07
+2024-04-14T15:00:00Z,37.65,39.74,75.3,Organic Olive Oil 750ml,BrandA,Metro,04
+2024-02-20T00:00:00Z,33.35,33,16.68,Classic Olive Oil 2L,BrandB,Walmart,02
+2024-09-26T09:00:00Z,19.33,22.49,19.33,Extra Virgin Olive Oil 500ml,BrandB,Loblaws,09
+2024-08-08T04:00:00Z,32.91,42.76,16.45,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,08
+2024-06-22T20:00:00Z,13.55,18.73,9.03,Pure Olive Oil 1L,BrandC,Loblaws,06
+2024-03-30T14:00:00Z,32.24,46.94,21.49,Premium Olive Oil 1L,BrandD,Metro,03
+2024-10-23T06:00:00Z,8.01,9.87,5.34,Premium Olive Oil 1L,BrandB,Loblaws,10
+2024-04-01T07:00:00Z,12.42,16.11,24.84,Organic Olive Oil 750ml,BrandE,Loblaws,04
+2024-10-08T19:00:00Z,39.41,36.09,78.82,Extra Virgin Olive Oil 500ml,BrandD,Loblaws,10
+2024-09-12T02:00:00Z,6.58,9.5,4.39,Organic Olive Oil 750ml,BrandB,Loblaws,09
+2024-06-23T21:00:00Z,24.1,25.97,12.05,Extra Virgin Olive Oil 500ml,BrandB,Loblaws,06
+2024-05-31T15:00:00Z,28.58,31.15,19.05,Pure Olive Oil 1L,BrandE,Walmart,05
+2024-02-13T17:00:00Z,14.67,19.91,29.34,Extra Virgin Olive Oil 500ml,BrandA,Metro,02
+2024-12-27T19:00:00Z,22.25,21.22,22.25,Organic Olive Oil 750ml,BrandC,Loblaws,12
+2024-08-08T12:00:00Z,35.08,51.96,35.08,Organic Olive Oil 750ml,BrandA,Loblaws,08
+2024-05-20T05:00:00Z,21.97,30.77,43.94,Premium Olive Oil 1L,BrandA,Walmart,05
+2024-03-01T07:00:00Z,9.75,9.55,4.88,Pure Olive Oil 1L,BrandB,Walmart,03
+2024-08-02T21:00:00Z,16.1,15.66,32.2,Organic Olive Oil 750ml,BrandE,Walmart,08
+2024-10-13T10:00:00Z,31.82,36.46,31.82,Classic Olive Oil 2L,BrandD,Metro,10
+2024-05-03T20:00:00Z,6.58,6.36,4.39,Extra Virgin Olive Oil 500ml,BrandC,Metro,05
+2024-10-24T05:00:00Z,37.38,44.13,24.92,Premium Olive Oil 1L,BrandD,Walmart,10
+2024-07-23T21:00:00Z,28.9,39.51,57.8,Organic Olive Oil 750ml,BrandB,Metro,07
+2024-03-02T07:00:00Z,19.59,20.36,13.06,Classic Olive Oil 2L,BrandA,Metro,03
+2024-01-28T10:00:00Z,9.74,11.03,4.87,Organic Olive Oil 750ml,BrandA,Walmart,01
+2024-07-24T20:00:00Z,37.43,35.56,74.86,Pure Olive Oil 1L,BrandB,Loblaws,07
+2024-11-18T15:00:00Z,13.11,13.26,13.11,Classic Olive Oil 2L,BrandC,Walmart,11
+2024-03-25T17:00:00Z,30.88,45.71,61.76,Extra Virgin Olive Oil 500ml,BrandE,Metro,03
+2024-05-16T06:00:00Z,5.28,6.92,10.56,Pure Olive Oil 1L,BrandE,Walmart,05
+2024-04-17T17:00:00Z,13.7,19.98,6.85,Premium Olive Oil 1L,BrandC,Loblaws,04
+2024-02-03T12:00:00Z,39.63,49.72,19.82,Classic Olive Oil 2L,BrandB,Walmart,02
+2024-08-02T15:00:00Z,30.1,28.53,20.07,Pure Olive Oil 1L,BrandC,Walmart,08
+2024-11-17T20:00:00Z,27.81,39.13,27.81,Premium Olive Oil 1L,BrandA,Walmart,11
+2024-09-03T23:00:00Z,13.42,12.32,6.71,Organic Olive Oil 750ml,BrandE,Loblaws,09
+2024-06-08T10:00:00Z,8.04,11.17,8.04,Premium Olive Oil 1L,BrandA,Walmart,06
+2024-11-02T07:00:00Z,15.38,17.45,7.69,Extra Virgin Olive Oil 500ml,BrandB,Metro,11
+2024-12-10T03:00:00Z,23.97,23.64,47.94,Pure Olive Oil 1L,BrandA,Metro,12
+2024-02-24T11:00:00Z,32.32,42.01,16.16,Organic Olive Oil 750ml,BrandE,Walmart,02
+2024-01-24T14:00:00Z,14.51,18.44,9.67,Premium Olive Oil 1L,BrandC,Metro,01
+2024-06-17T22:00:00Z,16.1,18.83,16.1,Pure Olive Oil 1L,BrandE,Walmart,06
+2024-03-24T09:00:00Z,38.17,52.83,38.17,Organic Olive Oil 750ml,BrandD,Loblaws,03
+2024-05-16T23:00:00Z,22.16,31.52,22.16,Extra Virgin Olive Oil 500ml,BrandD,Loblaws,05
+2024-10-26T21:00:00Z,39.05,58.25,19.52,Classic Olive Oil 2L,BrandC,Loblaws,10
+2024-11-26T13:00:00Z,34.61,39.51,34.61,Organic Olive Oil 750ml,BrandD,Walmart,11
+2024-01-09T23:00:00Z,39.29,43.66,26.19,Organic Olive Oil 750ml,BrandC,Walmart,01
+2024-03-16T08:00:00Z,8.99,8.75,5.99,Organic Olive Oil 750ml,BrandD,Loblaws,03
+2024-04-15T09:00:00Z,15.99,23.89,10.66,Classic Olive Oil 2L,BrandA,Loblaws,04
+2024-10-28T17:00:00Z,38.06,55.62,25.37,Organic Olive Oil 750ml,BrandA,Loblaws,10
+2024-11-07T13:00:00Z,27.45,40.17,54.9,Premium Olive Oil 1L,BrandD,Metro,11
+2024-05-02T19:00:00Z,39.28,44.96,19.64,Extra Virgin Olive Oil 500ml,BrandB,Walmart,05
+2024-04-23T16:00:00Z,39.02,53.2,26.01,Classic Olive Oil 2L,BrandB,Loblaws,04
+2024-12-11T03:00:00Z,30.57,34.63,61.14,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,12
+2024-11-21T03:00:00Z,18.71,17.21,37.42,Extra Virgin Olive Oil 500ml,BrandA,Loblaws,11
+2024-10-19T23:00:00Z,28.22,32.11,18.81,Pure Olive Oil 1L,BrandC,Metro,10
+2024-11-26T14:00:00Z,14,20.65,7,Classic Olive Oil 2L,BrandE,Loblaws,11
+2024-07-06T15:00:00Z,15.84,19.22,15.84,Pure Olive Oil 1L,BrandA,Loblaws,07
+2024-07-25T07:00:00Z,34.42,44.89,22.95,Classic Olive Oil 2L,BrandE,Walmart,07
+2024-05-07T15:00:00Z,29.09,26.36,29.09,Classic Olive Oil 2L,BrandE,Metro,05
+2024-01-14T15:00:00Z,32.12,38.65,64.24,Classic Olive Oil 2L,BrandC,Metro,01
+2024-11-23T23:00:00Z,15.77,21.32,7.88,Pure Olive Oil 1L,BrandD,Walmart,11
+2024-10-26T07:00:00Z,27.45,32.14,18.3,Organic Olive Oil 750ml,BrandE,Loblaws,10
+2024-07-05T11:00:00Z,26.47,35.97,52.94,Organic Olive Oil 750ml,BrandD,Loblaws,07
+2024-11-17T22:00:00Z,12.93,16,25.86,Premium Olive Oil 1L,BrandD,Loblaws,11
+2024-08-25T04:00:00Z,13.62,18.27,9.08,Pure Olive Oil 1L,BrandA,Walmart,08
+2024-03-18T05:00:00Z,35.72,47.8,23.81,Extra Virgin Olive Oil 500ml,BrandD,Walmart,03
+2024-11-22T08:00:00Z,32.47,35.86,16.24,Organic Olive Oil 750ml,BrandD,Metro,11
+2024-08-04T05:00:00Z,5.9,7.78,11.8,Organic Olive Oil 750ml,BrandC,Walmart,08
+2024-01-21T23:00:00Z,31.44,38.47,20.96,Premium Olive Oil 1L,BrandE,Walmart,01
+2024-05-27T16:00:00Z,36.42,51.98,18.21,Organic Olive Oil 750ml,BrandA,Loblaws,05
+2024-02-29T10:00:00Z,36.26,34.28,36.26,Pure Olive Oil 1L,BrandA,Walmart,02
+2024-03-14T08:00:00Z,9.18,10.34,6.12,Extra Virgin Olive Oil 500ml,BrandD,Walmart,03
+2024-07-18T21:00:00Z,39.17,50.31,26.11,Premium Olive Oil 1L,BrandA,Walmart,07
+2024-09-26T15:00:00Z,36.85,33.72,36.85,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,09
+2024-07-19T08:00:00Z,14.06,14.4,28.12,Classic Olive Oil 2L,BrandB,Metro,07
+2024-06-29T20:00:00Z,36.11,46.23,18.06,Extra Virgin Olive Oil 500ml,BrandD,Loblaws,06
+2024-11-11T03:00:00Z,34.16,49.31,34.16,Classic Olive Oil 2L,BrandE,Metro,11
+2024-03-19T22:00:00Z,20.37,24.39,20.37,Classic Olive Oil 2L,BrandE,Walmart,03
+2024-07-20T03:00:00Z,7.69,7.74,5.13,Classic Olive Oil 2L,BrandE,Walmart,07
+2024-03-29T08:00:00Z,35.32,47.78,70.64,Pure Olive Oil 1L,BrandE,Metro,03
+2024-06-29T22:00:00Z,16.33,14.89,16.33,Extra Virgin Olive Oil 500ml,BrandD,Metro,06
+2024-04-12T19:00:00Z,13.12,16.69,13.12,Classic Olive Oil 2L,BrandE,Metro,04
+2024-05-15T20:00:00Z,33.97,42.16,16.98,Extra Virgin Olive Oil 500ml,BrandD,Loblaws,05
+2024-02-05T01:00:00Z,39.7,39.34,39.7,Premium Olive Oil 1L,BrandD,Walmart,02
+2024-07-09T22:00:00Z,13.05,12.15,26.1,Pure Olive Oil 1L,BrandB,Loblaws,07
+2024-07-14T01:00:00Z,8.11,7.5,5.41,Classic Olive Oil 2L,BrandD,Metro,07
+2024-12-17T10:00:00Z,27.23,27.39,54.46,Extra Virgin Olive Oil 500ml,BrandD,Metro,12
+2024-12-19T08:00:00Z,34.98,36.62,34.98,Extra Virgin Olive Oil 500ml,BrandC,Walmart,12
+2024-02-08T01:00:00Z,11.44,15.71,7.63,Classic Olive Oil 2L,BrandA,Loblaws,02
+2024-12-06T02:00:00Z,22.69,22.78,22.69,Organic Olive Oil 750ml,BrandE,Walmart,12
+2024-01-22T23:00:00Z,17.44,25.84,17.44,Classic Olive Oil 2L,BrandD,Walmart,01
+2024-12-14T06:00:00Z,33.86,40.45,67.72,Organic Olive Oil 750ml,BrandA,Loblaws,12
+2024-06-18T21:00:00Z,21.93,24.95,43.86,Classic Olive Oil 2L,BrandA,Metro,06
+2024-05-01T03:00:00Z,13.12,15.82,13.12,Extra Virgin Olive Oil 500ml,BrandB,Metro,05
+2024-06-28T10:00:00Z,14.46,20.25,28.92,Classic Olive Oil 2L,BrandD,Loblaws,06
+2024-01-28T14:00:00Z,33.8,31.56,33.8,Pure Olive Oil 1L,BrandB,Metro,01
+2024-01-19T23:00:00Z,5.9,5.61,11.8,Organic Olive Oil 750ml,BrandE,Metro,01
+2024-05-03T09:00:00Z,19.21,28.04,19.21,Classic Olive Oil 2L,BrandE,Metro,05
+2024-10-26T14:00:00Z,25.86,38.14,12.93,Classic Olive Oil 2L,BrandB,Metro,10
+2024-05-24T01:00:00Z,23.51,26.75,23.51,Organic Olive Oil 750ml,BrandA,Walmart,05
+2024-06-19T10:00:00Z,28.89,34.63,14.45,Premium Olive Oil 1L,BrandD,Walmart,06
+2024-11-06T05:00:00Z,22.77,25.96,45.54,Extra Virgin Olive Oil 500ml,BrandE,Metro,11
+2024-02-03T00:00:00Z,24.4,25.15,48.8,Extra Virgin Olive Oil 500ml,BrandC,Walmart,02
+2024-11-12T22:00:00Z,34.44,46.47,22.96,Extra Virgin Olive Oil 500ml,BrandC,Walmart,11
+2024-10-02T00:00:00Z,15.94,20.61,31.88,Extra Virgin Olive Oil 500ml,BrandB,Walmart,10
+2024-06-18T22:00:00Z,6.26,7.59,4.17,Premium Olive Oil 1L,BrandB,Walmart,06
+2024-11-12T02:00:00Z,33.56,34.42,16.78,Organic Olive Oil 750ml,BrandA,Metro,11
+2024-08-31T15:00:00Z,32.25,43.27,21.5,Extra Virgin Olive Oil 500ml,BrandD,Walmart,08
+2024-08-06T09:00:00Z,35.08,42.52,70.16,Extra Virgin Olive Oil 500ml,BrandE,Metro,08
+2024-08-05T13:00:00Z,7.3,7.3,14.6,Pure Olive Oil 1L,BrandB,Metro,08
+2024-08-19T01:00:00Z,5.31,6.5,2.65,Extra Virgin Olive Oil 500ml,BrandA,Loblaws,08
+2024-12-26T11:00:00Z,25.71,28.97,17.14,Organic Olive Oil 750ml,BrandD,Loblaws,12
+2024-10-15T14:00:00Z,35.44,50.58,23.63,Premium Olive Oil 1L,BrandC,Loblaws,10
+2024-10-25T08:00:00Z,20.62,29.32,10.31,Classic Olive Oil 2L,BrandC,Walmart,10
+2024-09-18T22:00:00Z,6.32,6.77,12.64,Extra Virgin Olive Oil 500ml,BrandD,Loblaws,09
+2024-01-02T00:00:00Z,19.36,20.91,38.72,Organic Olive Oil 750ml,BrandD,Walmart,01
+2024-05-04T08:00:00Z,17.78,19.78,8.89,Classic Olive Oil 2L,BrandB,Loblaws,05
+2024-02-10T13:00:00Z,21.68,25.54,10.84,Pure Olive Oil 1L,BrandA,Walmart,02
+2024-07-05T17:00:00Z,9.68,11.9,9.68,Organic Olive Oil 750ml,BrandE,Metro,07
+2024-03-28T10:00:00Z,21.78,25.86,21.78,Organic Olive Oil 750ml,BrandC,Loblaws,03
+2024-11-30T20:00:00Z,14.25,19.8,9.5,Organic Olive Oil 750ml,BrandC,Loblaws,11
+2024-06-01T23:00:00Z,22.15,22.35,22.15,Extra Virgin Olive Oil 500ml,BrandB,Walmart,06
+2024-05-11T02:00:00Z,36.71,54.43,24.47,Pure Olive Oil 1L,BrandE,Metro,05
+2024-06-07T09:00:00Z,22.53,28.89,15.02,Classic Olive Oil 2L,BrandE,Metro,06
+2024-02-11T12:00:00Z,29.62,43.42,14.81,Pure Olive Oil 1L,BrandB,Loblaws,02
+2024-08-15T14:00:00Z,7.03,8.52,4.69,Premium Olive Oil 1L,BrandE,Walmart,08
+2024-02-02T10:00:00Z,29.13,40.75,29.13,Classic Olive Oil 2L,BrandA,Walmart,02
+2024-05-31T07:00:00Z,32.96,48.87,65.92,Classic Olive Oil 2L,BrandE,Loblaws,05
+2024-09-24T16:00:00Z,5.66,5.19,5.66,Pure Olive Oil 1L,BrandB,Walmart,09
+2024-08-07T01:00:00Z,6.29,6.32,6.29,Organic Olive Oil 750ml,BrandD,Walmart,08
+2024-05-28T01:00:00Z,25.22,35.23,12.61,Extra Virgin Olive Oil 500ml,BrandD,Walmart,05
+2024-09-03T11:00:00Z,32.65,41.61,32.65,Extra Virgin Olive Oil 500ml,BrandC,Metro,09
+2024-03-05T11:00:00Z,30.73,41.94,20.49,Pure Olive Oil 1L,BrandE,Walmart,03
+2024-12-13T10:00:00Z,14.4,19.58,14.4,Premium Olive Oil 1L,BrandA,Metro,12
+2024-01-11T23:00:00Z,33.19,34.7,16.59,Organic Olive Oil 750ml,BrandD,Walmart,01
+2024-10-16T23:00:00Z,19.87,20.73,39.74,Pure Olive Oil 1L,BrandD,Walmart,10
+2024-09-01T12:00:00Z,10.78,11.55,7.19,Classic Olive Oil 2L,BrandE,Loblaws,09
+2024-04-02T20:00:00Z,26.14,24.73,26.14,Classic Olive Oil 2L,BrandD,Loblaws,04
+2024-09-27T21:00:00Z,33.9,32.25,33.9,Pure Olive Oil 1L,BrandB,Metro,09
+2024-05-09T06:00:00Z,32.33,40.09,16.16,Pure Olive Oil 1L,BrandB,Walmart,05
+2024-03-13T10:00:00Z,7.85,9.4,3.92,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,03
+2024-12-15T18:00:00Z,7.48,7.97,14.96,Premium Olive Oil 1L,BrandC,Loblaws,12
+2024-08-29T04:00:00Z,38.56,47.11,19.28,Premium Olive Oil 1L,BrandE,Loblaws,08
+2024-08-24T00:00:00Z,8.16,9.86,5.44,Extra Virgin Olive Oil 500ml,BrandB,Loblaws,08
+2024-01-07T08:00:00Z,12.43,11.48,8.29,Extra Virgin Olive Oil 500ml,BrandC,Metro,01
+2024-09-12T16:00:00Z,20.37,23.56,13.58,Extra Virgin Olive Oil 500ml,BrandB,Loblaws,09
+2024-07-10T23:00:00Z,32.23,30.11,16.11,Classic Olive Oil 2L,BrandC,Walmart,07
+2024-06-12T19:00:00Z,34.8,39.4,23.2,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,06
+2024-04-18T23:00:00Z,26.87,33.36,13.44,Organic Olive Oil 750ml,BrandA,Loblaws,04
+2024-01-13T07:00:00Z,18.58,18.21,37.16,Extra Virgin Olive Oil 500ml,BrandA,Loblaws,01
+2024-12-10T07:00:00Z,10.03,9.94,5.02,Classic Olive Oil 2L,BrandA,Metro,12
+2024-01-20T07:00:00Z,35.86,38.74,17.93,Organic Olive Oil 750ml,BrandC,Walmart,01
+2024-02-03T17:00:00Z,35.58,40.19,71.16,Pure Olive Oil 1L,BrandA,Loblaws,02
+2024-07-17T07:00:00Z,16.85,17.18,33.7,Pure Olive Oil 1L,BrandB,Walmart,07
+2024-09-14T15:00:00Z,22.97,32.29,11.48,Pure Olive Oil 1L,BrandC,Loblaws,09
+2024-05-01T21:00:00Z,22.29,24.21,11.14,Classic Olive Oil 2L,BrandD,Walmart,05
+2024-10-09T17:00:00Z,32.77,36.08,65.54,Classic Olive Oil 2L,BrandA,Metro,10
+2024-06-25T18:00:00Z,37.14,48.65,24.76,Organic Olive Oil 750ml,BrandE,Metro,06
+2024-04-07T16:00:00Z,25.52,31.4,12.76,Classic Olive Oil 2L,BrandE,Walmart,04
+2024-03-15T20:00:00Z,33.82,32.89,33.82,Classic Olive Oil 2L,BrandA,Loblaws,03
+2024-02-23T13:00:00Z,33.26,44.52,33.26,Extra Virgin Olive Oil 500ml,BrandD,Loblaws,02
+2024-12-13T03:00:00Z,14.86,16.98,9.91,Classic Olive Oil 2L,BrandB,Loblaws,12
+2024-03-21T13:00:00Z,22.8,22.3,22.8,Pure Olive Oil 1L,BrandC,Walmart,03
+2024-08-06T17:00:00Z,15.33,21.27,15.33,Extra Virgin Olive Oil 500ml,BrandB,Metro,08
+2024-02-26T15:00:00Z,35.37,50.78,35.37,Organic Olive Oil 750ml,BrandE,Loblaws,02
+2024-03-07T12:00:00Z,29.97,43.76,14.98,Premium Olive Oil 1L,BrandE,Metro,03
+2024-12-13T15:00:00Z,17.68,24.62,11.79,Organic Olive Oil 750ml,BrandE,Loblaws,12
+2024-07-30T18:00:00Z,39.9,46.88,39.9,Classic Olive Oil 2L,BrandE,Walmart,07
+2024-03-21T02:00:00Z,29.54,42.51,19.69,Pure Olive Oil 1L,BrandB,Loblaws,03
+2024-10-16T18:00:00Z,13.31,14.53,8.87,Extra Virgin Olive Oil 500ml,BrandE,Metro,10
+2024-05-14T23:00:00Z,27.66,30.45,13.83,Pure Olive Oil 1L,BrandD,Walmart,05
+2024-01-02T05:00:00Z,17.04,22.5,11.36,Extra Virgin Olive Oil 500ml,BrandA,Loblaws,01
+2024-09-08T00:00:00Z,33.02,31.14,22.01,Extra Virgin Olive Oil 500ml,BrandE,Metro,09
+2024-03-28T23:00:00Z,16.38,19.85,10.92,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,03
+2024-11-23T06:00:00Z,14.36,18.92,9.57,Classic Olive Oil 2L,BrandD,Loblaws,11
+2024-06-16T14:00:00Z,7.44,9.91,3.72,Extra Virgin Olive Oil 500ml,BrandC,Walmart,06
+2024-01-26T22:00:00Z,24.97,33.44,12.48,Classic Olive Oil 2L,BrandE,Walmart,01
+2024-09-04T17:00:00Z,5.15,7.58,3.43,Extra Virgin Olive Oil 500ml,BrandD,Walmart,09
+2024-02-23T05:00:00Z,14.83,22.2,29.66,Organic Olive Oil 750ml,BrandB,Walmart,02
+2024-07-29T20:00:00Z,14.8,16.69,14.8,Classic Olive Oil 2L,BrandC,Loblaws,07
+2024-06-21T07:00:00Z,33.64,49.6,33.64,Extra Virgin Olive Oil 500ml,BrandA,Metro,06
+2024-06-23T23:00:00Z,9.11,11.39,4.56,Extra Virgin Olive Oil 500ml,BrandE,Loblaws,06
+2024-11-15T02:00:00Z,14.18,15.49,28.36,Premium Olive Oil 1L,BrandC,Walmart,11
+2024-08-15T17:00:00Z,20.37,19.5,40.74,Premium Olive Oil 1L,BrandC,Loblaws,08
+2024-01-29T05:00:00Z,38.54,38.32,38.54,Organic Olive Oil 750ml,BrandB,Loblaws,01
+2024-06-10T11:00:00Z,16.12,15.81,32.24,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,06
+2024-08-23T06:00:00Z,32.49,43.52,64.98,Premium Olive Oil 1L,BrandE,Metro,08
+2024-07-18T08:00:00Z,9.6,10.22,4.8,Extra Virgin Olive Oil 500ml,BrandD,Loblaws,07
+2024-03-29T07:00:00Z,22.31,33.16,14.87,Pure Olive Oil 1L,BrandA,Walmart,03
+2024-11-09T18:00:00Z,23.38,26.27,11.69,Organic Olive Oil 750ml,BrandE,Walmart,11
+2024-03-25T21:00:00Z,36.01,34.97,72.02,Classic Olive Oil 2L,BrandB,Metro,03
+2024-03-04T09:00:00Z,17.66,17.32,35.32,Organic Olive Oil 750ml,BrandD,Walmart,03
+2024-07-30T16:00:00Z,21.32,21.97,10.66,Extra Virgin Olive Oil 500ml,BrandB,Metro,07
+2024-10-31T13:00:00Z,20.4,29.23,13.6,Classic Olive Oil 2L,BrandB,Walmart,10
+2024-02-01T03:00:00Z,29.97,44.23,29.97,Classic Olive Oil 2L,BrandC,Walmart,02
+2024-09-23T18:00:00Z,6.79,6.85,4.53,Classic Olive Oil 2L,BrandC,Walmart,09
+2024-06-26T06:00:00Z,29.55,43.74,59.1,Extra Virgin Olive Oil 500ml,BrandE,Loblaws,06
+2024-07-10T05:00:00Z,28.22,29.58,28.22,Pure Olive Oil 1L,BrandE,Walmart,07
+2024-03-31T08:00:00Z,28.24,35.19,14.12,Premium Olive Oil 1L,BrandC,Loblaws,03
+2024-05-05T13:00:00Z,22.5,21.82,11.25,Extra Virgin Olive Oil 500ml,BrandA,Metro,05
+2024-05-07T14:00:00Z,14.64,13.64,7.32,Classic Olive Oil 2L,BrandC,Metro,05
+2024-12-13T17:00:00Z,18.06,21.1,36.12,Premium Olive Oil 1L,BrandC,Metro,12
+2024-10-10T20:00:00Z,8.69,9.35,4.34,Premium Olive Oil 1L,BrandA,Metro,10
+2024-09-08T12:00:00Z,13.92,15.86,9.28,Classic Olive Oil 2L,BrandA,Walmart,09
+2024-03-15T10:00:00Z,6.62,9.45,4.41,Pure Olive Oil 1L,BrandC,Metro,03
+2024-07-05T04:00:00Z,21.44,28.54,14.29,Pure Olive Oil 1L,BrandC,Walmart,07
+2024-05-08T03:00:00Z,16.34,24.36,10.89,Organic Olive Oil 750ml,BrandA,Metro,05
+2024-11-24T15:00:00Z,12.35,11.13,12.35,Classic Olive Oil 2L,BrandE,Metro,11
+2024-12-04T06:00:00Z,31.34,37.49,62.68,Classic Olive Oil 2L,BrandB,Metro,12
+2024-12-08T18:00:00Z,13.54,15.12,6.77,Pure Olive Oil 1L,BrandD,Walmart,12
+2024-02-02T20:00:00Z,19.19,20.31,9.6,Organic Olive Oil 750ml,BrandD,Loblaws,02
+2024-08-24T05:00:00Z,29.62,31.75,19.75,Extra Virgin Olive Oil 500ml,BrandC,Walmart,08
+2024-10-30T20:00:00Z,9,11.45,6,Organic Olive Oil 750ml,BrandC,Metro,10
+2024-04-26T14:00:00Z,9.72,13.74,6.48,Pure Olive Oil 1L,BrandA,Loblaws,04
+2024-08-24T03:00:00Z,39.46,48.72,19.73,Extra Virgin Olive Oil 500ml,BrandE,Loblaws,08
+2024-06-05T11:00:00Z,39.19,39.37,26.13,Organic Olive Oil 750ml,BrandE,Loblaws,06
+2024-02-06T02:00:00Z,31.55,31.83,15.78,Organic Olive Oil 750ml,BrandE,Walmart,02
+2024-01-27T22:00:00Z,6.05,6.04,3.02,Pure Olive Oil 1L,BrandE,Loblaws,01
+2024-06-29T14:00:00Z,39.1,52.15,19.55,Premium Olive Oil 1L,BrandC,Loblaws,06
+2024-05-02T17:00:00Z,31.61,46.66,15.8,Pure Olive Oil 1L,BrandE,Walmart,05
+2024-04-30T22:00:00Z,36.06,52.31,36.06,Extra Virgin Olive Oil 500ml,BrandD,Walmart,04
+2024-09-25T07:00:00Z,12.77,14.75,12.77,Premium Olive Oil 1L,BrandA,Loblaws,09
+2024-11-10T10:00:00Z,14.47,17.41,9.65,Pure Olive Oil 1L,BrandB,Walmart,11
+2024-03-22T04:00:00Z,26.25,35.95,52.5,Classic Olive Oil 2L,BrandD,Loblaws,03
+2024-03-04T00:00:00Z,16.91,22.67,33.82,Extra Virgin Olive Oil 500ml,BrandB,Walmart,03
+2024-05-15T19:00:00Z,31.49,37.04,20.99,Organic Olive Oil 750ml,BrandE,Walmart,05
+2024-01-30T08:00:00Z,7.62,9.6,15.24,Pure Olive Oil 1L,BrandC,Walmart,01
+2024-08-12T09:00:00Z,36.17,53.34,36.17,Organic Olive Oil 750ml,BrandD,Metro,08
+2024-07-16T09:00:00Z,31.97,41.77,63.94,Extra Virgin Olive Oil 500ml,BrandB,Metro,07
+2024-05-22T18:00:00Z,35.89,41.18,23.93,Pure Olive Oil 1L,BrandD,Loblaws,05
+2024-12-22T12:00:00Z,38.17,43.87,38.17,Premium Olive Oil 1L,BrandE,Loblaws,12
+2024-01-31T22:00:00Z,16.34,15.72,32.68,Organic Olive Oil 750ml,BrandB,Walmart,01
+2024-10-19T21:00:00Z,11.25,16.1,11.25,Pure Olive Oil 1L,BrandD,Walmart,10
+2024-11-03T19:00:00Z,10.24,15.28,6.83,Organic Olive Oil 750ml,BrandD,Loblaws,11
+2024-04-24T21:00:00Z,9.01,11.31,9.01,Pure Olive Oil 1L,BrandC,Metro,04
+2024-03-03T17:00:00Z,21.49,31.01,21.49,Pure Olive Oil 1L,BrandB,Metro,03
+2024-04-25T03:00:00Z,33.4,36.22,33.4,Organic Olive Oil 750ml,BrandD,Loblaws,04
+2024-12-12T23:00:00Z,35.34,46.14,17.67,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,12
+2024-03-26T03:00:00Z,7.26,9.74,7.26,Pure Olive Oil 1L,BrandA,Loblaws,03
+2024-05-13T11:00:00Z,30.62,35.04,15.31,Extra Virgin Olive Oil 500ml,BrandE,Metro,05
+2024-07-22T06:00:00Z,39.04,54.6,78.08,Extra Virgin Olive Oil 500ml,BrandA,Walmart,07
+2024-03-19T00:00:00Z,15.89,20.06,7.94,Pure Olive Oil 1L,BrandD,Metro,03
+2024-10-11T01:00:00Z,30.07,35.55,20.05,Classic Olive Oil 2L,BrandC,Walmart,10
+2024-08-07T18:00:00Z,25.83,25.65,25.83,Classic Olive Oil 2L,BrandD,Metro,08
+2024-10-04T20:00:00Z,6.51,5.87,3.26,Classic Olive Oil 2L,BrandD,Metro,10
+2024-03-23T15:00:00Z,20.72,30.17,20.72,Extra Virgin Olive Oil 500ml,BrandB,Metro,03
+2024-06-24T13:00:00Z,27.35,40.19,54.7,Pure Olive Oil 1L,BrandD,Loblaws,06
+2024-07-06T03:00:00Z,33.02,39.68,22.01,Classic Olive Oil 2L,BrandC,Loblaws,07
+2024-11-28T12:00:00Z,23.97,24.83,47.94,Extra Virgin Olive Oil 500ml,BrandC,Walmart,11
+2024-08-17T23:00:00Z,35.86,50.83,71.72,Organic Olive Oil 750ml,BrandE,Walmart,08
+2024-06-30T13:00:00Z,5.24,5.86,5.24,Pure Olive Oil 1L,BrandC,Loblaws,06
+2024-11-22T04:00:00Z,20.64,24.64,13.76,Organic Olive Oil 750ml,BrandA,Loblaws,11
+2024-07-26T02:00:00Z,21.92,32.19,14.61,Organic Olive Oil 750ml,BrandA,Metro,07
+2024-12-21T22:00:00Z,32.76,40.44,21.84,Organic Olive Oil 750ml,BrandD,Metro,12
+2024-06-18T04:00:00Z,14.75,13.53,7.38,Classic Olive Oil 2L,BrandE,Metro,06
+2024-10-16T18:00:00Z,25.67,37.1,25.67,Classic Olive Oil 2L,BrandB,Metro,10
+2024-07-01T07:00:00Z,11.56,11.34,11.56,Organic Olive Oil 750ml,BrandE,Loblaws,07
+2024-09-12T05:00:00Z,33.25,35.86,22.17,Extra Virgin Olive Oil 500ml,BrandA,Walmart,09
+2024-07-02T21:00:00Z,25.8,26.73,12.9,Premium Olive Oil 1L,BrandA,Metro,07
+2024-05-10T03:00:00Z,14.53,14.43,9.69,Organic Olive Oil 750ml,BrandE,Loblaws,05
+2024-06-30T22:00:00Z,33.09,31.66,66.18,Premium Olive Oil 1L,BrandA,Walmart,06
+2024-10-13T12:00:00Z,26.17,32.46,13.09,Extra Virgin Olive Oil 500ml,BrandE,Metro,10
+2024-04-29T14:00:00Z,38.53,54.68,19.26,Extra Virgin Olive Oil 500ml,BrandD,Walmart,04
+2024-12-01T16:00:00Z,11.25,10.35,11.25,Extra Virgin Olive Oil 500ml,BrandB,Loblaws,12
+2024-03-19T14:00:00Z,5.15,7.41,5.15,Classic Olive Oil 2L,BrandD,Loblaws,03
+2024-11-27T11:00:00Z,18.01,25.36,36.02,Extra Virgin Olive Oil 500ml,BrandA,Loblaws,11
+2024-11-19T00:00:00Z,32,42.08,16,Pure Olive Oil 1L,BrandB,Walmart,11
+2024-03-15T18:00:00Z,25.06,32.45,12.53,Organic Olive Oil 750ml,BrandC,Walmart,03
+2024-06-11T12:00:00Z,10.97,12.05,7.31,Classic Olive Oil 2L,BrandE,Walmart,06
+2024-01-24T19:00:00Z,8.13,8.05,5.42,Premium Olive Oil 1L,BrandB,Loblaws,01
+2024-09-23T10:00:00Z,35.67,39.29,17.84,Extra Virgin Olive Oil 500ml,BrandE,Walmart,09
+2024-06-17T03:00:00Z,10.1,12.37,5.05,Premium Olive Oil 1L,BrandC,Metro,06
+2024-09-12T08:00:00Z,27.23,29.16,18.15,Extra Virgin Olive Oil 500ml,BrandB,Walmart,09
+2024-02-10T09:00:00Z,20.62,23.88,20.62,Organic Olive Oil 750ml,BrandA,Metro,02
+2024-05-05T18:00:00Z,37.4,40.39,24.93,Classic Olive Oil 2L,BrandA,Metro,05
+2024-07-31T08:00:00Z,26.42,30.52,17.61,Classic Olive Oil 2L,BrandA,Metro,07
+2024-10-04T19:00:00Z,7.42,9.73,7.42,Pure Olive Oil 1L,BrandC,Metro,10
+2024-03-19T07:00:00Z,23.09,20.95,15.39,Premium Olive Oil 1L,BrandA,Loblaws,03
+2024-11-18T19:00:00Z,29.13,40.52,29.13,Pure Olive Oil 1L,BrandD,Metro,11
+2024-10-09T11:00:00Z,21.97,21.26,43.94,Organic Olive Oil 750ml,BrandA,Metro,10
+2024-05-22T17:00:00Z,26.56,29.07,26.56,Premium Olive Oil 1L,BrandD,Metro,05
+2024-04-20T15:00:00Z,21.77,28.14,21.77,Pure Olive Oil 1L,BrandD,Loblaws,04
+2024-11-19T10:00:00Z,34.84,44.42,34.84,Classic Olive Oil 2L,BrandA,Metro,11
+2024-04-15T02:00:00Z,14.37,20.09,9.58,Pure Olive Oil 1L,BrandC,Metro,04
+2024-12-07T12:00:00Z,19.3,17.47,12.87,Classic Olive Oil 2L,BrandB,Metro,12
+2024-03-25T20:00:00Z,32.99,47.4,65.98,Premium Olive Oil 1L,BrandC,Loblaws,03
+2024-07-23T14:00:00Z,35.58,43.34,17.79,Extra Virgin Olive Oil 500ml,BrandD,Loblaws,07
+2024-03-07T21:00:00Z,23.86,26.16,23.86,Premium Olive Oil 1L,BrandA,Metro,03
+2024-11-03T17:00:00Z,16.49,16.72,16.49,Pure Olive Oil 1L,BrandB,Loblaws,11
+2024-05-02T06:00:00Z,25.24,32.22,16.83,Extra Virgin Olive Oil 500ml,BrandB,Walmart,05
+2024-11-05T02:00:00Z,16.69,23.67,8.35,Classic Olive Oil 2L,BrandA,Metro,11
+2024-02-12T19:00:00Z,10.55,13.66,21.1,Premium Olive Oil 1L,BrandA,Loblaws,02
+2024-06-27T15:00:00Z,22.85,32.66,45.7,Pure Olive Oil 1L,BrandA,Metro,06
+2024-11-16T21:00:00Z,6.28,5.96,3.14,Pure Olive Oil 1L,BrandB,Metro,11
+2024-06-12T06:00:00Z,9.99,9.08,9.99,Premium Olive Oil 1L,BrandB,Metro,06
+2024-06-09T05:00:00Z,11.02,11.28,22.04,Premium Olive Oil 1L,BrandB,Metro,06
+2024-10-13T04:00:00Z,16.34,22.76,10.89,Pure Olive Oil 1L,BrandE,Loblaws,10
+2024-08-17T04:00:00Z,17.38,18.98,17.38,Classic Olive Oil 2L,BrandC,Loblaws,08
+2024-01-26T12:00:00Z,35.33,37.86,70.66,Extra Virgin Olive Oil 500ml,BrandB,Metro,01
+2024-04-04T08:00:00Z,17.48,17.25,34.96,Organic Olive Oil 750ml,BrandA,Metro,04
+2024-10-29T11:00:00Z,38.28,44.44,76.56,Organic Olive Oil 750ml,BrandC,Walmart,10
+2024-12-07T09:00:00Z,21.88,31.23,43.76,Organic Olive Oil 750ml,BrandA,Metro,12
+2024-07-01T02:00:00Z,35.36,49.13,23.57,Classic Olive Oil 2L,BrandE,Loblaws,07
+2024-04-07T08:00:00Z,16.12,19.76,8.06,Classic Olive Oil 2L,BrandE,Metro,04
+2024-06-05T04:00:00Z,16.74,22.65,33.48,Classic Olive Oil 2L,BrandE,Loblaws,06
+2024-01-08T23:00:00Z,10.65,14.7,7.1,Organic Olive Oil 750ml,BrandA,Metro,01
+2024-07-19T23:00:00Z,26.87,27.51,26.87,Organic Olive Oil 750ml,BrandC,Walmart,07
+2024-02-04T12:00:00Z,11.42,12.16,22.84,Pure Olive Oil 1L,BrandE,Loblaws,02
+2024-10-17T10:00:00Z,23.87,30.44,47.74,Premium Olive Oil 1L,BrandB,Walmart,10
+2024-08-14T15:00:00Z,11.87,12.32,5.93,Premium Olive Oil 1L,BrandD,Loblaws,08
+2024-09-02T20:00:00Z,8.64,9.44,8.64,Organic Olive Oil 750ml,BrandE,Walmart,09
+2024-07-30T05:00:00Z,16.56,16.55,8.28,Classic Olive Oil 2L,BrandC,Walmart,07
+2024-12-22T16:00:00Z,26.05,37.43,52.1,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,12
+2024-05-01T06:00:00Z,29.16,39.86,58.32,Organic Olive Oil 750ml,BrandD,Walmart,05
+2024-03-11T20:00:00Z,12.17,11.38,6.08,Pure Olive Oil 1L,BrandA,Walmart,03
+2024-12-21T11:00:00Z,19.53,24.92,13.02,Classic Olive Oil 2L,BrandB,Walmart,12
+2024-11-26T20:00:00Z,10.06,13.85,10.06,Extra Virgin Olive Oil 500ml,BrandB,Walmart,11
+2024-11-15T15:00:00Z,12.26,14.49,12.26,Extra Virgin Olive Oil 500ml,BrandA,Metro,11
+2024-04-19T00:00:00Z,31.81,46.15,63.62,Extra Virgin Olive Oil 500ml,BrandA,Walmart,04
+2024-11-25T15:00:00Z,21.86,25.46,10.93,Premium Olive Oil 1L,BrandC,Loblaws,11
+2024-12-14T18:00:00Z,13.38,12.08,6.69,Classic Olive Oil 2L,BrandB,Metro,12
+2024-10-11T02:00:00Z,32.87,44.79,32.87,Organic Olive Oil 750ml,BrandE,Loblaws,10
+2024-06-25T04:00:00Z,20.5,27.57,20.5,Pure Olive Oil 1L,BrandC,Metro,06
+2024-06-24T03:00:00Z,10.95,12.75,21.9,Extra Virgin Olive Oil 500ml,BrandA,Loblaws,06
+2024-11-23T14:00:00Z,10.78,12.02,21.56,Extra Virgin Olive Oil 500ml,BrandE,Walmart,11
+2024-07-17T09:00:00Z,38.9,42.01,77.8,Classic Olive Oil 2L,BrandE,Walmart,07
+2024-02-04T11:00:00Z,23.28,28.55,23.28,Premium Olive Oil 1L,BrandA,Walmart,02
+2024-09-28T06:00:00Z,23.29,24.73,11.64,Premium Olive Oil 1L,BrandA,Metro,09
+2024-10-02T13:00:00Z,29.11,33.07,14.55,Pure Olive Oil 1L,BrandA,Loblaws,10
+2024-11-10T05:00:00Z,32.58,35.44,21.72,Extra Virgin Olive Oil 500ml,BrandB,Metro,11
+2024-02-02T08:00:00Z,29.23,39.56,14.62,Classic Olive Oil 2L,BrandC,Metro,02
+2024-03-12T12:00:00Z,35.78,33.31,23.85,Extra Virgin Olive Oil 500ml,BrandD,Walmart,03
+2024-02-27T17:00:00Z,9.94,13.86,4.97,Extra Virgin Olive Oil 500ml,BrandD,Walmart,02
+2024-04-10T04:00:00Z,14.28,20.67,28.56,Premium Olive Oil 1L,BrandC,Metro,04
+2024-05-21T06:00:00Z,36.35,48.49,18.18,Extra Virgin Olive Oil 500ml,BrandE,Loblaws,05
+2024-04-01T18:00:00Z,17.39,17.16,34.78,Classic Olive Oil 2L,BrandC,Loblaws,04
+2024-06-03T08:00:00Z,37.63,44.2,75.26,Organic Olive Oil 750ml,BrandA,Metro,06
+2024-08-10T14:00:00Z,16.45,17.52,32.9,Pure Olive Oil 1L,BrandB,Walmart,08
+2024-02-18T12:00:00Z,27.59,30.39,13.8,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,02
+2024-01-10T14:00:00Z,23.25,23.35,46.5,Classic Olive Oil 2L,BrandC,Walmart,01
+2024-12-16T14:00:00Z,24.69,28.8,12.35,Extra Virgin Olive Oil 500ml,BrandD,Loblaws,12
+2024-09-27T12:00:00Z,22.46,30.27,14.97,Classic Olive Oil 2L,BrandB,Metro,09
+2024-02-11T03:00:00Z,23.58,27.02,47.16,Classic Olive Oil 2L,BrandD,Loblaws,02
+2024-10-07T13:00:00Z,18.41,23.59,12.27,Premium Olive Oil 1L,BrandE,Metro,10
+2024-07-23T15:00:00Z,26.06,32.54,13.03,Premium Olive Oil 1L,BrandC,Loblaws,07
+2024-02-15T12:00:00Z,14.21,18.59,14.21,Organic Olive Oil 750ml,BrandD,Loblaws,02
+2024-10-24T10:00:00Z,27.63,28.26,18.42,Pure Olive Oil 1L,BrandA,Loblaws,10
+2024-02-04T10:00:00Z,28.31,39.62,18.87,Organic Olive Oil 750ml,BrandE,Loblaws,02
+2024-04-29T16:00:00Z,24.4,32.51,12.2,Organic Olive Oil 750ml,BrandA,Metro,04
+2024-12-30T13:00:00Z,15.79,16.22,31.58,Organic Olive Oil 750ml,BrandD,Walmart,12
+2024-10-07T12:00:00Z,31.02,30.88,15.51,Classic Olive Oil 2L,BrandD,Loblaws,10
+2024-11-21T05:00:00Z,34.65,42.46,34.65,Organic Olive Oil 750ml,BrandE,Loblaws,11
+2024-04-21T12:00:00Z,17.9,16.85,8.95,Extra Virgin Olive Oil 500ml,BrandB,Metro,04
+2024-03-04T05:00:00Z,20.44,22.73,13.63,Classic Olive Oil 2L,BrandD,Metro,03
+2024-08-08T10:00:00Z,35.47,44.73,17.74,Pure Olive Oil 1L,BrandA,Loblaws,08
+2024-06-13T14:00:00Z,19.31,19.3,9.65,Pure Olive Oil 1L,BrandB,Loblaws,06
+2024-04-01T06:00:00Z,21.97,28.49,43.94,Classic Olive Oil 2L,BrandD,Walmart,04
+2024-05-22T16:00:00Z,22.63,26.78,15.09,Organic Olive Oil 750ml,BrandD,Loblaws,05
+2024-12-18T20:00:00Z,6.38,8.99,12.76,Pure Olive Oil 1L,BrandD,Walmart,12
+2024-06-08T03:00:00Z,18.83,20.25,37.66,Pure Olive Oil 1L,BrandD,Loblaws,06
+2024-06-06T01:00:00Z,21.11,28.7,10.55,Extra Virgin Olive Oil 500ml,BrandC,Walmart,06
+2024-05-31T20:00:00Z,24.49,35.84,16.33,Pure Olive Oil 1L,BrandA,Walmart,05
+2024-12-20T12:00:00Z,28.54,35.74,19.03,Pure Olive Oil 1L,BrandC,Walmart,12
+2024-03-15T04:00:00Z,28.88,42.9,14.44,Pure Olive Oil 1L,BrandB,Metro,03
+2024-09-24T19:00:00Z,36.17,48.95,72.34,Organic Olive Oil 750ml,BrandA,Metro,09
+2024-02-16T21:00:00Z,28.31,42.1,14.15,Organic Olive Oil 750ml,BrandD,Metro,02
+2024-09-08T20:00:00Z,23.34,23.29,15.56,Classic Olive Oil 2L,BrandA,Loblaws,09
+2024-09-13T00:00:00Z,15.89,21.82,31.78,Organic Olive Oil 750ml,BrandA,Metro,09
+2024-01-12T02:00:00Z,5.92,5.78,2.96,Pure Olive Oil 1L,BrandC,Walmart,01
+2024-11-13T15:00:00Z,9.55,10.07,6.37,Extra Virgin Olive Oil 500ml,BrandC,Walmart,11
+2024-07-05T01:00:00Z,22.57,21.83,11.29,Pure Olive Oil 1L,BrandA,Loblaws,07
+2024-12-29T05:00:00Z,22.88,30.84,15.25,Organic Olive Oil 750ml,BrandB,Walmart,12
+2024-04-06T07:00:00Z,9.03,10.93,18.06,Extra Virgin Olive Oil 500ml,BrandD,Loblaws,04
+2024-11-02T14:00:00Z,13.96,19.15,27.92,Extra Virgin Olive Oil 500ml,BrandD,Walmart,11
+2024-09-12T11:00:00Z,10.76,14.5,5.38,Premium Olive Oil 1L,BrandB,Walmart,09
+2024-06-22T06:00:00Z,14.78,21.02,7.39,Organic Olive Oil 750ml,BrandE,Metro,06
+2024-04-08T12:00:00Z,10.34,14.38,5.17,Organic Olive Oil 750ml,BrandE,Walmart,04
+2024-05-04T15:00:00Z,20.01,27.66,13.34,Classic Olive Oil 2L,BrandA,Metro,05
+2024-11-23T18:00:00Z,12.42,18.12,8.28,Classic Olive Oil 2L,BrandD,Loblaws,11
+2024-11-09T17:00:00Z,7.73,9.38,7.73,Premium Olive Oil 1L,BrandA,Walmart,11
+2024-03-28T15:00:00Z,35.53,45.39,23.69,Pure Olive Oil 1L,BrandB,Metro,03
+2024-11-10T12:00:00Z,12.5,12.64,25,Pure Olive Oil 1L,BrandE,Metro,11
+2024-03-28T11:00:00Z,12.1,14.15,12.1,Extra Virgin Olive Oil 500ml,BrandB,Metro,03
+2024-03-29T08:00:00Z,16.08,22.8,8.04,Pure Olive Oil 1L,BrandE,Metro,03
+2024-08-06T18:00:00Z,16.56,17.43,8.28,Extra Virgin Olive Oil 500ml,BrandE,Walmart,08
+2024-12-25T17:00:00Z,31.92,44.56,21.28,Classic Olive Oil 2L,BrandB,Walmart,12
+2024-05-13T10:00:00Z,25.06,31.58,12.53,Organic Olive Oil 750ml,BrandB,Walmart,05
+2024-02-02T05:00:00Z,10.67,10.69,7.11,Organic Olive Oil 750ml,BrandD,Loblaws,02
+2024-02-16T23:00:00Z,33.47,39.65,16.74,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,02
+2024-03-19T00:00:00Z,37.27,51.27,18.64,Pure Olive Oil 1L,BrandE,Loblaws,03
+2024-07-30T22:00:00Z,13.84,15.55,13.84,Classic Olive Oil 2L,BrandD,Metro,07
+2024-01-01T19:00:00Z,31.3,32.98,15.65,Extra Virgin Olive Oil 500ml,BrandE,Loblaws,01
+2024-08-16T22:00:00Z,12.15,12.75,24.3,Classic Olive Oil 2L,BrandA,Loblaws,08
+2024-03-21T15:00:00Z,34.02,37.15,34.02,Extra Virgin Olive Oil 500ml,BrandD,Loblaws,03
+2024-03-19T12:00:00Z,15.57,15.48,31.14,Premium Olive Oil 1L,BrandE,Walmart,03
+2024-12-31T12:00:00Z,31.83,35.83,31.83,Pure Olive Oil 1L,BrandA,Loblaws,12
+2024-06-12T21:00:00Z,9.22,9.2,9.22,Pure Olive Oil 1L,BrandE,Metro,06
+2024-08-19T20:00:00Z,34.56,50.93,69.12,Organic Olive Oil 750ml,BrandE,Walmart,08
+2024-09-13T20:00:00Z,33.74,49.17,33.74,Organic Olive Oil 750ml,BrandE,Loblaws,09
+2024-06-23T15:00:00Z,34.89,41.01,34.89,Pure Olive Oil 1L,BrandB,Metro,06
+2024-03-31T14:00:00Z,5.51,6.94,11.02,Premium Olive Oil 1L,BrandE,Walmart,03
+2024-09-18T17:00:00Z,6.33,7.33,6.33,Organic Olive Oil 750ml,BrandE,Walmart,09
+2024-11-01T16:00:00Z,15.46,17.01,7.73,Organic Olive Oil 750ml,BrandC,Walmart,11
+2024-07-02T06:00:00Z,16.43,21.39,10.95,Classic Olive Oil 2L,BrandB,Walmart,07
+2024-12-19T03:00:00Z,7.62,7.12,3.81,Organic Olive Oil 750ml,BrandC,Walmart,12
+2024-12-10T17:00:00Z,29.78,28.31,19.85,Organic Olive Oil 750ml,BrandE,Loblaws,12
+2024-11-20T04:00:00Z,5.88,7.33,5.88,Extra Virgin Olive Oil 500ml,BrandA,Metro,11
+2024-08-11T11:00:00Z,33.84,32.68,33.84,Pure Olive Oil 1L,BrandA,Loblaws,08
+2024-05-03T06:00:00Z,22.9,24.86,22.9,Extra Virgin Olive Oil 500ml,BrandA,Loblaws,05
+2024-03-29T23:00:00Z,31.83,29.5,21.22,Classic Olive Oil 2L,BrandC,Metro,03
+2024-09-22T09:00:00Z,37.83,44.62,18.91,Pure Olive Oil 1L,BrandA,Metro,09
+2024-07-02T12:00:00Z,23.97,30.26,23.97,Pure Olive Oil 1L,BrandA,Loblaws,07
+2024-06-11T20:00:00Z,38.21,43.97,76.42,Premium Olive Oil 1L,BrandA,Metro,06
+2024-08-07T09:00:00Z,16.09,21.52,16.09,Classic Olive Oil 2L,BrandC,Metro,08
+2024-03-14T02:00:00Z,15.04,20.59,7.52,Extra Virgin Olive Oil 500ml,BrandE,Loblaws,03
+2024-09-04T00:00:00Z,38.89,47.14,77.78,Extra Virgin Olive Oil 500ml,BrandD,Walmart,09
+2024-11-25T06:00:00Z,13.5,15.98,9,Classic Olive Oil 2L,BrandC,Loblaws,11
+2024-12-31T18:00:00Z,32.99,44.84,21.99,Organic Olive Oil 750ml,BrandB,Walmart,12
+2024-01-07T18:00:00Z,15.33,17.75,10.22,Premium Olive Oil 1L,BrandC,Metro,01
+2024-08-15T07:00:00Z,29.39,38.97,29.39,Classic Olive Oil 2L,BrandD,Metro,08
+2024-11-10T11:00:00Z,31.64,47.29,31.64,Organic Olive Oil 750ml,BrandE,Metro,11
+2024-05-01T08:00:00Z,14.58,18.27,14.58,Extra Virgin Olive Oil 500ml,BrandD,Loblaws,05
+2024-03-25T04:00:00Z,5.18,7.34,5.18,Pure Olive Oil 1L,BrandE,Loblaws,03
+2024-11-05T15:00:00Z,19.77,28.3,13.18,Extra Virgin Olive Oil 500ml,BrandA,Metro,11
+2024-03-15T10:00:00Z,25.92,31.91,51.84,Premium Olive Oil 1L,BrandE,Loblaws,03
+2024-12-10T03:00:00Z,20.48,25.64,20.48,Extra Virgin Olive Oil 500ml,BrandA,Walmart,12
+2024-06-05T23:00:00Z,16.99,17.66,33.98,Classic Olive Oil 2L,BrandB,Loblaws,06
+2024-08-12T10:00:00Z,23.08,28.24,46.16,Classic Olive Oil 2L,BrandD,Walmart,08
+2024-05-26T22:00:00Z,13,18.57,6.5,Pure Olive Oil 1L,BrandE,Metro,05
+2024-08-26T04:00:00Z,15.13,17.6,7.57,Pure Olive Oil 1L,BrandA,Metro,08
+2024-09-07T00:00:00Z,5.78,5.81,3.85,Pure Olive Oil 1L,BrandC,Walmart,09
+2024-03-31T12:00:00Z,23.49,23.9,46.98,Premium Olive Oil 1L,BrandB,Walmart,03
+2024-04-22T22:00:00Z,19.65,23.35,39.3,Classic Olive Oil 2L,BrandA,Walmart,04
+2024-12-18T19:00:00Z,39.12,42.95,39.12,Extra Virgin Olive Oil 500ml,BrandE,Loblaws,12
+2024-08-30T03:00:00Z,6.73,9.3,4.49,Extra Virgin Olive Oil 500ml,BrandA,Loblaws,08
+2024-05-29T08:00:00Z,27.35,25.77,18.23,Pure Olive Oil 1L,BrandB,Loblaws,05
+2024-08-04T18:00:00Z,22.29,24.61,11.14,Pure Olive Oil 1L,BrandC,Metro,08
+2024-06-26T14:00:00Z,5.16,5.87,2.58,Classic Olive Oil 2L,BrandC,Metro,06
+2024-10-30T17:00:00Z,11.49,12.8,7.66,Premium Olive Oil 1L,BrandB,Metro,10
+2024-08-22T11:00:00Z,27.2,35.71,18.13,Organic Olive Oil 750ml,BrandC,Metro,08
+2024-02-16T15:00:00Z,23.15,30.14,23.15,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,02
+2024-11-14T22:00:00Z,36.21,36.67,36.21,Classic Olive Oil 2L,BrandC,Walmart,11
+2024-09-15T14:00:00Z,28.72,35.42,57.44,Premium Olive Oil 1L,BrandD,Metro,09
+2024-10-27T04:00:00Z,22.98,26.46,15.32,Extra Virgin Olive Oil 500ml,BrandA,Walmart,10
+2024-04-02T15:00:00Z,15.75,17.97,15.75,Pure Olive Oil 1L,BrandA,Metro,04
+2024-06-27T10:00:00Z,18.91,23.57,12.61,Extra Virgin Olive Oil 500ml,BrandC,Walmart,06
+2024-08-08T20:00:00Z,10.37,11.93,6.91,Classic Olive Oil 2L,BrandC,Walmart,08
+2024-11-09T00:00:00Z,18.29,17.04,9.14,Premium Olive Oil 1L,BrandE,Walmart,11
+2024-06-15T16:00:00Z,14.46,18.21,7.23,Pure Olive Oil 1L,BrandC,Metro,06
+2024-05-25T12:00:00Z,38.09,40.83,19.05,Premium Olive Oil 1L,BrandE,Loblaws,05
+2024-03-11T05:00:00Z,13.83,18.09,13.83,Organic Olive Oil 750ml,BrandC,Metro,03
+2024-08-02T06:00:00Z,30.75,34.38,30.75,Pure Olive Oil 1L,BrandD,Walmart,08
+2024-12-12T09:00:00Z,7.37,10.62,7.37,Organic Olive Oil 750ml,BrandA,Loblaws,12
+2024-07-09T06:00:00Z,17.98,25.4,11.99,Classic Olive Oil 2L,BrandD,Metro,07
+2024-09-21T22:00:00Z,12.61,13.9,6.3,Pure Olive Oil 1L,BrandA,Metro,09
+2024-12-29T01:00:00Z,35.76,52.4,35.76,Organic Olive Oil 750ml,BrandC,Walmart,12
+2024-07-04T14:00:00Z,19.82,28.61,19.82,Organic Olive Oil 750ml,BrandE,Metro,07
+2024-09-05T03:00:00Z,16.24,14.88,32.48,Pure Olive Oil 1L,BrandE,Walmart,09
+2024-09-02T02:00:00Z,19.44,18.33,9.72,Organic Olive Oil 750ml,BrandB,Loblaws,09
+2024-02-11T22:00:00Z,10.47,13.85,6.98,Organic Olive Oil 750ml,BrandB,Metro,02
+2024-05-17T06:00:00Z,27.02,28.52,13.51,Pure Olive Oil 1L,BrandE,Walmart,05
+2024-12-06T20:00:00Z,31.93,32.24,31.93,Pure Olive Oil 1L,BrandC,Metro,12
+2024-07-09T16:00:00Z,36.56,34.84,24.37,Pure Olive Oil 1L,BrandC,Loblaws,07
+2024-09-13T22:00:00Z,26.36,35.77,13.18,Organic Olive Oil 750ml,BrandE,Loblaws,09
+2024-03-16T08:00:00Z,27.07,34.46,18.05,Extra Virgin Olive Oil 500ml,BrandA,Metro,03
+2024-08-14T02:00:00Z,28.17,31.46,28.17,Extra Virgin Olive Oil 500ml,BrandB,Metro,08
+2024-06-12T19:00:00Z,37.55,48.73,37.55,Pure Olive Oil 1L,BrandE,Metro,06
+2024-12-01T21:00:00Z,39.73,53.13,19.86,Pure Olive Oil 1L,BrandE,Metro,12
+2024-02-18T11:00:00Z,14.05,13.37,14.05,Organic Olive Oil 750ml,BrandB,Walmart,02
+2024-06-03T05:00:00Z,15.18,14.69,30.36,Premium Olive Oil 1L,BrandE,Loblaws,06
+2024-01-04T23:00:00Z,36.91,44.71,73.82,Pure Olive Oil 1L,BrandB,Loblaws,01
+2024-04-29T13:00:00Z,18.07,26.5,9.04,Organic Olive Oil 750ml,BrandB,Loblaws,04
+2024-08-28T02:00:00Z,30.32,30.57,20.21,Extra Virgin Olive Oil 500ml,BrandD,Walmart,08
+2024-07-27T06:00:00Z,34.4,42.64,22.93,Pure Olive Oil 1L,BrandB,Walmart,07
+2024-08-12T02:00:00Z,9.08,11.93,4.54,Organic Olive Oil 750ml,BrandA,Walmart,08
+2024-09-12T19:00:00Z,34.56,31.12,34.56,Extra Virgin Olive Oil 500ml,BrandC,Metro,09
+2024-05-30T02:00:00Z,27.97,26.18,55.94,Extra Virgin Olive Oil 500ml,BrandD,Loblaws,05
+2024-05-24T07:00:00Z,5.32,6.81,3.55,Classic Olive Oil 2L,BrandC,Loblaws,05
+2024-07-29T00:00:00Z,8.78,12.15,8.78,Pure Olive Oil 1L,BrandA,Walmart,07
+2024-03-18T01:00:00Z,19.95,29.84,39.9,Organic Olive Oil 750ml,BrandE,Loblaws,03
+2024-01-31T08:00:00Z,33.99,40.43,17,Classic Olive Oil 2L,BrandC,Loblaws,01
+2024-10-30T12:00:00Z,16.73,24.61,8.37,Premium Olive Oil 1L,BrandA,Metro,10
+2024-04-15T18:00:00Z,15.31,15.16,7.66,Premium Olive Oil 1L,BrandD,Loblaws,04
+2024-07-20T21:00:00Z,36.74,54.18,73.48,Organic Olive Oil 750ml,BrandB,Walmart,07
+2024-05-17T12:00:00Z,19.23,22.69,38.46,Organic Olive Oil 750ml,BrandE,Walmart,05
+2024-02-13T22:00:00Z,24.87,24.82,49.74,Premium Olive Oil 1L,BrandE,Loblaws,02
+2024-08-27T14:00:00Z,13.69,15.57,27.38,Extra Virgin Olive Oil 500ml,BrandE,Loblaws,08
+2024-08-22T20:00:00Z,9.7,13.47,6.47,Classic Olive Oil 2L,BrandB,Metro,08
+2024-02-13T15:00:00Z,11.9,13.26,5.95,Pure Olive Oil 1L,BrandE,Loblaws,02
+2024-10-07T21:00:00Z,23.55,35.07,23.55,Organic Olive Oil 750ml,BrandE,Walmart,10
+2024-05-17T08:00:00Z,38.45,36.15,25.63,Organic Olive Oil 750ml,BrandD,Walmart,05
+2024-09-01T21:00:00Z,19.7,25.7,13.13,Premium Olive Oil 1L,BrandD,Walmart,09
+2024-07-25T17:00:00Z,34.38,36.7,68.76,Extra Virgin Olive Oil 500ml,BrandE,Loblaws,07
+2024-12-15T02:00:00Z,7.79,8.35,5.19,Pure Olive Oil 1L,BrandC,Walmart,12
+2024-06-15T21:00:00Z,31.26,36.22,62.52,Extra Virgin Olive Oil 500ml,BrandE,Walmart,06
+2024-08-14T20:00:00Z,14.31,19.6,7.16,Classic Olive Oil 2L,BrandE,Loblaws,08
+2024-01-26T02:00:00Z,23.53,22.15,11.77,Extra Virgin Olive Oil 500ml,BrandB,Loblaws,01
+2024-05-21T04:00:00Z,6.58,9.27,4.39,Extra Virgin Olive Oil 500ml,BrandC,Walmart,05
+2024-11-27T03:00:00Z,31.92,40.58,15.96,Extra Virgin Olive Oil 500ml,BrandC,Walmart,11
+2024-02-13T22:00:00Z,36.87,38.36,73.74,Organic Olive Oil 750ml,BrandB,Walmart,02
+2024-02-03T11:00:00Z,31.11,45.08,20.74,Organic Olive Oil 750ml,BrandA,Walmart,02
+2024-03-02T17:00:00Z,8.41,11.5,8.41,Premium Olive Oil 1L,BrandA,Walmart,03
+2024-05-13T22:00:00Z,38.1,52.19,19.05,Extra Virgin Olive Oil 500ml,BrandA,Metro,05
+2024-04-25T17:00:00Z,11.25,11.73,7.5,Pure Olive Oil 1L,BrandD,Metro,04
+2024-08-15T13:00:00Z,33.08,33.99,16.54,Classic Olive Oil 2L,BrandD,Loblaws,08
+2024-07-23T13:00:00Z,28.49,40.94,56.98,Organic Olive Oil 750ml,BrandD,Loblaws,07
+2024-03-12T19:00:00Z,19.64,20.69,13.09,Classic Olive Oil 2L,BrandC,Metro,03
+2024-12-10T07:00:00Z,31.37,41.22,31.37,Pure Olive Oil 1L,BrandE,Loblaws,12
+2024-04-29T01:00:00Z,19.52,21.32,9.76,Pure Olive Oil 1L,BrandE,Loblaws,04
+2024-10-17T21:00:00Z,25.79,33.84,51.58,Classic Olive Oil 2L,BrandC,Walmart,10
+2024-04-29T02:00:00Z,16.2,21.65,10.8,Pure Olive Oil 1L,BrandC,Metro,04
+2024-12-11T14:00:00Z,27.63,34.54,27.63,Classic Olive Oil 2L,BrandE,Walmart,12
+2024-08-30T14:00:00Z,17.53,20.87,17.53,Extra Virgin Olive Oil 500ml,BrandD,Loblaws,08
+2024-12-16T14:00:00Z,35.51,33.31,17.75,Pure Olive Oil 1L,BrandA,Loblaws,12
+2024-07-09T20:00:00Z,19.23,19.3,12.82,Organic Olive Oil 750ml,BrandE,Metro,07
+2024-01-20T17:00:00Z,20.95,29.39,10.47,Premium Olive Oil 1L,BrandC,Walmart,01
+2024-12-03T21:00:00Z,36.13,33.93,36.13,Extra Virgin Olive Oil 500ml,BrandC,Metro,12
+2024-07-20T21:00:00Z,27.82,41.12,18.55,Extra Virgin Olive Oil 500ml,BrandD,Metro,07
+2024-07-01T03:00:00Z,5.35,7.1,2.67,Classic Olive Oil 2L,BrandA,Loblaws,07
+2024-08-22T22:00:00Z,27.94,32.1,13.97,Extra Virgin Olive Oil 500ml,BrandD,Walmart,08
+2024-03-23T04:00:00Z,13.45,13.3,6.72,Classic Olive Oil 2L,BrandD,Walmart,03
+2024-05-08T10:00:00Z,38.79,47.26,25.86,Classic Olive Oil 2L,BrandC,Metro,05
+2024-07-13T00:00:00Z,20.65,27.14,41.3,Classic Olive Oil 2L,BrandD,Metro,07
+2024-05-29T09:00:00Z,28.4,33.74,14.2,Pure Olive Oil 1L,BrandA,Loblaws,05
+2024-09-23T12:00:00Z,8.49,10.34,4.24,Pure Olive Oil 1L,BrandD,Walmart,09
+2024-03-27T12:00:00Z,12.24,14.07,6.12,Organic Olive Oil 750ml,BrandB,Metro,03
+2024-06-28T14:00:00Z,38.16,51.85,76.32,Organic Olive Oil 750ml,BrandD,Walmart,06
+2024-01-29T04:00:00Z,24.88,26.35,24.88,Extra Virgin Olive Oil 500ml,BrandA,Walmart,01
+2024-09-27T04:00:00Z,19.26,27.31,38.52,Pure Olive Oil 1L,BrandB,Metro,09
+2024-09-14T05:00:00Z,25.29,36.31,16.86,Classic Olive Oil 2L,BrandD,Loblaws,09
+2024-04-13T11:00:00Z,9.62,9.1,6.41,Classic Olive Oil 2L,BrandD,Metro,04
+2024-12-12T21:00:00Z,22.43,29.63,22.43,Pure Olive Oil 1L,BrandB,Loblaws,12
+2024-04-24T14:00:00Z,11.52,16.22,23.04,Classic Olive Oil 2L,BrandA,Metro,04
+2024-07-02T14:00:00Z,13.42,17.46,8.95,Classic Olive Oil 2L,BrandE,Walmart,07
+2024-02-22T19:00:00Z,33.3,45.04,33.3,Extra Virgin Olive Oil 500ml,BrandE,Walmart,02
+2024-09-12T22:00:00Z,28.75,39.31,14.38,Organic Olive Oil 750ml,BrandC,Walmart,09
+2024-10-02T05:00:00Z,38.92,43.88,38.92,Classic Olive Oil 2L,BrandB,Loblaws,10
+2024-11-17T16:00:00Z,9.85,10.96,9.85,Organic Olive Oil 750ml,BrandA,Metro,11
+2024-01-14T03:00:00Z,20.77,24.83,13.85,Pure Olive Oil 1L,BrandA,Metro,01
+2024-12-14T18:00:00Z,22.13,20.68,11.06,Premium Olive Oil 1L,BrandA,Walmart,12
+2024-05-25T15:00:00Z,23.99,31.48,47.98,Extra Virgin Olive Oil 500ml,BrandA,Walmart,05
+2024-01-18T13:00:00Z,20.97,30.92,13.98,Classic Olive Oil 2L,BrandA,Metro,01
+2024-02-19T09:00:00Z,11,14.82,7.33,Extra Virgin Olive Oil 500ml,BrandB,Walmart,02
+2024-01-01T17:00:00Z,30.02,29.97,60.04,Premium Olive Oil 1L,BrandE,Metro,01
+2024-06-01T21:00:00Z,36.71,33.99,73.42,Extra Virgin Olive Oil 500ml,BrandB,Metro,06
+2024-09-25T02:00:00Z,15.16,18.27,15.16,Classic Olive Oil 2L,BrandB,Loblaws,09
+2024-11-16T02:00:00Z,31.78,46.29,21.19,Extra Virgin Olive Oil 500ml,BrandD,Walmart,11
+2024-04-05T04:00:00Z,37.53,54.45,25.02,Extra Virgin Olive Oil 500ml,BrandA,Loblaws,04
+2024-09-05T08:00:00Z,5.35,5.07,5.35,Extra Virgin Olive Oil 500ml,BrandD,Loblaws,09
+2024-09-24T23:00:00Z,22.52,25.71,45.04,Classic Olive Oil 2L,BrandA,Loblaws,09
+2024-05-27T22:00:00Z,14.08,12.83,7.04,Classic Olive Oil 2L,BrandB,Loblaws,05
+2024-04-01T16:00:00Z,21.17,31.34,42.34,Premium Olive Oil 1L,BrandD,Metro,04
+2024-11-17T19:00:00Z,19.26,26.93,12.84,Premium Olive Oil 1L,BrandD,Walmart,11
+2024-07-01T02:00:00Z,34.24,30.97,34.24,Organic Olive Oil 750ml,BrandE,Walmart,07
+2024-10-26T09:00:00Z,9.69,9.1,9.69,Organic Olive Oil 750ml,BrandD,Loblaws,10
+2024-07-02T10:00:00Z,35.43,42.47,70.86,Pure Olive Oil 1L,BrandB,Metro,07
+2024-10-19T17:00:00Z,18.73,21.48,18.73,Extra Virgin Olive Oil 500ml,BrandE,Walmart,10
+2024-09-29T02:00:00Z,26.7,37.54,13.35,Premium Olive Oil 1L,BrandE,Metro,09
+2024-11-13T13:00:00Z,9.5,9.06,9.5,Pure Olive Oil 1L,BrandB,Metro,11
+2024-01-29T15:00:00Z,35.86,47.33,71.72,Organic Olive Oil 750ml,BrandA,Loblaws,01
+2024-04-02T22:00:00Z,27.41,25.27,18.27,Classic Olive Oil 2L,BrandA,Loblaws,04
+2024-03-22T19:00:00Z,22.92,28.39,11.46,Pure Olive Oil 1L,BrandE,Walmart,03
+2024-09-24T22:00:00Z,27.1,29.74,18.07,Classic Olive Oil 2L,BrandA,Loblaws,09
+2024-11-23T06:00:00Z,38.76,53.98,19.38,Premium Olive Oil 1L,BrandD,Metro,11
+2024-08-05T08:00:00Z,32.7,43.97,21.8,Pure Olive Oil 1L,BrandA,Walmart,08
+2024-02-11T19:00:00Z,38.21,50.22,25.47,Extra Virgin Olive Oil 500ml,BrandD,Metro,02
+2024-02-11T17:00:00Z,28.15,35.87,56.3,Premium Olive Oil 1L,BrandD,Metro,02
+2024-06-11T21:00:00Z,20.95,25.9,20.95,Extra Virgin Olive Oil 500ml,BrandE,Walmart,06
+2024-06-18T15:00:00Z,38.06,40.2,76.12,Classic Olive Oil 2L,BrandE,Metro,06
+2024-02-16T05:00:00Z,28.43,26.2,28.43,Premium Olive Oil 1L,BrandA,Metro,02
+2024-11-17T19:00:00Z,17.24,20.62,34.48,Organic Olive Oil 750ml,BrandA,Metro,11
+2024-01-24T17:00:00Z,17.13,23.99,34.26,Extra Virgin Olive Oil 500ml,BrandE,Metro,01
+2024-06-15T17:00:00Z,5.55,6.53,11.1,Classic Olive Oil 2L,BrandD,Walmart,06
+2024-03-07T21:00:00Z,20.8,27.55,41.6,Pure Olive Oil 1L,BrandD,Metro,03
+2024-10-19T09:00:00Z,22.86,27.3,11.43,Pure Olive Oil 1L,BrandA,Loblaws,10
+2024-02-07T14:00:00Z,7.11,8.34,4.74,Pure Olive Oil 1L,BrandD,Metro,02
+2024-01-05T10:00:00Z,30.97,33.96,20.65,Organic Olive Oil 750ml,BrandB,Loblaws,01
+2024-06-20T08:00:00Z,10.36,9.56,5.18,Organic Olive Oil 750ml,BrandE,Walmart,06
+2024-07-01T23:00:00Z,17.04,21.89,8.52,Classic Olive Oil 2L,BrandE,Walmart,07
+2024-03-12T12:00:00Z,18.32,23,9.16,Premium Olive Oil 1L,BrandB,Loblaws,03
+2024-09-19T20:00:00Z,37.18,36.57,37.18,Extra Virgin Olive Oil 500ml,BrandA,Walmart,09
+2024-09-21T14:00:00Z,27.3,30.29,54.6,Extra Virgin Olive Oil 500ml,BrandA,Walmart,09
+2024-01-06T22:00:00Z,35.21,45.36,70.42,Premium Olive Oil 1L,BrandE,Metro,01
+2024-04-09T08:00:00Z,19.45,25.05,12.97,Organic Olive Oil 750ml,BrandB,Loblaws,04
+2024-05-14T04:00:00Z,29.66,33.23,19.77,Classic Olive Oil 2L,BrandE,Metro,05
+2024-07-17T13:00:00Z,11.9,13.2,5.95,Pure Olive Oil 1L,BrandA,Walmart,07
+2024-01-07T19:00:00Z,23.47,26.31,23.47,Premium Olive Oil 1L,BrandB,Metro,01
+2024-02-28T13:00:00Z,36.49,52.98,18.25,Organic Olive Oil 750ml,BrandE,Walmart,02
+2024-07-29T05:00:00Z,15.17,20.57,7.58,Pure Olive Oil 1L,BrandC,Walmart,07
+2024-10-28T09:00:00Z,15.7,15.49,10.47,Classic Olive Oil 2L,BrandE,Walmart,10
+2024-10-04T19:00:00Z,20.04,22.06,20.04,Extra Virgin Olive Oil 500ml,BrandA,Metro,10
+2024-12-06T08:00:00Z,36.03,37.71,36.03,Classic Olive Oil 2L,BrandC,Walmart,12
+2024-09-24T18:00:00Z,28.82,28.74,14.41,Pure Olive Oil 1L,BrandB,Loblaws,09
+2024-12-10T02:00:00Z,20.32,30.15,13.55,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,12
+2024-10-21T17:00:00Z,34.17,33.1,22.78,Extra Virgin Olive Oil 500ml,BrandE,Walmart,10
+2024-08-08T03:00:00Z,13.47,12.69,8.98,Classic Olive Oil 2L,BrandE,Walmart,08
+2024-05-25T02:00:00Z,18.42,24.85,12.28,Organic Olive Oil 750ml,BrandD,Metro,05
+2024-09-14T15:00:00Z,9.21,9.03,18.42,Classic Olive Oil 2L,BrandB,Metro,09
+2024-02-20T13:00:00Z,13.16,11.92,6.58,Extra Virgin Olive Oil 500ml,BrandA,Metro,02
+2024-01-07T05:00:00Z,29.07,41.1,14.54,Pure Olive Oil 1L,BrandB,Walmart,01
+2024-06-18T09:00:00Z,39.77,43.87,19.89,Organic Olive Oil 750ml,BrandD,Metro,06
+2024-07-15T20:00:00Z,34.13,40.77,22.75,Classic Olive Oil 2L,BrandC,Loblaws,07
+2024-07-12T12:00:00Z,29.43,36.59,14.71,Extra Virgin Olive Oil 500ml,BrandB,Metro,07
+2024-06-13T02:00:00Z,23.37,22.61,23.37,Classic Olive Oil 2L,BrandE,Metro,06
+2024-05-30T19:00:00Z,11.41,10.85,7.61,Classic Olive Oil 2L,BrandA,Loblaws,05
+2024-11-17T20:00:00Z,39.37,55.92,39.37,Organic Olive Oil 750ml,BrandD,Walmart,11
+2024-07-08T02:00:00Z,33.84,40.66,16.92,Extra Virgin Olive Oil 500ml,BrandC,Walmart,07
+2024-07-07T15:00:00Z,38.89,46.5,25.93,Classic Olive Oil 2L,BrandE,Walmart,07
+2024-05-07T06:00:00Z,23.36,31.52,11.68,Extra Virgin Olive Oil 500ml,BrandE,Metro,05
+2024-11-02T14:00:00Z,31.04,31.16,15.52,Extra Virgin Olive Oil 500ml,BrandB,Loblaws,11
+2024-11-16T15:00:00Z,32.85,30.24,21.9,Premium Olive Oil 1L,BrandB,Metro,11
+2024-01-19T20:00:00Z,22.55,28.22,15.03,Organic Olive Oil 750ml,BrandD,Loblaws,01
+2024-09-01T18:00:00Z,23.22,23.51,23.22,Pure Olive Oil 1L,BrandA,Walmart,09
+2024-08-25T19:00:00Z,29.66,30.12,19.77,Pure Olive Oil 1L,BrandB,Loblaws,08
+2024-05-28T00:00:00Z,21.68,32.01,10.84,Organic Olive Oil 750ml,BrandE,Walmart,05
+2024-10-09T09:00:00Z,15.29,15.25,7.64,Pure Olive Oil 1L,BrandB,Loblaws,10
+2024-06-16T13:00:00Z,23.76,25.04,11.88,Extra Virgin Olive Oil 500ml,BrandB,Metro,06
+2024-02-05T10:00:00Z,25.62,32.09,12.81,Classic Olive Oil 2L,BrandD,Loblaws,02
+2024-04-19T01:00:00Z,28.1,28.11,56.2,Premium Olive Oil 1L,BrandE,Walmart,04
+2024-10-14T18:00:00Z,38.47,49.49,19.24,Organic Olive Oil 750ml,BrandA,Metro,10
+2024-08-12T09:00:00Z,14.48,14.73,9.65,Classic Olive Oil 2L,BrandD,Metro,08
+2024-04-08T14:00:00Z,14.27,17.4,9.51,Organic Olive Oil 750ml,BrandB,Loblaws,04
+2024-05-14T03:00:00Z,13.96,15.35,9.31,Organic Olive Oil 750ml,BrandA,Metro,05
+2024-12-28T03:00:00Z,20.23,25.21,40.46,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,12
+2024-04-04T22:00:00Z,19.93,24.8,9.96,Pure Olive Oil 1L,BrandC,Loblaws,04
+2024-10-20T07:00:00Z,18.7,19.94,37.4,Extra Virgin Olive Oil 500ml,BrandD,Walmart,10
+2024-01-12T22:00:00Z,24.88,25.99,12.44,Pure Olive Oil 1L,BrandA,Metro,01
+2024-01-13T01:00:00Z,18.06,26.05,18.06,Classic Olive Oil 2L,BrandC,Metro,01
+2024-07-08T02:00:00Z,18.14,22.64,9.07,Extra Virgin Olive Oil 500ml,BrandE,Loblaws,07
+2024-01-04T03:00:00Z,15.73,18.74,7.86,Classic Olive Oil 2L,BrandB,Walmart,01
+2024-01-16T21:00:00Z,26.85,36.39,17.9,Premium Olive Oil 1L,BrandD,Walmart,01
+2024-06-19T22:00:00Z,10.76,9.97,10.76,Classic Olive Oil 2L,BrandC,Loblaws,06
+2024-11-04T06:00:00Z,9.74,12.46,19.48,Premium Olive Oil 1L,BrandC,Metro,11
+2024-11-19T01:00:00Z,7.87,10.03,15.74,Organic Olive Oil 750ml,BrandD,Metro,11
+2024-09-05T07:00:00Z,7.67,10.46,3.84,Organic Olive Oil 750ml,BrandA,Loblaws,09
+2024-04-14T11:00:00Z,29.15,33.21,58.3,Classic Olive Oil 2L,BrandA,Loblaws,04
+2024-08-05T06:00:00Z,38.98,40.03,77.96,Organic Olive Oil 750ml,BrandB,Metro,08
+2024-04-01T10:00:00Z,32.74,42.09,21.83,Organic Olive Oil 750ml,BrandC,Walmart,04
+2024-12-16T22:00:00Z,27.91,32.67,18.61,Classic Olive Oil 2L,BrandD,Metro,12
+2024-03-08T00:00:00Z,29.15,36.01,58.3,Premium Olive Oil 1L,BrandC,Loblaws,03
+2024-06-02T09:00:00Z,17.1,23.05,34.2,Pure Olive Oil 1L,BrandD,Loblaws,06
+2024-09-11T12:00:00Z,27.54,27.07,55.08,Classic Olive Oil 2L,BrandE,Metro,09
+2024-10-06T01:00:00Z,18.64,22.61,18.64,Organic Olive Oil 750ml,BrandA,Walmart,10
+2024-12-01T07:00:00Z,9.35,9.12,9.35,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,12
+2024-04-07T09:00:00Z,32.43,40.55,16.22,Classic Olive Oil 2L,BrandA,Metro,04
+2024-05-03T17:00:00Z,35.38,36.25,17.69,Extra Virgin Olive Oil 500ml,BrandD,Metro,05
+2024-10-06T06:00:00Z,19.58,23.73,9.79,Extra Virgin Olive Oil 500ml,BrandE,Loblaws,10
+2024-08-14T16:00:00Z,27.72,39.19,27.72,Extra Virgin Olive Oil 500ml,BrandB,Walmart,08
+2024-03-13T06:00:00Z,25.17,31.3,12.59,Organic Olive Oil 750ml,BrandA,Metro,03
+2024-10-10T08:00:00Z,36.29,47.39,24.19,Pure Olive Oil 1L,BrandB,Loblaws,10
+2024-08-06T14:00:00Z,18.85,22.51,12.57,Pure Olive Oil 1L,BrandA,Metro,08
+2024-12-16T14:00:00Z,18.88,27.83,12.59,Organic Olive Oil 750ml,BrandB,Metro,12
+2024-11-12T10:00:00Z,15.78,15.49,31.56,Classic Olive Oil 2L,BrandC,Metro,11
+2024-09-30T11:00:00Z,8.4,9.65,4.2,Pure Olive Oil 1L,BrandB,Metro,09
+2024-02-19T13:00:00Z,30.43,37.78,30.43,Organic Olive Oil 750ml,BrandD,Metro,02
+2024-06-12T11:00:00Z,36.14,46.17,72.28,Extra Virgin Olive Oil 500ml,BrandA,Loblaws,06
+2024-08-01T00:00:00Z,24.47,26.79,16.31,Classic Olive Oil 2L,BrandA,Metro,08
+2024-01-03T11:00:00Z,9.61,13.51,9.61,Classic Olive Oil 2L,BrandA,Walmart,01
+2024-11-23T23:00:00Z,36.62,53.27,73.24,Extra Virgin Olive Oil 500ml,BrandA,Walmart,11
+2024-07-04T16:00:00Z,18.88,27.18,12.59,Premium Olive Oil 1L,BrandD,Loblaws,07
+2024-04-26T13:00:00Z,9.56,10.31,4.78,Classic Olive Oil 2L,BrandD,Walmart,04
+2024-12-09T18:00:00Z,36.49,44.71,36.49,Premium Olive Oil 1L,BrandB,Walmart,12
+2024-06-26T01:00:00Z,20.62,25.49,41.24,Pure Olive Oil 1L,BrandC,Metro,06
+2024-06-28T17:00:00Z,20.17,28.16,13.45,Extra Virgin Olive Oil 500ml,BrandE,Metro,06
+2024-05-02T15:00:00Z,19.6,17.92,9.8,Extra Virgin Olive Oil 500ml,BrandD,Metro,05
+2024-02-24T04:00:00Z,16,19.9,8,Extra Virgin Olive Oil 500ml,BrandD,Loblaws,02
+2024-12-21T12:00:00Z,9.94,10.47,9.94,Premium Olive Oil 1L,BrandE,Loblaws,12
+2024-11-11T02:00:00Z,32.67,42.95,16.34,Extra Virgin Olive Oil 500ml,BrandB,Loblaws,11
+2024-11-26T00:00:00Z,34.43,35.2,68.86,Pure Olive Oil 1L,BrandA,Loblaws,11
+2024-11-24T22:00:00Z,11.75,11.83,5.88,Organic Olive Oil 750ml,BrandB,Walmart,11
+2024-04-17T02:00:00Z,21,30.13,10.5,Classic Olive Oil 2L,BrandC,Loblaws,04
+2024-04-01T13:00:00Z,13.85,16.3,13.85,Pure Olive Oil 1L,BrandE,Walmart,04
+2024-12-28T01:00:00Z,7.9,9.2,3.95,Premium Olive Oil 1L,BrandA,Walmart,12
+2024-06-09T16:00:00Z,31.92,39.98,21.28,Classic Olive Oil 2L,BrandC,Walmart,06
+2024-06-23T16:00:00Z,14.69,18.14,7.34,Organic Olive Oil 750ml,BrandA,Walmart,06
+2024-10-18T00:00:00Z,22.68,28.89,22.68,Classic Olive Oil 2L,BrandD,Metro,10
+2024-09-25T02:00:00Z,9.71,12.34,4.86,Premium Olive Oil 1L,BrandA,Metro,09
+2024-10-25T19:00:00Z,21.7,21.44,21.7,Organic Olive Oil 750ml,BrandE,Walmart,10
+2024-04-05T13:00:00Z,34.77,37.5,23.18,Organic Olive Oil 750ml,BrandE,Loblaws,04
+2024-12-30T08:00:00Z,5.49,7.46,10.98,Classic Olive Oil 2L,BrandA,Walmart,12
+2024-11-10T08:00:00Z,39.81,50.59,79.62,Extra Virgin Olive Oil 500ml,BrandB,Metro,11
+2024-07-03T10:00:00Z,32.62,42.15,65.24,Extra Virgin Olive Oil 500ml,BrandB,Walmart,07
+2024-06-16T01:00:00Z,13.76,20.1,9.17,Classic Olive Oil 2L,BrandE,Loblaws,06
+2024-12-18T15:00:00Z,30.92,39.12,15.46,Classic Olive Oil 2L,BrandB,Metro,12
+2024-07-11T12:00:00Z,21.21,28.4,21.21,Extra Virgin Olive Oil 500ml,BrandA,Loblaws,07
+2024-12-24T07:00:00Z,6.24,6.24,6.24,Premium Olive Oil 1L,BrandC,Metro,12
+2024-02-05T13:00:00Z,26.36,35.78,26.36,Extra Virgin Olive Oil 500ml,BrandB,Walmart,02
+2024-08-20T12:00:00Z,19.01,26.04,12.67,Classic Olive Oil 2L,BrandA,Walmart,08
+2024-06-08T14:00:00Z,39.88,40.73,39.88,Organic Olive Oil 750ml,BrandA,Loblaws,06
+2024-07-26T21:00:00Z,20.49,23.46,10.24,Extra Virgin Olive Oil 500ml,BrandB,Loblaws,07
+2024-01-16T22:00:00Z,5.35,6.65,10.7,Pure Olive Oil 1L,BrandA,Loblaws,01
+2024-06-21T04:00:00Z,5.89,7.02,2.94,Pure Olive Oil 1L,BrandD,Walmart,06
+2024-07-21T08:00:00Z,15.63,19.84,15.63,Pure Olive Oil 1L,BrandD,Metro,07
+2024-05-14T05:00:00Z,9.35,9.93,6.23,Organic Olive Oil 750ml,BrandB,Loblaws,05
+2024-09-03T21:00:00Z,9.01,9.49,9.01,Extra Virgin Olive Oil 500ml,BrandE,Metro,09
+2024-11-01T15:00:00Z,20.82,28.52,20.82,Extra Virgin Olive Oil 500ml,BrandE,Walmart,11
+2024-10-31T06:00:00Z,19.35,23.76,38.7,Premium Olive Oil 1L,BrandC,Loblaws,10
+2024-07-04T06:00:00Z,14.5,14.5,9.67,Extra Virgin Olive Oil 500ml,BrandB,Metro,07
+2024-04-18T03:00:00Z,18.7,27.78,12.47,Extra Virgin Olive Oil 500ml,BrandB,Loblaws,04
+2024-10-09T00:00:00Z,24.47,29.19,16.31,Organic Olive Oil 750ml,BrandA,Metro,10
+2024-11-23T19:00:00Z,13.15,13.14,6.58,Extra Virgin Olive Oil 500ml,BrandD,Loblaws,11
+2024-04-20T12:00:00Z,6.66,6.85,13.32,Pure Olive Oil 1L,BrandB,Loblaws,04
+2024-03-22T19:00:00Z,38.83,51.49,77.66,Extra Virgin Olive Oil 500ml,BrandE,Metro,03
+2024-02-25T20:00:00Z,10.59,10.17,21.18,Pure Olive Oil 1L,BrandE,Metro,02
+2024-07-01T04:00:00Z,26.05,25.66,52.1,Classic Olive Oil 2L,BrandC,Walmart,07
+2024-09-10T22:00:00Z,37.85,43.36,25.23,Organic Olive Oil 750ml,BrandD,Metro,09
+2024-02-18T05:00:00Z,39.71,50.93,19.86,Organic Olive Oil 750ml,BrandE,Walmart,02
+2024-10-03T10:00:00Z,25.7,23.5,51.4,Premium Olive Oil 1L,BrandA,Metro,10
+2024-06-05T03:00:00Z,32.82,32.47,65.64,Extra Virgin Olive Oil 500ml,BrandD,Loblaws,06
+2024-10-24T22:00:00Z,8.07,8.51,8.07,Premium Olive Oil 1L,BrandC,Loblaws,10
+2024-08-04T14:00:00Z,8.6,11.47,17.2,Classic Olive Oil 2L,BrandE,Loblaws,08
+2024-11-12T06:00:00Z,9.56,11.08,9.56,Premium Olive Oil 1L,BrandB,Walmart,11
+2024-09-28T08:00:00Z,12.9,12.4,8.6,Premium Olive Oil 1L,BrandD,Metro,09
+2024-02-13T04:00:00Z,16.73,18.91,16.73,Pure Olive Oil 1L,BrandE,Walmart,02
+2024-09-16T22:00:00Z,26.27,31.65,17.51,Pure Olive Oil 1L,BrandB,Walmart,09
+2024-02-29T15:00:00Z,11.87,14.38,7.91,Extra Virgin Olive Oil 500ml,BrandE,Metro,02
+2024-09-06T01:00:00Z,14.86,21.49,29.72,Classic Olive Oil 2L,BrandC,Metro,09
+2024-03-17T08:00:00Z,7.83,7.86,15.66,Classic Olive Oil 2L,BrandA,Metro,03
+2024-06-27T10:00:00Z,27.35,31.38,54.7,Pure Olive Oil 1L,BrandB,Loblaws,06
+2024-09-04T03:00:00Z,35.01,40.25,23.34,Pure Olive Oil 1L,BrandB,Metro,09
+2024-06-13T18:00:00Z,31.88,37.45,15.94,Premium Olive Oil 1L,BrandB,Walmart,06
+2024-11-10T17:00:00Z,26.15,24.1,17.43,Pure Olive Oil 1L,BrandA,Loblaws,11
+2024-05-12T05:00:00Z,28.21,40.96,14.11,Extra Virgin Olive Oil 500ml,BrandC,Walmart,05
+2024-06-12T03:00:00Z,31.14,42.09,31.14,Pure Olive Oil 1L,BrandA,Walmart,06
+2024-09-26T08:00:00Z,20.63,30.69,13.75,Premium Olive Oil 1L,BrandA,Metro,09
+2024-12-03T02:00:00Z,12.25,17.53,24.5,Premium Olive Oil 1L,BrandC,Loblaws,12
+2024-01-18T09:00:00Z,14.1,21.09,14.1,Extra Virgin Olive Oil 500ml,BrandA,Walmart,01
+2024-08-07T19:00:00Z,20.18,22.71,40.36,Pure Olive Oil 1L,BrandA,Loblaws,08
+2024-07-28T22:00:00Z,8.45,9.36,16.9,Classic Olive Oil 2L,BrandE,Metro,07
+2024-04-24T05:00:00Z,6.16,8.42,4.11,Extra Virgin Olive Oil 500ml,BrandE,Metro,04
+2024-12-08T04:00:00Z,27.17,26.83,13.59,Classic Olive Oil 2L,BrandD,Walmart,12
+2024-11-24T04:00:00Z,23.82,28.63,11.91,Organic Olive Oil 750ml,BrandC,Walmart,11
+2024-02-22T07:00:00Z,33.76,45.42,33.76,Extra Virgin Olive Oil 500ml,BrandE,Loblaws,02
+2024-08-18T08:00:00Z,28.15,28.74,28.15,Classic Olive Oil 2L,BrandA,Walmart,08
+2024-08-06T16:00:00Z,21.39,27.83,14.26,Classic Olive Oil 2L,BrandC,Metro,08
+2024-11-07T11:00:00Z,35.05,40.88,35.05,Premium Olive Oil 1L,BrandA,Metro,11
+2024-05-05T23:00:00Z,32.11,46.25,16.06,Extra Virgin Olive Oil 500ml,BrandA,Walmart,05
+2024-10-28T22:00:00Z,18.38,19.78,36.76,Organic Olive Oil 750ml,BrandD,Walmart,10
+2024-12-23T21:00:00Z,39.55,48.88,39.55,Extra Virgin Olive Oil 500ml,BrandB,Loblaws,12
+2024-11-09T03:00:00Z,12.48,11.45,12.48,Extra Virgin Olive Oil 500ml,BrandE,Metro,11
+2024-01-12T05:00:00Z,39.07,48.38,78.14,Classic Olive Oil 2L,BrandA,Metro,01
+2024-08-01T15:00:00Z,20.78,25.83,41.56,Classic Olive Oil 2L,BrandA,Metro,08
+2024-10-18T18:00:00Z,15.86,23.17,7.93,Pure Olive Oil 1L,BrandE,Metro,10
+2024-11-04T23:00:00Z,35.07,45.74,17.54,Extra Virgin Olive Oil 500ml,BrandD,Loblaws,11
+2024-08-14T06:00:00Z,29.77,36.87,19.85,Classic Olive Oil 2L,BrandE,Loblaws,08
+2024-10-20T01:00:00Z,24.49,24.54,12.24,Extra Virgin Olive Oil 500ml,BrandC,Walmart,10
+2024-11-02T09:00:00Z,13.44,18.16,6.72,Classic Olive Oil 2L,BrandD,Walmart,11
+2024-06-21T21:00:00Z,23.35,25.28,46.7,Extra Virgin Olive Oil 500ml,BrandC,Walmart,06
+2024-11-27T09:00:00Z,31.42,41.21,31.42,Classic Olive Oil 2L,BrandC,Walmart,11
+2024-08-18T22:00:00Z,22.49,21.89,44.98,Organic Olive Oil 750ml,BrandE,Walmart,08
+2024-06-07T07:00:00Z,21.69,25.8,21.69,Extra Virgin Olive Oil 500ml,BrandE,Walmart,06
+2024-08-15T06:00:00Z,22.62,21.54,11.31,Classic Olive Oil 2L,BrandE,Loblaws,08
+2024-03-19T23:00:00Z,26.33,28.38,13.16,Organic Olive Oil 750ml,BrandD,Metro,03
+2024-11-19T07:00:00Z,22.27,21.77,44.54,Organic Olive Oil 750ml,BrandC,Loblaws,11
+2024-11-20T15:00:00Z,11.83,13.26,23.66,Classic Olive Oil 2L,BrandC,Metro,11
+2024-01-08T03:00:00Z,22.92,27.11,45.84,Extra Virgin Olive Oil 500ml,BrandB,Loblaws,01
+2024-03-19T15:00:00Z,36.01,32.96,24.01,Organic Olive Oil 750ml,BrandA,Loblaws,03
+2024-02-26T15:00:00Z,7.66,8.9,3.83,Extra Virgin Olive Oil 500ml,BrandC,Loblaws,02
+2024-11-23T02:00:00Z,21.33,30.71,14.22,Pure Olive Oil 1L,BrandE,Metro,11
+2024-03-31T19:00:00Z,35.31,36.57,70.62,Classic Olive Oil 2L,BrandD,Loblaws,03
+2024-08-29T01:00:00Z,16.47,15.37,8.23,Premium Olive Oil 1L,BrandE,Loblaws,08
+2024-08-25T21:00:00Z,25.83,28.13,25.83,Organic Olive Oil 750ml,BrandC,Walmart,08
+2024-01-20T13:00:00Z,21.43,22.85,14.29,Organic Olive Oil 750ml,BrandA,Loblaws,01
+2024-05-05T22:00:00Z,31.59,37.4,63.18,Organic Olive Oil 750ml,BrandC,Loblaws,05
+2024-03-22T18:00:00Z,23.57,26.24,15.71,Premium Olive Oil 1L,BrandE,Metro,03
+2024-11-02T03:00:00Z,38.9,50.66,77.8,Premium Olive Oil 1L,BrandE,Metro,11
+2024-12-10T18:00:00Z,38.22,54.72,76.44,Pure Olive Oil 1L,BrandB,Loblaws,12
+2024-12-11T07:00:00Z,25.12,28.87,12.56,Extra Virgin Olive Oil 500ml,BrandE,Walmart,12
+2024-05-07T10:00:00Z,9.67,11.74,4.84,Premium Olive Oil 1L,BrandD,Walmart,05
+2024-07-19T14:00:00Z,13.86,15.29,9.24,Extra Virgin Olive Oil 500ml,BrandB,Walmart,07
+2024-06-05T17:00:00Z,39.76,55.52,79.52,Extra Virgin Olive Oil 500ml,BrandA,Walmart,06
+2024-05-06T07:00:00Z,19.27,19.24,9.63,Premium Olive Oil 1L,BrandA,Walmart,05
+2024-09-28T17:00:00Z,12.69,14.35,8.46,Extra Virgin Olive Oil 500ml,BrandC,Metro,09
+2024-09-10T05:00:00Z,17.19,22.47,8.6,Classic Olive Oil 2L,BrandD,Walmart,09
+2024-12-28T21:00:00Z,24.93,36.69,49.86,Classic Olive Oil 2L,BrandE,Loblaws,12
+2024-04-04T23:00:00Z,6.06,6.29,3.03,Pure Olive Oil 1L,BrandB,Walmart,04
+2024-06-11T10:00:00Z,5.69,7.47,5.69,Pure Olive Oil 1L,BrandD,Loblaws,06
+2024-08-18T04:00:00Z,16.74,15.93,8.37,Classic Olive Oil 2L,BrandB,Walmart,08
+2024-01-12T16:00:00Z,13.97,18.51,27.94,Extra Virgin Olive Oil 500ml,BrandE,Walmart,01
+2024-07-22T13:00:00Z,5.8,8.44,2.9,Organic Olive Oil 750ml,BrandC,Walmart,07
+2024-08-01T05:00:00Z,31.87,44.17,15.94,Premium Olive Oil 1L,BrandA,Walmart,08
+2024-03-13T21:00:00Z,32.33,32.49,32.33,Organic Olive Oil 750ml,BrandC,Metro,03
+2024-02-14T17:00:00Z,29.27,27.56,14.63,Organic Olive Oil 750ml,BrandA,Loblaws,02
+2024-03-27T19:00:00Z,6.79,8.36,3.4,Pure Olive Oil 1L,BrandC,Loblaws,03
+2024-08-08T08:00:00Z,28.08,33.63,14.04,Pure Olive Oil 1L,BrandC,Loblaws,08
+2024-04-08T07:00:00Z,31.69,44.24,15.85,Extra Virgin Olive Oil 500ml,BrandB,Loblaws,04
+2024-01-28T22:00:00Z,16.21,20.28,10.81,Pure Olive Oil 1L,BrandD,Loblaws,01
+2024-10-28T23:00:00Z,19.14,25,19.14,Extra Virgin Olive Oil 500ml,BrandA,Metro,10
+2024-03-16T01:00:00Z,6.14,6.34,3.07,Organic Olive Oil 750ml,BrandD,Metro,03
+2024-11-04T03:00:00Z,22.23,24.3,44.46,Classic Olive Oil 2L,BrandB,Metro,11
+2024-08-07T02:00:00Z,9.96,11.98,9.96,Extra Virgin Olive Oil 500ml,BrandC,Metro,08
+2024-02-04T17:00:00Z,32.97,48.34,16.48,Pure Olive Oil 1L,BrandA,Walmart,02
+2024-10-14T09:00:00Z,19.32,20.12,38.64,Premium Olive Oil 1L,BrandC,Loblaws,10
+2024-11-27T20:00:00Z,37.78,40.12,18.89,Extra Virgin Olive Oil 500ml,BrandE,Metro,11
+2024-11-21T06:00:00Z,30.65,38.38,30.65,Extra Virgin Olive Oil 500ml,BrandC,Walmart,11
+2024-04-15T06:00:00Z,20.22,19.06,40.44,Organic Olive Oil 750ml,BrandC,Walmart,04
+2024-06-30T11:00:00Z,32.96,30.4,21.97,Premium Olive Oil 1L,BrandE,Metro,06
+2024-12-14T12:00:00Z,17.82,23.97,17.82,Pure Olive Oil 1L,BrandD,Metro,12
+2024-06-09T14:00:00Z,18.33,23.23,12.22,Pure Olive Oil 1L,BrandB,Walmart,06
+2024-08-08T17:00:00Z,28.57,38.62,57.14,Premium Olive Oil 1L,BrandA,Walmart,08
+2024-03-23T19:00:00Z,20.39,21.56,10.2,Extra Virgin Olive Oil 500ml,BrandB,Walmart,03
+2024-03-13T17:00:00Z,29.94,41.41,19.96,Pure Olive Oil 1L,BrandC,Walmart,03
+2024-06-20T08:00:00Z,20.24,28.25,13.49,Premium Olive Oil 1L,BrandD,Walmart,06
+2024-10-14T02:00:00Z,28.29,28.6,18.86,Classic Olive Oil 2L,BrandB,Loblaws,10
+2024-07-31T14:00:00Z,23.31,21.32,15.54,Organic Olive Oil 750ml,BrandE,Walmart,07
+2024-03-08T11:00:00Z,36.63,40.43,73.26,Premium Olive Oil 1L,BrandB,Walmart,03
+2024-07-24T06:00:00Z,37.83,45.78,18.91,Classic Olive Oil 2L,BrandC,Loblaws,07
+2024-10-20T23:00:00Z,38.64,57.84,25.76,Organic Olive Oil 750ml,BrandE,Loblaws,10
+2024-01-12T22:00:00Z,13.18,15.12,8.79,Pure Olive Oil 1L,BrandD,Loblaws,01
+2024-05-07T17:00:00Z,20.1,22.97,40.2,Pure Olive Oil 1L,BrandB,Loblaws,05
+2024-06-11T20:00:00Z,19.66,27.44,13.11,Classic Olive Oil 2L,BrandC,Walmart,06
+2024-02-26T19:00:00Z,10.59,14.86,5.3,Classic Olive Oil 2L,BrandE,Walmart,02
+2024-10-04T07:00:00Z,23.6,22.05,15.73,Organic Olive Oil 750ml,BrandA,Walmart,10
+2024-04-11T09:00:00Z,37.67,44.27,37.67,Pure Olive Oil 1L,BrandA,Walmart,04
+2024-07-04T12:00:00Z,8.16,8.77,16.32,Organic Olive Oil 750ml,BrandC,Metro,07
+2024-12-12T08:00:00Z,27.97,30.38,13.98,Classic Olive Oil 2L,BrandC,Loblaws,12
+2024-06-11T20:00:00Z,11.25,15.27,5.62,Classic Olive Oil 2L,BrandC,Loblaws,06
+2024-07-05T19:00:00Z,13.7,12.45,27.4,Classic Olive Oil 2L,BrandB,Loblaws,07
+2024-10-28T05:00:00Z,25.28,33.82,25.28,Classic Olive Oil 2L,BrandB,Metro,10
+2024-05-03T10:00:00Z,8.47,8.27,5.65,Pure Olive Oil 1L,BrandA,Walmart,05
+2024-09-26T12:00:00Z,28.29,36.31,18.86,Pure Olive Oil 1L,BrandA,Loblaws,09
+2024-02-13T09:00:00Z,26.71,24.76,53.42,Extra Virgin Olive Oil 500ml,BrandE,Walmart,02
+2024-05-13T21:00:00Z,35.55,45.08,71.1,Organic Olive Oil 750ml,BrandE,Metro,05
+2024-12-05T00:00:00Z,11.96,11.63,5.98,Pure Olive Oil 1L,BrandC,Loblaws,12
+2024-11-25T05:00:00Z,16.22,15.06,16.22,Organic Olive Oil 750ml,BrandA,Metro,11
+2024-03-12T15:00:00Z,19.34,25.76,19.34,Extra Virgin Olive Oil 500ml,BrandB,Loblaws,03
+2024-07-27T10:00:00Z,37.45,51.74,74.9,Extra Virgin Olive Oil 500ml,BrandE,Metro,07
+2024-05-30T21:00:00Z,6.52,8.87,6.52,Organic Olive Oil 750ml,BrandA,Walmart,05
