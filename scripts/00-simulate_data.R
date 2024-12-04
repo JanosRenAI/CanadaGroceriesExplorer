@@ -1,52 +1,57 @@
 #### Preamble ####
-# Purpose: Simulates a dataset of Australian electoral divisions, including the 
-  #state and party that won each division.
-# Author: Rohan Alexander
-# Date: 26 September 2024
-# Contact: rohan.alexander@utoronto.ca
+# Purpose: Simulate data similar to the cleaned olive oil data for testing purposes.
+# Author: Xuanang Ren
+# Date: 2 December 2024
+# Contact: ang.ren@mail.utoronto.ca
 # License: MIT
-# Pre-requisites: The `tidyverse` package must be installed
-# Any other information needed? Make sure you are in the `starter_folder` rproj
-
+# Pre-requisites: dplyr, lubridate
+# Any other information needed? Ensure that libraries are installed before running.
 
 #### Workspace setup ####
-library(tidyverse)
-set.seed(853)
-
+library(dplyr)
+library(lubridate)
+library(stringr)
+library(readr)
+library(arrow)
 
 #### Simulate data ####
-# State names
-states <- c(
-  "New South Wales",
-  "Victoria",
-  "Queensland",
-  "South Australia",
-  "Western Australia",
-  "Tasmania",
-  "Northern Territory",
-  "Australian Capital Territory"
+set.seed(123)  # For reproducibility
+
+# Parameters
+n <- 2000  # Number of rows to simulate
+vendors <- c("Loblaws", "Metro", "Walmart")
+brands <- c("BrandA", "BrandB", "BrandC", "BrandD", "BrandE")
+product_names <- c(
+  "Extra Virgin Olive Oil 500ml", 
+  "Pure Olive Oil 1L", 
+  "Organic Olive Oil 750ml", 
+  "Premium Olive Oil 1L", 
+  "Classic Olive Oil 2L"
 )
 
-# Political parties
-parties <- c("Labor", "Liberal", "Greens", "National", "Other")
-
-# Create a dataset by randomly assigning states and parties to divisions
-analysis_data <- tibble(
-  division = paste("Division", 1:151),  # Add "Division" to make it a character
-  state = sample(
-    states,
-    size = 151,
-    replace = TRUE,
-    prob = c(0.25, 0.25, 0.15, 0.1, 0.1, 0.1, 0.025, 0.025) # Rough state population distribution
-  ),
-  party = sample(
-    parties,
-    size = 151,
-    replace = TRUE,
-    prob = c(0.40, 0.40, 0.05, 0.1, 0.05) # Rough party distribution
+# Generate random data
+simulate_data <- tibble(
+  nowtime = sample(seq(
+    from = as.POSIXct("2024-01-01 00:00:00", tz = "UTC"),
+    to = as.POSIXct("2024-12-31 23:59:59", tz = "UTC"),
+    by = "hour"
+  ), size = n, replace = TRUE),
+  current_price = round(runif(n, min = 5, max = 40), 2),
+  old_price = round(current_price * runif(n, min = 0.9, max = 1.5), 2),
+  price_per_unit = round(current_price / sample(c(0.5, 1, 1.5, 2), size = n, replace = TRUE), 2),
+  product_name = sample(product_names, size = n, replace = TRUE),
+  brand = sample(brands, size = n, replace = TRUE),
+  vendor = sample(vendors, size = n, replace = TRUE)
+) %>%
+  # Add 'month' column based on 'nowtime'
+  mutate(
+    month = format(nowtime, "%m")
   )
-)
 
+#### Save simulated data ####
+# Save as CSV for further analysis
+write_csv(simulate_data, "data/00-simulated_data/simulate_data.csv")
 
-#### Save data ####
-write_csv(analysis_data, "data/00-simulated_data/simulated_data.csv")
+# Save as Parquet for efficient storage and retrieval
+write_parquet(simulate_data, "data/00-simulated_data/simulate_data.parquet")
+
